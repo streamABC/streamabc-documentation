@@ -6,7 +6,7 @@
 Willkommen in streamABC's Dokumentation!
 =====================================
 
-Die streamABC Dokumentation is unterteilt in folgende Bereiche:
+Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 
 * :ref:`faqs`
 * `Distributors </en/latest/#distributor-docs>`_
@@ -14,7 +14,7 @@ Die streamABC Dokumentation is unterteilt in folgende Bereiche:
 * `Player-SDK Documentation </en/latest/#sdk-docs>`_
 
 
-(Weitere werden bald folgen)
+(Weitere Bereiche werden folgen)
 
 .. _faqs:
 
