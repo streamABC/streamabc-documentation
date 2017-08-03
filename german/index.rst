@@ -9,9 +9,9 @@ Welcome to streamABC's documentation!
 The streamABC documentation is organized into several sections:
 
 * :ref:`faqs`
-* `Distributors </en/latests/#distributor-docs>`_
-* `API Documentation </en/latests/#api-docs>`_
-* `Player-SDK Documentation </en/latests/#sdk-docs>`_
+* `Distributors </en/latest/#distributor-docs>`_
+* `API Documentation </en/latest/#api-docs>`_
+* `Player-SDK Documentation </en/latest/#sdk-docs>`_
 
 
 (more coming soon)
