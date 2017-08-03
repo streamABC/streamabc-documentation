@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>SDK for Playerservices &mdash; streamABC 1.0.0 documentation</title>
+  <title>Metadatas &mdash; streamABC 1.0.0 documentation</title>
   
 
   
@@ -36,8 +36,8 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="streamABC 1.0.0 documentation" href="index.html"/>
-        <link rel="next" title="SDK for Radio" href="sdk-radio.html"/>
-        <link rel="prev" title="streamABC API" href="api.html"/> 
+        <link rel="next" title="Logimporter" href="logimporter.html"/>
+        <link rel="prev" title="Welcome to streamABC’s documentation!" href="index.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -91,8 +91,13 @@
             
             
               <p class="caption"><span class="caption-text">FAQs</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="metadatas.html">Metadatas</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Metadatas</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#area1">area1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#area2">area2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#area3">area3</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption"><span class="caption-text">Distributors</span></p>
 <ul>
@@ -103,8 +108,8 @@
 <li class="toctree-l1"><a class="reference internal" href="api.html">streamABC API</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Player-SDK Documentation</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">SDK for Playerservices</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="sdk-player.html">SDK for Playerservices</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sdk-radio.html">SDK for Radio</a></li>
 </ul>
 
@@ -150,13 +155,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>SDK for Playerservices</li>
+      <li>Metadatas</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/sdk-player.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/metadatas.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -169,10 +174,53 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="sdk-for-playerservices">
-<h1>SDK for Playerservices<a class="headerlink" href="#sdk-for-playerservices" title="Permalink to this headline">¶</a></h1>
-<p>Our <a class="reference external" href="https://streamabc.com/">streamABC</a> Javascript-SDK for Playerservices enables you to receive meta data to display in your player in real-time.</p>
-<p>The full developer documentation as well as examples for Radioplayer and stand-alone players are <cite>available on Github</cite>.</p>
+  <div class="section" id="metadatas">
+<h1>Metadatas<a class="headerlink" href="#metadatas" title="Permalink to this headline">¶</a></h1>
+<p>The streamABC Logimporter sends logs from Icecast, Shoutcast and AIS servers to our <a class="reference external" href="https://streamabc.com/">streamABC</a> infrastructure.
+This is necessary to generate statistics for listeners, create AGMA log files and other statistical analyzations.</p>
+<p>You can use Logimporter to directly stream log-data to streamABC (“tail-mode”) and to send
+a single file at once.</p>
+<p>Logimporter can work with log-files from the following streaming servers:</p>
+<ul class="simple">
+<li>Icecast</li>
+<li>Shoutcast 1</li>
+<li>Windows Media Server</li>
+<li>AIS</li>
+</ul>
+<div class="section" id="area1">
+<h2>area1<a class="headerlink" href="#area1" title="Permalink to this headline">¶</a></h2>
+<p>The Logimporter comes as a single static binary that you can
+use without further installation. Just download the file and
+make it executable.</p>
+<p>Get in contact with streamABC support to get your installation files.</p>
+<p>Logimporter is available for Linux, Windows, macOS and BSD.</p>
+<p>Logimporter is controlled with command lines parameters. To get a list of all
+parameters execute this:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>./logimporter --help
+</pre></div>
+</div>
+</div>
+<div class="section" id="area2">
+<h2>area2<a class="headerlink" href="#area2" title="Permalink to this headline">¶</a></h2>
+<p>This is the most common use case. In this mode Logimporter works like Unix <em>tail</em> command.
+New lines that are added to a file are parsed and sent to streamABC in real-time.
+The program stays in foreground until you end it with CTRL-C.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>./logimporter --dbuser<span class="o">=</span>DBUSER --dbpass<span class="o">=</span>DBPASS --dbname<span class="o">=</span>DBNAME --dbhost<span class="o">=</span>DBHOST --logtype<span class="o">=</span>icecast ./logs/access.log
+</pre></div>
+</div>
+<p><strong>Note:</strong> All values for data access are provided by streamABC when you need it.</p>
+<p>Some log-types like Shoutcast need additional parameters. For more information see below.</p>
+</div>
+<div class="section" id="area3">
+<h2>area3<a class="headerlink" href="#area3" title="Permalink to this headline">¶</a></h2>
+<p>In this mode Logimporter send the content of one file.
+All parameters work as in tail-mode. You just need to omit the –tail flag.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>./logimporter --dbuser<span class="o">=</span>DBUSER --dbpass<span class="o">=</span>DBPASS --dbname<span class="o">=</span>DBNAME --dbhost<span class="o">=</span>DBHOST --logtype<span class="o">=</span>icecast ./logs/access.log
+</pre></div>
+</div>
+<p><strong>Note:</strong> All values for data access are provided by streamABC when you need it.</p>
+<p>The program show the import progress and automatically ends if the file is finished.</p>
+</div>
 </div>
 
 
@@ -185,10 +233,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="sdk-radio.html" class="btn btn-neutral float-right" title="SDK for Radio" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="logimporter.html" class="btn btn-neutral float-right" title="Logimporter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="api.html" class="btn btn-neutral" title="streamABC API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="Welcome to streamABC’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

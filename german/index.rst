@@ -9,9 +9,10 @@ Welcome to streamABC's documentation!
 The streamABC documentation is organized into several sections:
 
 * :ref:`faqs`
-* :ref:`distributor-docs`
-* :ref:`api-docs`
-* :ref:`sdk-docs`
+* `Distributors <../en/latests/#distributor-docs>`_
+* `API Documentation <../en/latests/#api-docs>`_
+* `Player-SDK Documentation <../en/latests/#sdk-docs>`_
+
 
 (more coming soon)
 
@@ -23,30 +24,6 @@ The streamABC documentation is organized into several sections:
 
    metadatas
 
-.. _distributor-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Distributors
-
-   logimporter
-
-.. _api-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: API Documentation
-
-   api
-
-.. _sdk-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Player-SDK Documentation
-
-   sdk-player
-   sdk-radio
 
 Indices and tables
 ==================

@@ -8,20 +8,11 @@ Welcome to streamABC's documentation!
 
 The streamABC documentation is organized into several sections:
 
-* :ref:`faqs`
 * :ref:`distributor-docs`
 * :ref:`api-docs`
 * :ref:`sdk-docs`
 
 (more coming soon)
-
-.. _faqs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: FAQs
-
-   metadatas
 
 .. _distributor-docs:
 

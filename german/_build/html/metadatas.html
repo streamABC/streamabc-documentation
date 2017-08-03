@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>SDK for Playerservices &mdash; streamABC 1.0.0 documentation</title>
+  <title>Metadaten &mdash; streamABC 1.0.0 documentation</title>
   
 
   
@@ -36,8 +36,7 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="streamABC 1.0.0 documentation" href="index.html"/>
-        <link rel="next" title="SDK for Radio" href="sdk-radio.html"/>
-        <link rel="prev" title="streamABC API" href="api.html"/> 
+        <link rel="prev" title="Welcome to streamABC’s documentation!" href="index.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -91,21 +90,11 @@
             
             
               <p class="caption"><span class="caption-text">FAQs</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="metadatas.html">Metadatas</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Distributors</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="logimporter.html">Logimporter</a></li>
-</ul>
-<p class="caption"><span class="caption-text">API Documentation</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="api.html">streamABC API</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Player-SDK Documentation</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">SDK for Playerservices</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sdk-radio.html">SDK for Radio</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Metadaten</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#was-muss-beachtet-werden-bei-metadaten-und-instream-werbung">Was muss beachtet werden bei Metadaten und Instream-Werbung?</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -150,13 +139,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>SDK for Playerservices</li>
+      <li>Metadaten</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/sdk-player.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/metadatas.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -169,10 +158,22 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="sdk-for-playerservices">
-<h1>SDK for Playerservices<a class="headerlink" href="#sdk-for-playerservices" title="Permalink to this headline">¶</a></h1>
-<p>Our <a class="reference external" href="https://streamabc.com/">streamABC</a> Javascript-SDK for Playerservices enables you to receive meta data to display in your player in real-time.</p>
-<p>The full developer documentation as well as examples for Radioplayer and stand-alone players are <cite>available on Github</cite>.</p>
+  <div class="section" id="metadaten">
+<h1>Metadaten<a class="headerlink" href="#metadaten" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="was-muss-beachtet-werden-bei-metadaten-und-instream-werbung">
+<h2>Was muss beachtet werden bei Metadaten und Instream-Werbung?<a class="headerlink" href="#was-muss-beachtet-werden-bei-metadaten-und-instream-werbung" title="Permalink to this headline">¶</a></h2>
+<p>Wird für die Werbezeit ein Musikbett/Filler im Stream eingeplant, dann muss bei den Metadaten nichts weiter beachtet werden.</p>
+<p>Sollte aber für die Werbeeinblendung der Stream angehalten werden, so gilt es folgende Besonderheit zu berücksichtigen.
+Jedem Hörer werden individuelle Spots mit unterschiedlicher Spieldauer ausgeliefert. Somit verändert sich auch hörerindividuell der Versatz zum Programmstream und dessen Metadaten.
+Um weiterhin eine syncrone Metadatenanzeige im Player zu haben, muss der Player die Metadaten aus dem Stream auslesen.
+Apps können die Metadaten aus dem Stream auslesen, aber diese Funktion muss speziell aktiviert werden.
+Webplayer im Browser können das nicht.
+Für Internet-Browser muss eine spezielle Schnittstelle zum Stremingserver implementiert werden, welche für jeden Hörer individuell die Metadaten ermittelt und überträgt.</p>
+<p>Innerhalb der streamABC-Infrastruktur kann dafür ein spezieller Playerservice genutzt werden.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/streamABC/api-player/blob/master/Docs-Playerservices.md">Documentation for streamABC player API</a></li>
+</ul>
+</div>
 </div>
 
 
@@ -185,10 +186,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="sdk-radio.html" class="btn btn-neutral float-right" title="SDK for Radio" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="api.html" class="btn btn-neutral" title="streamABC API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="Welcome to streamABC’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
