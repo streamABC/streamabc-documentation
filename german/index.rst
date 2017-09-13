@@ -24,6 +24,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 
    audioquelle
    metadatas
+   streamurls
 
 
 Indices and tables
