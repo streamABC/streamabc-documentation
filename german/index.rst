@@ -6,7 +6,7 @@
 Willkommen in streamABC's Dokumentation!
 =====================================
 
-Besuchen Sie unsere Unternehmens-Website `www.streamabc.com <https://www.streamabc.com>`_
+Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
 
 Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 
@@ -37,3 +37,8 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+.. |www.streamabc.com| raw:: html
+
+   <a href="https://www.streamabc.com" target="_blank">www.streamabc.com</a>

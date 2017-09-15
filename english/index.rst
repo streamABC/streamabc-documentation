@@ -6,7 +6,7 @@
 Welcome to streamABC's documentation!
 =====================================
 
-Vistit our company website: `www.streamabc.com <https://www.streamabc.com>`_
+Vistit our company website: |www.streamabc.com|
 
 The streamABC documentation is organized into several sections:
 
@@ -47,3 +47,10 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+
+
+.. |www.streamabc.com| raw:: html
+
+   <a href="https://www.streamabc.com" target="_blank">www.streamabc.com</a>
