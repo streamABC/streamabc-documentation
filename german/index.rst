@@ -6,6 +6,8 @@
 Willkommen in streamABC's Dokumentation!
 =====================================
 
+Besuchen Sie unsere Unternehmens-Website `www.streamabc.com <https://www.streamabc.com>`_
+
 Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 
 * :ref:`faqs`

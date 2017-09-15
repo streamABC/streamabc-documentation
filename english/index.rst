@@ -6,6 +6,8 @@
 Welcome to streamABC's documentation!
 =====================================
 
+Vistit our company website: `www.streamabc.com <https://www.streamabc.com>`_
+
 The streamABC documentation is organized into several sections:
 
 * :ref:`distributor-docs`
