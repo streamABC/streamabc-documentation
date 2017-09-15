@@ -25,26 +25,3 @@ Mit der Spot-Anfrage für jeden Hörer beim Vermarkter muss eine ZonenID mit üb
 
 
 
-
-Welche Voraussetzung müssen für eine automatische Werbeeinblendung vorhanden sein?
-----------------------------------------------------------------------------------
-Sie benötigen einen kompatiblen Vermarkter. Mit folgenden Audio-Vermarktern arbeiten wir zur Zeit:
-`RMS <http://www.rms.de>`_, `Spotcom <http://www.spotcom.de>`_
-
-Basis für die Zusammenarbeit ist das `Adswizz-Ad-System <http://www.adswizz.com/>`__ und die `DAAST-Schnittstelle <https://www.iab.com/guidelines/digital-audio-ad-serving-template/>`_.
-
-Für Pre-Stream Audio Ad ist nur die Pre-Stream-ZonenID notwendig. 
-Für In-Stream Audio Ad benötigen Sie auch eine ZonenID. Zusätzlich aber muss ein Werbeimpuls noch erfolgen, damit das Streamingsystem den Spot zum richtigen Zeitpunkt in den Stream einblendet. 
-
-
-Wie wird In-Stream Audio Ad ausgelöst?
---------------------------------------
-Ein In-Stream Audiospot wird durch einen Werbeimpuls ausgelöst.
-Dieser Werbeimpuls kann auf zwei Wegen erfolgen:
-
-- Beep
-    Sie können in ihrem Audiosiganl einen speziellen Ton verstecken (Beep). Das Streamingsystem erkennt diesen Ton (Beeperkennung) und startet zu diesem Zeitpunkt die automatische Werbeeinblendung.
-
-- Metadaten
-    In einen Audio-Stream können Metadaten integriert werden. Es ist möglich für das Streamingsystem bei einem bestimmten Muster der Metadaten die automatische Werbeeinblendung zu starten. 
-
