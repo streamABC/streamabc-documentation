@@ -17,7 +17,6 @@ Es gibt zwei Arten der automatischen Werbeeinblendung:
 
 
 
-
 Wie funktioniert die automatische Werbeeinblendung?
 ------------------------------------------------------------
 Mit Start des Streams oder mit Auslösen des Werbeimpulses (Trigger) fragt das Streamingsystem bei Ihrem Vermarkter an, ob für diesen Hörer ein Spot vorliegt. Wenn der Vermarkter eine positive Antwort gibt, dann wird der Stream kurz angehalten und das Streamingsystem blendet automatisch einen Spot in ihrem Stream ein. Gleichzeitig wird automatischen ein Protokoll über die Werbeeinblendung erstellt und an ihren Vermarkter versendet.
