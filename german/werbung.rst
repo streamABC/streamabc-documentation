@@ -46,4 +46,8 @@ Dieser Werbeimpuls kann auf zwei Wegen erfolgen:
     In einen Audio-Stream können Metadaten integriert werden. Es ist möglich für das Streamingsystem bei einem bestimmten Muster der Metadaten die automatische Werbeeinblendung zu starten. 
 
 
-.. _streamABC: https://streamabc.com/
+
+
+.. |www.streamabc.com| raw:: html
+
+   <a href="https://www.streamabc.com" target="_blank">www.streamabc.com</a>
