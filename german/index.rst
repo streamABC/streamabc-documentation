@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Willkommen in streamABC's Dokumentation!
-=====================================
+========================================
 
 Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
 
