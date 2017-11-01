@@ -25,11 +25,22 @@ To receive meta-data events for individual users subscribe to this path:
 
 After subscribing the server publishes messages containing a JSON object as payload. 
 
-Metadata Events for Users Subscription
+Metadata Events for Channel Subscription
 --------------------------------------
 
-To receive meta-data events for individual users subscribe to this path:
-``/metadata/{userid}``
+To receive meta-data events for specific channels subscribe to this path:
+``/metachannel/{channelkey}``
+
+Please use the channel key provided by streamABC.
+
+Metadata Events for Station Subscription
+--------------------------------------
+
+To receive meta-data events for specific channels subscribe to this path:
+``/metastation/{stationid}``
+
+Please use the station-id provided by streamABC.
+
 
 .. _streamABC: https://streamabc.com/
 .. _nes-Protocol: https://github.com/hapijs/nes/blob/master/PROTOCOL.md
