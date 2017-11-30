@@ -16,14 +16,17 @@ Das Intervall beträgt 20 Minuten. Dass heißt, nach je 20 Minuten wird in diese
 
 Aber der 1. Werbeblock wird bereits nach der Hälfte der Intervallzeit hinzugefügt.
 
-Zusamengefasst:
-1. Werbeblock mit 60 Sekunden nach 10 Minuten
-2. Werbeblock mit 60 Sekunden nach 30 Minuten
-3. Werbeblock mit 60 Sekunden nach 50 Minuten
-3. Werbeblock mit 60 Sekunden nach 70 Minuten
+Zusammengefasst:
+
+- 1. Werbeblock mit 60 Sekunden nach 10 Minuten
+- 2. Werbeblock mit 60 Sekunden nach 30 Minuten
+- 3. Werbeblock mit 60 Sekunden nach 50 Minuten
+- 3. Werbeblock mit 60 Sekunden nach 70 Minuten
+
 usw.
 
-Ergänzene Information zum Auslösen des Werbeblocks:
-Der Werbeblock wird immer erst nach Beenden des Audioelemnets eingefügt. 
+Ergänzende Information zum Auslösen des Werbeblocks:
+
+Der Werbeblock wird immer erst nach Ende des Audioelements eingefügt. 
 Dass heißt, nach Ablauf der Intervallzeit spielt das Playout den aktuellen Audioinhalt noch zu Ende, und erst anschließend wird der Werbeblock aktiviert.
 Mit Start des Werbeblocks wird auch das Intervall von 20 Minuten neu gestartet.
