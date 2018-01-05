@@ -21,7 +21,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 .. _faqs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: FAQs
 
    audioquelle
@@ -30,6 +30,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
    werbung
    playlistdesigner
    ma-audio-ip
+   troubleshooting
 
 
 

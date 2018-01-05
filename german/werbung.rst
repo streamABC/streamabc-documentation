@@ -7,10 +7,10 @@ Welche Formen der automatischen Werbeeinblendung gibt es?
 ---------------------------------------------------------
 Es gibt zwei Arten der automatischen Werbeeinblendung:
 
-- Pre-Stream Audio Ad
+Pre-Stream Audio Ad
     Beim Start des Streams wird Werbung zu hörer sein
 
-- In-Stream Audio Ad 
+In-Stream Audio Ad 
     Mitten im Stream können Werbeblöcke eingeblendet werden. Der genaue Zeitpunkt der Werbeeinblendung wird vom Programmanbieter ausgelöst.
 
 
@@ -41,9 +41,17 @@ Wie wird In-Stream Audio Ad ausgelöst?
 Ein In-Stream Audiospot wird durch einen Werbeimpuls ausgelöst.
 Dieser Werbeimpuls kann auf zwei Wegen erfolgen:
 
-- Beep
+Beep
     Sie können in ihrem Audiosiganl einen speziellen Ton verstecken (Beep). Das Streamingsystem erkennt diesen Ton (Beeperkennung) und startet zu diesem Zeitpunkt die automatische Werbeeinblendung.
 
-- Metadaten
+Metadaten
     In einen Audio-Stream können Metadaten integriert werden. Es ist möglich für das Streamingsystem bei einem bestimmten Muster der Metadaten die automatische Werbeeinblendung zu starten. 
 
+
+
+
+Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
+
+.. |www.streamabc.com| raw:: html
+
+   <a href="https://www.streamabc.com" target="_blank">www.streamabc.com</a>
