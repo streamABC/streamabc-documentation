@@ -18,19 +18,21 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 
 (Weitere Bereiche werden folgen)
 
-.. _faqs:
+..  _faqs:
 
-.. toctree::
-   :maxdepth: 1
-   :caption: FAQs
+..  toctree::
+    :maxdepth: 1
+    :caption: FAQs
 
-   audioquelle
-   metadatas
-   streamurls
-   werbung
-   playlistdesigner
-   ma-audio-ip
-   troubleshooting
+    playlistdesigner
+    audioquelle
+    listener-mounts
+    streamurls
+    werbung
+    metadatas
+    ma-audio-ip
+    player
+    troubleshooting
 
 
 

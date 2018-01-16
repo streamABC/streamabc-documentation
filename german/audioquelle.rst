@@ -3,6 +3,18 @@ Audioquelle
 
 
 
+Welche muss man beim Neuanlegen einer Audioquelle beachten?
+-----------------------------------------------------------
+Sie möchten einen neuen Channel anlegen und mit einer eigenen Audiosignal beliefern. 
+Dann sind folgende Dinge zu beachten:
+
+-   Legen Sie eine neue Audioquelle in der Console an.
+-   Die konfigurierten Eigenschaften der Audioquelle in der Console (Bitrate, Codec, SR und M/S) müssen mit den Einstellungen in ihrem Encoder übereinstimmen.
+-   Liefern Sie mit einer möglichst hohen Qualität an.
+
+
+----
+
 In welcher Form können Sie das Audiosignal zuliefern?
 ------------------------------------------------------------
 Sie können uns ihr Audiosignal gern als MP3 anliefern. 
@@ -14,6 +26,8 @@ Die ideale Audioquelle hat folgende Eigenschaften:
 - Audiokanäle: Stereo
 
 
+
+----
 
 Sie möchten kein Transcoding, und die perfekte Audioquelle direkt anliefern. Wie konfiguriert man das?
 ------------------------------------------------------------------------------------------------------
