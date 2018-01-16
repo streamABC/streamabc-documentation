@@ -40,4 +40,12 @@ Ist Https für die StreamURLs und Audiostreams verfügbar?
 ------------------------------------------------------------
 Ja, für alle Streams ist https aktiviert.
 
-.. _streamABC: https://streamabc.com/
+
+
+----
+
+Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
+
+.. |www.streamabc.com| raw:: html
+
+   <a href="https://www.streamabc.com" target="_blank">www.streamabc.com</a>

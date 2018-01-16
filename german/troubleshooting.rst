@@ -36,8 +36,10 @@ Zu 2.)
 
 
 
-Weitere Links:
-    Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
+
+----
+
+Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
 
 .. |www.streamabc.com| raw:: html
 

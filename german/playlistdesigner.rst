@@ -30,3 +30,14 @@ Ergänzende Information zum Auslösen des Werbeblocks:
 Der Werbeblock wird immer erst nach Ende des Audioelements eingefügt. 
 Dass heißt, nach Ablauf der Intervallzeit spielt das Playout den aktuellen Audioinhalt noch zu Ende, und erst anschließend wird der Werbeblock aktiviert.
 Mit Start des Werbeblocks wird auch das Intervall von 20 Minuten neu gestartet.
+
+
+
+
+----
+
+Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
+
+.. |www.streamabc.com| raw:: html
+
+   <a href="https://www.streamabc.com" target="_blank">www.streamabc.com</a>
