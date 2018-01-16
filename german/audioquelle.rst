@@ -5,7 +5,7 @@ Audioquelle
 
 Was muss man beim Neuanlegen einer Audioquelle beachten?
 -----------------------------------------------------------
-Sie möchten einen neuen Channel anlegen und mit einem eigenen Audiosignal beliefern. 
+Sie möchten einen neuen Channel anlegen und mit eigenem Audiosignal beliefern. 
 Dann sind folgende Dinge zu beachten:
 
 -   Legen Sie eine neue Audioquelle in der Console an.
