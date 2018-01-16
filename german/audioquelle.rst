@@ -3,7 +3,7 @@ Audioquelle
 
 
 
-Welche muss man beim Neuanlegen einer Audioquelle beachten?
+Was muss man beim Neuanlegen einer Audioquelle beachten?
 -----------------------------------------------------------
 Sie möchten einen neuen Channel anlegen und mit einer eigenen Audiosignal beliefern. 
 Dann sind folgende Dinge zu beachten:
