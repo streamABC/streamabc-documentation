@@ -1,7 +1,10 @@
+.. index:: Audioquelle
+
+
 Audioquelle
 ***********
 
-
+.. index:: Audioquelle neuanlegen
 
 Was muss man beim Neuanlegen einer Audioquelle beachten?
 -----------------------------------------------------------
@@ -14,6 +17,8 @@ Dann sind folgende Dinge zu beachten:
 
 
 ----
+
+.. index:: Audiosignal zuliefern
 
 In welcher Form können Sie das Audiosignal zuliefern?
 ------------------------------------------------------------
@@ -28,6 +33,8 @@ Die ideale Audioquelle hat folgende Eigenschaften:
 
 
 ----
+
+.. index:: Transcoding deaktivieren
 
 Sie möchten kein Transcoding, und die perfekte Audioquelle direkt anliefern. Wie konfiguriert man das?
 ------------------------------------------------------------------------------------------------------

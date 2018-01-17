@@ -1,6 +1,10 @@
+.. index:: Hörer-Mountpoints
+
 Hörer-Mountpoints
 *****************
 
+
+.. index:: Hörer-Mountpoint Eigenschaften
 
 
 Welchen Zweck hat die Angabe von Bitrate, Codec, SR und M/S?

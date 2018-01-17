@@ -1,7 +1,14 @@
+.. index:: Werbung
+
+
 Werbung
 ***********
 
 
+.. index:: Werbeformen
+.. index:: Werbeeinblendung Typen
+.. index:: Pre-Stream Audio Ad
+.. index:: In-Stream Audio Ad 
 
 Welche Formen der automatischen Werbeeinblendung gibt es?
 ---------------------------------------------------------
@@ -14,7 +21,8 @@ In-Stream Audio Ad
     Mitten im Stream können Werbeblöcke eingeblendet werden. Der genaue Zeitpunkt der Werbeeinblendung wird vom Programmanbieter ausgelöst.
 
 
-
+----
+.. index:: Werbeeinblendung Funktionsweise
 
 Wie funktioniert die automatische Werbeeinblendung?
 ---------------------------------------------------
@@ -23,6 +31,11 @@ Mit der Spot-Anfrage für jeden Hörer beim Vermarkter muss eine ZonenID mit üb
 
 
 
+----
+
+.. index:: Werbeeinblendung Voraussetzungen
+.. index:: Ad-ZonenID
+.. index:: ZonenID
 
 Welche Voraussetzung müssen für eine automatische Werbeeinblendung vorhanden sein?
 ----------------------------------------------------------------------------------
@@ -35,6 +48,11 @@ Für Pre-Stream Audio Ad ist nur die Pre-Stream-ZonenID notwendig.
 Für In-Stream Audio Ad benötigen Sie auch eine ZonenID. Zusätzlich aber muss ein Werbeimpuls noch erfolgen, damit das Streamingsystem den Spot zum richtigen Zeitpunkt in den Stream einblendet. 
 
 
+----
+
+.. index:: In-Stream Audio Ad / Auslöser
+.. index:: In-Stream Audio Ad mittels Beep
+.. index:: In-Stream Audio Ad mittels Metadaten
 
 Wie wird In-Stream Audio Ad ausgelöst?
 --------------------------------------

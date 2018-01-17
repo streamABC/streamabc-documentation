@@ -171,4 +171,3 @@ texinfo_documents = [
 ]
 
 
-html_show_sphinx = False

@@ -1,3 +1,5 @@
+.. index:: StreamURLs
+
 StreamURLs
 ***********
 
@@ -10,12 +12,22 @@ Es gilt, je mehr Verbreitung die StreamURL erfährt, desto mehr Personen werden 
 Eigene Apps und Websites erhöhen auch die technische Reichweite.
 
 
+----
+
+.. index:: StreamURLs Schema
+.. index:: Aufbau StreamURLs
+
 Nach welchem Schema sind die StreamURLs aufgebaut?
 --------------------------------------------------
 Es erfolgt eine Systematisierung der StreamURLs nach folgendem Schema:
 
 `http://domain/programm/format/`
 
+
+----
+
+.. index:: StreamURLs & Aggreagtoren
+.. index:: Aggreagtoren messen
 
 Wie ist es möglich mit der StreamURL die jeweiligen Reichweiten von Homepage, Apps und Aggreagtoren zu messen?
 --------------------------------------------------------------------------------------------------------------
@@ -34,7 +46,9 @@ oder an TuneIn diese StreamURL weitergeben:
 \http://domain/programm/format/**Tunein/**
 
 
+----
 
+.. index:: Https-StreamURLs
 
 Ist Https für die StreamURLs und Audiostreams verfügbar?
 --------------------------------------------------------

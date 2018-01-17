@@ -1,6 +1,10 @@
+.. index:: Metadaten
+
 Metadaten
 ***********
 
+
+.. index:: Metadaten-Injektion konfigurieren
 
 Wo kann man die Metadaten-Injektion konfigurieren?
 --------------------------------------------------
@@ -14,6 +18,10 @@ Ein Upgrade ist bereits in Arbeit.
 Anschließend wird es in der Console ein Menüpunkt "Metadaten" geben. 
 Dort kann man dann die URL erfahren.
 
+
+.. index:: Metadaten übermitteln
+.. index:: Schnittstelle Metadaten
+.. index:: HTTP-Push Metadaten
 
 Wie kann man aktuelle Metadaten übermitteln?
 --------------------------------------------
@@ -56,7 +64,8 @@ Für die Übermittlung der aktuellen Metadaten mittels HTTP-Push erhalten Sie pr
 
 
 
-
+.. index:: Metadaten und Instream-Werbung
+.. index:: Instream-Werbung und Metadaten
 
 Was muss beachtet werden bei Metadaten und Instream-Werbung?
 ------------------------------------------------------------

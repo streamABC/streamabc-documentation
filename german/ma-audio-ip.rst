@@ -1,3 +1,5 @@
+.. index:: ma Audio IP
+
 ma Audio IP
 ***********
 

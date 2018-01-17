@@ -1,7 +1,11 @@
+.. index:: Troubleshooting
+.. index:: Fehlerbehebung
+
 Troubleshooting
 ***************
 
 
+.. index:: Werbung mitten im Stream
 
 Werbung mitten im Stream, während der Musik oder während der Nachrichten
 ------------------------------------------------------------------------

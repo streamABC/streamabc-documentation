@@ -1,11 +1,11 @@
-.. index::
-   single: Streamwatch FAQs
+.. index:: Streamwatch FAQs
 
+.. _streamwatch:
 
 Streamwatch
 ***********
 
-
+.. index:: Einbruch Hörersessions der letzten Stunden
 
 Gibt es ein Problem, wenn die aktuellen Hörersessions der letzten Stunden eingebrochen sind?
 --------------------------------------------------------------------------------------------
@@ -32,6 +32,9 @@ Dann kann auch die Anzahl der Hörersessions von vor Tage noch leicht anwachsen.
 
 ----
 
+.. index:: parallele Hörer
+.. index:: maximale parallele Hörer
+
 Wie ist es möglich, dass es mehr „max. parallele Hörer“ in einer Stunde gibt als Hörersessions?
 -----------------------------------------------------------------------------------------------
 .. image:: img/20180117_screenshot-streamwatch-max-listeners-compare-sessions.png
@@ -56,6 +59,9 @@ Ein Beispiel aus der Grafik:
 
     
 ----
+
+.. index:: Ø Verweildauer pro Hörer
+.. index:: Verweildauer pro Hörer
 
 Was bedeutet "Ø Verweildauer pro Hörer"?
 ---------------------------------------------
