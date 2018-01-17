@@ -22,7 +22,8 @@ Ein Beispiel dazu:
     
 Somit ist es normal, dass umso näher man der aktuellen Zeit in der Grafik kommt, desto mehr geht die Kurve nach unten.
 **Die Hörerkurve wächst mit der Zeit nach oben.**
-Im Extremfall kann es Hörersessions geben, welche mehrere Tage lang andauern. Dann können auch die Hörersessions von vor Tage noch leicht anwachsen.
+Im Extremfall kann es Hörersessions geben, welche mehrere Tage lang andauern. 
+Dann kann auch die Anzahl der Hörersessions von vor Tage noch leicht anwachsen.
 
 
 ----
@@ -50,9 +51,21 @@ Ein Beispiel aus der Grafik:
     
 
     
+----
+
+Was bedeutet "Ø Verweildauer pro Hörer"?
+---------------------------------------------
+
+.. image:: img/20180117_screenshot-streamwatch-hoererverweildauer-bedeutung.png
+
+Die durchschnittliche Hördauer in Stunden für jeden Hörer, mit einer Hördauer von mindestens einer Minute, innerhalb des definierten Zeitraumes. 
+Dieser Wert wird berechnet: Gesamthördauer geteilt durch die Anzahl der Hörersessions des definierten Zeitraumes.
 
 
-
+Ein Beispiel aus der Grafik:
+    Die Verweildauer wird in Stunden angegeben. In diesem Beispiel beträgt der Wert 1.844 in der 9:00 Uhr-Stunde.
+    Das heißt, dass von 9:00 Uhr bis 10:00 Uhr ein Hörer im Durchschnitt eine Hördauer von 1,844 Stunden hatte.
+    1,844 Stunden = 110 Minuten und 38 Sekunden.
 
 
 ----
