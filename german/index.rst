@@ -34,6 +34,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
     ma-audio-ip
     player
     troubleshooting
+    glossary
 
 
 
@@ -41,8 +42,7 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* :ref:`glossary`
 
 
 

@@ -3,7 +3,7 @@ Metadaten
 
 
 Wo kann man die Metadaten-Injektion konfigurieren?
---------------------------------------------
+--------------------------------------------------
 Bei einem Livestream von eigener Audioquelle ist es meist gewünscht, aktuelle Infos zum Inhalt mit in den Stream zu packen.
 Diese Metadaten müssen dann in den Livestream injiziert werden.
 Die Übermittlung von Metadaten erfolgt über einem HTTP-Push.
@@ -16,7 +16,7 @@ Dort kann man dann die URL erfahren.
 
 
 Wie kann man aktuelle Metadaten übermitteln?
--------------------------------------------------
+--------------------------------------------
 Für die Übermittlung der aktuellen Metadaten mittels HTTP-Push erhalten Sie pro Channel einen HTTP-Endpoint mit folgender Schnittstellenspezifikation:
 
 

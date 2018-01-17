@@ -11,14 +11,14 @@ Eigene Apps und Websites erhöhen auch die technische Reichweite.
 
 
 Nach welchem Schema sind die StreamURLs aufgebaut?
-------------------------------------------------------------
+--------------------------------------------------
 Es erfolgt eine Systematisierung der StreamURLs nach folgendem Schema:
 
 `http://domain/programm/format/`
 
 
 Wie ist es möglich mit der StreamURL die jeweiligen Reichweiten von Homepage, Apps und Aggreagtoren zu messen?
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 Um zu messen, wieviel Hörer den Stream z.B. über die Homepage hören, dafür muss an die StreamURL lediglich das Wort 'Homepage' angehangen werden und auf der Homepage verlinkt werden..
 
 z.B. 
@@ -37,7 +37,7 @@ oder an TuneIn diese StreamURL weitergeben:
 
 
 Ist Https für die StreamURLs und Audiostreams verfügbar?
-------------------------------------------------------------
+--------------------------------------------------------
 Ja, für alle Streams ist https aktiviert.
 
 

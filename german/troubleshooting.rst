@@ -4,7 +4,7 @@ Troubleshooting
 
 
 Werbung mitten im Stream, während der Musik oder während der Nachrichten
-------------------------------------------------------------
+------------------------------------------------------------------------
 
 Es gibt zwei mögliche Szenarien:
 

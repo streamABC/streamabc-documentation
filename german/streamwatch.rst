@@ -1,3 +1,7 @@
+.. index::
+   single: Streamwatch FAQs
+
+
 Streamwatch
 ***********
 
@@ -66,6 +70,8 @@ Ein Beispiel aus der Grafik:
     Die Verweildauer wird in Stunden angegeben. In diesem Beispiel beträgt der Wert 1.844 in der 9:00 Uhr-Stunde.
     Das heißt, dass von 9:00 Uhr bis 10:00 Uhr ein Hörer im Durchschnitt eine Hördauer von 1,844 Stunden hatte.
     1,844 Stunden = 110 Minuten und 38 Sekunden.
+
+.. seealso:: `Glossar: Ø Verweildauer pro Hörer </de/latest/glossary.html#o-verweildauer-pro-horer>`_
 
 
 ----
