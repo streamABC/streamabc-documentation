@@ -52,15 +52,17 @@ Für die Übermittlung der aktuellen Metadaten mittels HTTP-Push erhalten Sie pr
 
 6.)     Parameter time
     a.  Angabe des Zeitpunkts des Titelstarts als ganzzahliger Timestamp-Wert
-    b.  Der Wert muss ein gültiger Timestamp-Wert sein.
+    b.  Der Wert muss ein gültiger Unix-Timestamp in Sekunden sein.
 
 7.)     Parameter seperator
     a.  Möglichkeit der Angabe des Trennerzeichens zwischen Artist und Song. Das Parameter ist optional.
     b.  Der Wert muss als URL-encodierter String übergeben werden. Auch die Leerzeichen für den gewünschten Abstand zu Artist und Song müssen enthalten sein.
     c.  Sollte das Parameter seperator nicht mit übergeben werden, so wird automatisch dieser Wert gesetzt „ - “.
 
-8.)     Fehler     
-    HTTP-Requests, welche aufgrund von Fehlern in den übergebenen Daten fehlschlagen, werden mit HTTP/501 ‚malformed/invalid field data‘ beantwortet.
+8.)     Rückgabe
+    a.  Im Erfolgsfall antwortet der Dienst mit dem HTTP-Status 200 und Content-Typ `application/json` mit einem JSON-Dokument der übermittelten Metadaten.    
+    b.  Fehlen Parameter oder ist der Channelkey nicht gültig, antwortet der Dienst mit HTTP-Status 422.
+    c.  Sind sonstige Fehler aufgetreten wird HTTP-Statsu 500 zurückgeliefert.
 
 
 
