@@ -15,7 +15,7 @@ Die URL für den HTTP-Push erhalten Sie übergansweise noch manuell.
 Dafür bitte ein Ticket öffnen: https://streamabc.zammad.com
 
 Ein Upgrade ist bereits in Arbeit. 
-Anschließend wird es in der Console ein Menüpunkt "Metadaten" geben. 
+Anschließend wird es in der |Console| ein Menüpunkt "Metadaten" geben. 
 Dort kann man dann die URL erfahren.
 
 
@@ -104,4 +104,8 @@ Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
 .. |www.streamabc.com| raw:: html
 
    <a href="https://www.streamabc.com/#quantum-cast" target="_blank">www.streamabc.com/#quantum-cast</a>
+
+.. |Console| raw:: html
+
+   <a href="https://www.streamabc.com/de/quantumcast-console" target="_blank">Console</a>
    
