@@ -67,7 +67,7 @@ Weitere Informationen zur DAAST-Schnittstelle finden Sie bei der IAB unter:
 Welche Voraussetzung müssen für eine automatische Werbeeinblendung vorhanden sein?
 ----------------------------------------------------------------------------------
 Sie benötigen einen kompatiblen Vermarkter. Mit folgenden Audio-Vermarktern arbeiten wir zur Zeit:
-`RMS <http://www.rms.de>`_, `Spotcom <http://www.spotcom.de>`_
+`RMS <http://www.rms.de>`_, `Spotcom <http://www.spotcom.de>`_, `STUDIO GONG <https://www.studio-gong.de/>`_
 
 Basis für die Zusammenarbeit ist das `Adswizz-Ad-System <http://www.adswizz.com/>`__ und die `DAAST-Schnittstelle <https://www.iab.com/guidelines/digital-audio-ad-serving-template/>`_.
 
