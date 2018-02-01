@@ -34,9 +34,35 @@ Mit der Spot-Anfrage für jeden Hörer beim Vermarkter muss eine ZonenID mit üb
 
 ----
 
+.. index:: DAAST-Schnittstelle 
+.. index:: Digital Audio Ad Serving Template
+
+Warum nutzen wir für die Werbeeinblendung die DAAST-Schnittstelle?
+---------------------------------------------------
+Mit Hilfe der `DAAST-Schnittstelle <https://www.iab.com/guidelines/digital-audio-ad-serving-template/>`_ 
+ist es möglich erweiterte Premium-Leistungen bei der Werbeauslieferung anbieten zu können.
+
+- Echtzeit-Monitoring und Überwachung
+- Werbeauslieferung bei skippable Radiostreaming
+- Werbeauslieferung bei personalisiertem Audiostreaming
+- Zugang zum Markt der Audio-Adserver
+- Automatische Konfiguration der Werbeeinblendung
+- Self-Service-Portal für Echtzeitanpassungen der Werbungblöcke
+- Entwicklung neuer Werbeformen
+- Eigenwerbespots ohne Audio-Adserver-Kosten
+
+
+Klassische Werbeeinblendungen für Audio-Livestreaming, wie. z.B. Prerollspots oder alle Formen der Instream-Werbeeinblendung werden selbstverständlich auch über die DAAST-Schnittstelle angeboten.
+
+Weitere Informationen zur DAAST-Schnittstelle finden Sie bei der IAB unter:
+`https://www.iab.com/guidelines/digital-audio-ad-serving-template/ <https://www.iab.com/guidelines/digital-audio-ad-serving-template/>`_
+
+----
+
 .. index:: Werbeeinblendung Voraussetzungen
 .. index:: Ad-ZonenID
 .. index:: ZonenID
+.. index:: DAAST-Schnittstelle 
 
 Welche Voraussetzung müssen für eine automatische Werbeeinblendung vorhanden sein?
 ----------------------------------------------------------------------------------
