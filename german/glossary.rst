@@ -12,7 +12,9 @@ Glossar
 
 
         
-
+Hörer mit Hördauer >60s
+-----------------------
+    Anzahl der Hörer, mit einer Hördauer von mindestens 60 Sekunden, mit dem/den Channel(s), innerhalb des definierten Zeitraumes.
 
 
 
