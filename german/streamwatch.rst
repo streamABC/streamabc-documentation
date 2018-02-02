@@ -90,7 +90,7 @@ Was bedeutet "Hörer mit Hördauer >60s"?
 "Hörer mit Hördauer >60s" bedeutet, dass nur Streamingsessions gezählt werden, welche mindestens 60 Sekunden lang den Stream gehalten haben.
 Ohne schnick Schnack ... keine unique User. Kein Zusammenzählen von mehreren Sessions.
 
-.. seealso:: `Glossar: Hörer mit Hördauer >60s </de/latest/glossary.html#o-verweildauer-pro-horer>`_
+.. seealso:: `Glossar: Hörer mit Hördauer >60s </de/latest/glossary.html#horer-mit-hordauer-60s>`_
 
 
 ----
