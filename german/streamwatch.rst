@@ -96,6 +96,7 @@ Ohne schnick Schnack ... keine unique User. Kein Zusammenzählen von mehreren Se
 ----
 
 .. index:: Unique User / Hörer
+.. index:: Wiederkehrender Hörer 
 
 Wie ermittelt man die Anzahl unterschiedlicher Hörer (Unique User / Hörer)?
 ---------------------------------------------
