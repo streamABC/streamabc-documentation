@@ -46,7 +46,7 @@ Der Maximalwert der Stunde wird in der roten Linie angezeigt.
 
 Ein Beispiel aus der Grafik:
     Alle Hörer, die zwischen 6:00 und 7:00 Uhr den Stream einschalten, 
-    werden in grünen Linie am höchsten Punkt angezeigt. 
+    werden in der grünen Linie am höchsten Punkt angezeigt. 
     Viele Hörer hörten den Stream nur kurz und zu unterschiedlichen Zeiten in der 6-7-Uhr-Stunde. 
     Dadurch gab es überdurchschnittlich viele Hörersessions in der Stunde. 
     Die Anzahl der gleichzeitig verbundenen Hörer stieg erst nach und nach an, weil immer wieder Hörersession beendet worden.
@@ -91,6 +91,23 @@ Was bedeutet "Hörer mit Hördauer >60s"?
 Ohne schnick Schnack ... keine unique User. Kein Zusammenzählen von mehreren Sessions.
 
 .. seealso:: `Glossar: Hörer mit Hördauer >60s </de/latest/glossary.html#o-verweildauer-pro-horer>`_
+
+
+----
+
+.. index:: Unique User / Hörer
+
+Wie ermittelt man die Anzahl unterschiedlicher Hörer (Unique User / Hörer)?
+---------------------------------------------
+
+Gleich vorab die entscheidende Information: Es ist nicht einfach so möglich beim öffentlichen Audiostreaming die Anzahl der unterschiedlichen Hörer zur ermitteln.
+Um die Anzahl der unterschiedlichen Hörer zählen zu können, müsste es möglich sein, einen wiederkehrenden Hörer zu erkennen. Das ist aber nur möglich, wenn man jedem Hörer eine eigene ID geben kann, die jedes Mal über die StreamURL mit übergeben wird. 
+Es gibt aber keine Cookies in der Audiostreaming-Welt. Cookies gibt es nur im Browser. Audiostreams aber kann man nicht nur mit Web-Browsern hören, sondern auch mit alten WLAN-Radios, Sonos und anderen Playern.
+Um den Unique User zu ermitteln, benötigt es deswegen außergewöhnlichen Entwickler-Aufwand.
+
+Wenn Sie bereit sind eine außergewöhnliche Entwicklerleistung für die Ermittlung wiederkehrenden Hörer erbringen, dann bitte geben Sie uns Bescheid, indem Sie ein Ticket öffnen: 
+|helpdesk| .  
+Es gibt die Möglichkeit der Übergabe der Unique UserID über die StreamURL.
 
 
 ----
