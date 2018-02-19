@@ -12,7 +12,7 @@ The full developer documentation as well as examples for Radioplayer and stand-a
 
 For more information, please open a ticket: |helpdesk|
 
-Vistit our company website: |www.quantum-cast.com|
+Visit our company website: |www.quantum-cast.com|
 
 
 

@@ -49,7 +49,7 @@ Please use the station-id provided by streamABC.
 
 For more information, please open a ticket: |helpdesk|
 
-Vistit our company website: |www.quantum-cast.com|
+Visit our company website: |www.quantum-cast.com|
 
 
 

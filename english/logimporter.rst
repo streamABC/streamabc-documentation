@@ -68,7 +68,7 @@ The program show the import progress and automatically ends if the file is finis
 
 For more information, please open a ticket: |helpdesk|
 
-Vistit our company website: |www.quantum-cast.com|
+Visit our company website: |www.quantum-cast.com|
 
 
 
