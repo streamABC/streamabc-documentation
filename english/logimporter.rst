@@ -62,3 +62,21 @@ All parameters work as in tail-mode. You just need to omit the --tail flag.
 The program show the import progress and automatically ends if the file is finished.
 
 .. _streamABC: https://streamabc.com/
+
+
+----
+
+For more information, please open a ticket: |helpdesk|
+
+Vistit our company website: |www.quantum-cast.com|
+
+
+
+.. |helpdesk| raw:: html
+
+    <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
+
+
+.. |www.quantum-cast.com| raw:: html
+
+   <a href="https://www.quantum-cast.com/" target="_blank">www.quantum-cast.com</a>

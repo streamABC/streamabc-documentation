@@ -26,7 +26,7 @@ To receive meta-data events for individual users subscribe to this path:
 After subscribing the server publishes messages containing a JSON object as payload. 
 
 Metadata Events for Channel Subscription
---------------------------------------
+----------------------------------------
 
 To receive meta-data events for specific channels subscribe to this path:
 ``/metachannel/{channelkey}``
@@ -34,7 +34,7 @@ To receive meta-data events for specific channels subscribe to this path:
 Please use the channel key provided by streamABC.
 
 Metadata Events for Station Subscription
---------------------------------------
+----------------------------------------
 
 To receive meta-data events for specific channels subscribe to this path:
 ``/metastation/{stationid}``
@@ -44,3 +44,20 @@ Please use the station-id provided by streamABC.
 
 .. _streamABC: https://streamabc.com/
 .. _nes-Protocol: https://github.com/hapijs/nes/blob/master/PROTOCOL.md
+
+----
+
+For more information, please open a ticket: |helpdesk|
+
+Vistit our company website: |www.quantum-cast.com|
+
+
+
+.. |helpdesk| raw:: html
+
+    <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
+
+
+.. |www.quantum-cast.com| raw:: html
+
+   <a href="https://www.quantum-cast.com/" target="_blank">www.quantum-cast.com</a>

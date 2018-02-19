@@ -44,7 +44,7 @@ The streamABC documentation is organized into several sections:
 .. _other-languages:
 
 Country-specific parts for costumers
-=============
+====================================
 * |Germany|
 
 Indices and tables
@@ -58,7 +58,7 @@ Indices and tables
 
 For more information, please open a ticket: |helpdesk|
 
-Vistit our company website: |www.streamabc.com|
+Vistit our company website: |www.quantum-cast.com|
 
 
 
@@ -67,9 +67,9 @@ Vistit our company website: |www.streamabc.com|
     <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
 
 
-.. |www.streamabc.com| raw:: html
+.. |www.quantum-cast.com| raw:: html
 
-   <a href="https://www.streamabc.com/#quantum-cast" target="_blank">www.streamabc.com/#quantum-cast</a>
+   <a href="https://www.quantum-cast.com/" target="_blank">www.quantum-cast.com</a>
    
 
 .. |Germany| raw:: html
