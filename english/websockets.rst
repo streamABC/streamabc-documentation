@@ -1,8 +1,9 @@
-streamABC Websockets
-********************
+streamABC Websockets API
+************************
 
-This documentation describes the use of the low-level Websockets API. If possible use a higher-level
-SDK that abstracts all steps. Currently this is only available for Javascript here:
+This documentation describes the use of the low-level Websockets API as part of our PlayerServices API.
+
+If possible use a higher-level SDK that abstracts all steps. Currently, a Javascript Version is available here:
 https://github.com/streamABC/api-player
 
 You find all detailed docs for transferred messages here:

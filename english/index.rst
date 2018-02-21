@@ -31,6 +31,7 @@ The streamABC documentation is organized into several sections:
    :caption: API Documentation
 
    api
+   skip
    websockets
 
 .. _sdk-docs:
