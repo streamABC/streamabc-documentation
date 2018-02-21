@@ -55,6 +55,25 @@ Ist Https für die StreamURLs und Audiostreams verfügbar?
 Ja, für alle Streams ist https aktiviert.
 
 
+----
+
+.. index:: individuelle StreamURL-Domain
+.. index:: DNS-Eintrag für StreamURL-Domain
+
+Ist es möglich eine eigene Domain für die StreamURLs zu nutzen?
+---------------------------------------------------------------
+Ja. Es ist möglich, eine individuelle StreamURL-Domain eintragen zu lassen.
+Dafür bitte innerhalb der |Console| den Bereich "StreamURLs" -> "Domain hinzufügen / löschen" aufrufen.
+Unter "System StreamURL-Domänen" finden Sie ihrer aktuell eingerichtete StreamURL-Domain.
+
+Sie müssen nun im DNS für die gewünschte Domain einen CNAME auf ihrer aktuell eingerichtete StreamURL-Domain einrichten:
+z.B. 
+    streams.meine-domain.de IN CNAME  {system-name}.stream.vip.
+
+Anschließend uns kurz Bescheid geben. Dafür bitte ein Ticket öffnen: https://streamabc.zammad.com
+
+Wir schalten dann ihre individuelle StreamURL-Domain frei.
+
 
 ----
 
@@ -72,4 +91,8 @@ Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
 .. |www.streamabc.com| raw:: html
 
    <a href="https://www.streamabc.com/#quantum-cast" target="_blank">www.streamabc.com/#quantum-cast</a>
+   
+.. |Console| raw:: html
+
+   <a href="https://www.streamabc.com/de/quantumcast-console" target="_blank">Console</a>
    

@@ -11,8 +11,8 @@ Was muss man beim Neuanlegen einer Audioquelle beachten?
 Sie möchten einen neuen Channel anlegen und mit eigenem Audiosignal beliefern. 
 Dann sind folgende Dinge zu beachten:
 
--   Legen Sie eine neue Audioquelle in der Console an.
--   Die konfigurierten Eigenschaften der Audioquelle in der Console (Bitrate, Codec, SR und M/S) müssen mit den Einstellungen in ihrem Encoder übereinstimmen.
+-   Legen Sie eine neue Audioquelle in der |Console| an.
+-   Die konfigurierten Eigenschaften der Audioquelle in der |Console| (Bitrate, Codec, SR und M/S) müssen mit den Einstellungen in ihrem Encoder übereinstimmen.
 -   Liefern Sie mit einer möglichst hohen Qualität an.
 
 
@@ -68,3 +68,8 @@ Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
 .. |www.streamabc.com| raw:: html
 
    <a href="https://www.streamabc.com/#quantum-cast" target="_blank">www.streamabc.com/#quantum-cast</a>
+
+.. |Console| raw:: html
+
+   <a href="https://www.streamabc.com/de/quantumcast-console" target="_blank">Console</a>
+   

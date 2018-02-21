@@ -6,13 +6,12 @@
 Welcome to streamABC's documentation!
 =====================================
 
-Vistit our company website: |www.streamabc.com|
-
 The streamABC documentation is organized into several sections:
 
 * :ref:`distributor-docs`
 * :ref:`api-docs`
 * :ref:`sdk-docs`
+* :ref:`other-languages`
 
 (more coming soon)
 
@@ -43,6 +42,12 @@ The streamABC documentation is organized into several sections:
    sdk-player
    sdk-radio
 
+.. _other-languages:
+
+Country-specific parts for costumers
+====================================
+* |Germany|
+
 Indices and tables
 ==================
 
@@ -50,9 +55,24 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+----
+
+For more information, please open a ticket: |helpdesk|
+
+Visit our company website: |www.quantum-cast.com|
 
 
 
-.. |www.streamabc.com| raw:: html
+.. |helpdesk| raw:: html
 
-   <a href="https://www.streamabc.com" target="_blank">www.streamabc.com</a>
+    <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
+
+
+.. |www.quantum-cast.com| raw:: html
+
+   <a href="https://www.quantum-cast.com/" target="_blank">www.quantum-cast.com</a>
+   
+
+.. |Germany| raw:: html
+
+    <a href="/de/latest/" target="_blank">Germany</a>
