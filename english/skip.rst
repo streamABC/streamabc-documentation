@@ -43,7 +43,9 @@ http://sabc-test.stream.vip/qc/mp3-256/?sabcsid=fb3c7ba352e3&skip=e1d4c7a3-cae1-
 This starts a a new user stream session starting with the next song after position defined with ``skip2``.
 
 You get the required values for ``skip`` and ``skip2`` over a Websocket connection to our player services API as described here:
-`Websockets Documentation </en/latest/#websockets>`_
+    
+.. seealso:: `Websockets Documentation </en/latest/websockets.html>`_
+
 With a subscription to ``/metadata/{listenerid}`` you get all metadata events in real-time.
 
 If it's not possible to open a websockets connection in addition to the stream playback you can generate
