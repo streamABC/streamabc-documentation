@@ -6,7 +6,7 @@ PlaylistDesigner
 .. index:: Playlist erstellen
 .. index:: Schnellster Weg zur Playlist
 
-Wie erstelle ich am schnellsten eine Playlist aus vorbestimmten MP3-Dateien?
+Wie erstelle ich am schnellsten eine Playlist aus vorhandenen MP3-Dateien?
 ----------------------------------------------------------------------------
 
 Voraussetzung:
@@ -45,7 +45,7 @@ Im Internet finden Sie "MusicBrainz Picard" unter:
 Prinzipiell aber ist der ID3-Tag auch wichtig, um MP3-Dateien für Playlisten zu markieren. 
 Im PlaylistDesigner kann man Titel einer Playlist automatisch zuordnen lassen, wenn sie einem Kriterium entsprechen, z.B. einem bestimmten Label.
 Ziel in diesem Beispiel ist es, das Label vorab einheitlich für alle MP3-Dateien zu benennen, um dann im PlaylistDesigner über das Label-Kriterium die Playlist generieren zu lassen.
-Das ist der schnellste Weg eine Playlist aus vorbestimmten MP3-Dateien zu erstellen.
+Das ist der schnellste Weg eine Playlist aus vorhandenen MP3-Dateien zu erstellen.
 
 .. image:: img/schnellste-playlist/02-schnellste-playlist.png
 
@@ -73,7 +73,7 @@ Dann auf "Neu" und "Neuer Smartblock" klicken
 "Kriterien" und "Attribut" ändern und auf den Button "Erstellen" klicken.
 
 .. image:: img/schnellste-playlist/08-schnellste-playlist.png
-Die Playlist aus vorbestimmten MP3-Dateien ist fertig.
+Die Playlist aus vorhandenen MP3-Dateien ist fertig.
 
 
 
