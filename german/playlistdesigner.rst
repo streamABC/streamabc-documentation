@@ -3,6 +3,83 @@
 PlaylistDesigner
 ****************
 
+.. index:: Playlist erstellen
+.. index:: Schnellster Weg zur Playlist
+
+Wie erstelle ich am schnellsten eine Playlist aus vorbestimmten MP3-Dateien?
+----------------------------------------------------------------------------
+
+Voraussetzung:
+Eine Auswahl an MP3-Dateien und ein Internetbrowser.
+
+Drei Schritte:
+    1. Metadaten der MP3-Dateien aktualisieren und die Titel für die Playlist markieren
+    #. Upload der Dateien im PlaylistDesigner
+    #. Neuen Smartblock für Playlist anlegen und markierte Titel der Playlist zuweisen
+
+
+Im Folgenden jetzt die detaillierte Beschreibung der drei Schritte:
+
+.. index:: ID3-Tag
+.. index:: ID3-Tag-Editoren
+.. index:: MP3-Dateien taggen
+.. index:: Titel für die Playlist markieren
+
+Metadaten der MP3-Dateien aktualisieren und die Titel für die Playlist markieren
+--------------------------------------------------------------------------------
+Um später, beim Abspielen der Playlist, Titel und Artist korrekt anzeigen zu können,
+dafür müssen korrekte Metadaten in den MP3-Dateien vorhanden sein. 
+Realisiert wird das über den ID3-Tag.
+
+.. seealso:: `ID3-Tag - Wikipedia <https://de.wikipedia.org/wiki/ID3-Tag>`_
+
+Um den ID3-Tag in den MP3-Dateien zu verändern, benötigt man ein kleines Zusatzprogramm.
+Es gibt im Internet ein große Auswahl an ID3-Tag-Editoren. Wir bevorzugen "MusicBrainz Picard", 
+weil er automatisch die Titel erkennt 
+und mittels Internetdatenbanken viel Informationen per Mausklick anreichert.
+Im Internet finden Sie "MusicBrainz Picard" unter:
+`https://picard.musicbrainz.org/ <https://picard.musicbrainz.org/>`_
+
+.. image:: img/schnellste-playlist/01-schnellste-playlist.png
+
+Prinzipiell aber ist der ID3-Tag auch wichtig, um MP3-Dateien für Playlisten zu markieren. 
+Im PlaylistDesigner kann man Titel einer Playlist automatisch zuordnen lassen, wenn sie einem Kriterium entsprechen, z.B. einem bestimmten Label.
+Ziel in diesem Beispiel ist es, das Label vorab einheitlich für alle MP3-Dateien zu benennen, um dann im PlaylistDesigner über das Label-Kriterium die Playlist generieren zu lassen.
+Das ist der schnellste Weg eine Playlist aus vorbestimmten MP3-Dateien zu erstellen.
+
+.. image:: img/schnellste-playlist/02-schnellste-playlist.png
+
+
+.. index:: MP3-Dateien Upload
+
+Upload der Dateien im PlaylistDesigner
+--------------------------------------
+.. image:: img/schnellste-playlist/03-schnellste-playlist.png
+
+
+.. index:: Smartblock erstellen
+.. index:: Titel für Smartblock auswählen
+.. index:: Playlist erstellen
+
+Neuen Smartblock für Playlist anlegen und markierte Titel der Playlist zuweisen
+-------------------------------------------------------------------------------
+.. image:: img/schnellste-playlist/04-schnellste-playlist.png
+Auf den Button "Medienordner" klicken
+
+.. image:: img/schnellste-playlist/06-schnellste-playlist.png
+Dann auf "Neu" und "Neuer Smartblock" klicken
+
+.. image:: img/schnellste-playlist/07-schnellste-playlist.png
+"Kriterien" und "Attribut" ändern und auf den Button "Erstellen" klicken.
+
+.. image:: img/schnellste-playlist/08-schnellste-playlist.png
+Die Playlist aus vorbestimmten MP3-Dateien ist fertig.
+
+
+
+
+----
+
 
 .. index:: Werbeblöcke konfigurieren
 .. index:: Werbeblöcke verteilen
@@ -23,10 +100,10 @@ Aber der 1. Werbeblock wird bereits nach der Hälfte der Intervallzeit hinzugef�
 
 Zusammengefasst:
 
-- 1. Werbeblock mit 60 Sekunden nach 10 Minuten
-- 2. Werbeblock mit 60 Sekunden nach 30 Minuten
-- 3. Werbeblock mit 60 Sekunden nach 50 Minuten
-- 3. Werbeblock mit 60 Sekunden nach 70 Minuten
+1. Werbeblock mit 60 Sekunden nach 10 Minuten
+#. Werbeblock mit 60 Sekunden nach 30 Minuten
+#. Werbeblock mit 60 Sekunden nach 50 Minuten
+#. Werbeblock mit 60 Sekunden nach 70 Minuten
 
 usw.
 
