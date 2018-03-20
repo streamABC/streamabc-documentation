@@ -41,7 +41,7 @@ The program stays in foreground until you end it with CTRL-C.
 
 .. code-block:: bash
 
-    ./logimporter --dbuser=DBUSER --dbpass=DBPASS --dbname=DBNAME --dbhost=DBHOST --logtype=icecast ./logs/access.log
+    ./logimporter --dbuser=DBUSER --dbpass=DBPASS --dbname=DBNAME --dbhost=DBHOST --logtype=icecast --tail ./logs/access.log
 
 **Note:** All values for data access are provided by streamABC when you need it.
 
@@ -51,7 +51,7 @@ Single File Mode
 ----------------
 
 In this mode Logimporter send the content of one file.
-All parameters work as in tail-mode. You just need to omit the --tail flag.
+All parameters work as in tail-mode. You just need to omit the `--tail` flag.
 
 .. code-block:: bash
 
