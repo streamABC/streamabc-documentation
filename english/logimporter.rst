@@ -36,7 +36,8 @@ Tail-Mode
 ---------
 
 This is the most common use case. In this mode Logimporter works like Unix *tail* command.
-New lines that are added to a file are parsed and sent to streamABC in real-time.
+Tail mode starts at the end of the file. New lines that are added to a file are parsed and sent to streamABC in real-time. 
+Any lines that still exist in the file are not transmitted.
 The program stays in foreground until you end it with CTRL-C.
 
 .. code-block:: bash
