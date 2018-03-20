@@ -73,7 +73,11 @@ Dann auf "Neu" und "Neuer Smartblock" klicken
 "Kriterien" und "Attribut" ändern und auf den Button "Erstellen" klicken.
 
 .. image:: img/schnellste-playlist/08-schnellste-playlist.png
-Die Playlist aus vorhandenen MP3-Dateien ist fertig.
+Die Playlist aus vorhandenen MP3-Dateien ist fertig. 
+Der Audiostream kann anschließend mit einem Klick in der Console aktiviert werden.
+
+.. seealso:: `QuantumCast-Console <https://www.streamabc.com/de/quantumcast-console>`_
+
 
 
 
