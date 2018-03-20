@@ -6,7 +6,7 @@ PlaylistDesigner
 .. index:: Playlist erstellen
 .. index:: Schnellster Weg zur Playlist
 
-Wie erstelle ich am schnellsten eine Playlist aus vorhandenen MP3-Dateien?
+Wie erstelle ich am schnellsten einen Stream aus vorhandenen MP3-Dateien?
 ----------------------------------------------------------------------------
 
 Voraussetzung:
