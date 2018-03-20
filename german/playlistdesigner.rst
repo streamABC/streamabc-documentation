@@ -10,7 +10,7 @@ Wie erstelle ich am schnellsten einen Stream aus vorhandenen MP3-Dateien?
 ----------------------------------------------------------------------------
 
 Voraussetzung:
-Eine Auswahl an MP3-Dateien und ein Internetbrowser.
+Eine Auswahl an MP3-Dateien, einen Zugang zum PlaylistDesigner und ein Internetbrowser.
 
 Drei Schritte:
     1. Metadaten der MP3-Dateien aktualisieren und die Titel für die Playlist markieren
