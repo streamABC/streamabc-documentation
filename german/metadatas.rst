@@ -10,9 +10,8 @@ Wo kann man die Metadaten-Injektion konfigurieren?
 --------------------------------------------------
 Bei einem Livestream von eigener Audioquelle ist es meist gewünscht, aktuelle Infos zum Inhalt mit in den Stream zu packen.
 Diese Metadaten müssen dann in den Livestream injiziert werden.
-Die Übermittlung von Metadaten erfolgt über einem HTTP-Push.
-Die URL für den HTTP-Push erhalten Sie übergansweise noch manuell.
-Dafür bitte ein Ticket öffnen: https://streamabc.zammad.com
+Die Übermittlung von Metadaten erfolgt über einem HTTP-Push. 
+Für die initiale Einrichtung bitte ein Ticket öffnen: https://streamabc.zammad.com
 
 Ein Upgrade ist bereits in Arbeit. 
 Anschließend wird es in der |Console| ein Menüpunkt "Metadaten" geben. 
@@ -27,6 +26,7 @@ Wie kann man aktuelle Metadaten übermitteln?
 --------------------------------------------
 Für die Übermittlung der aktuellen Metadaten mittels HTTP-Push erhalten Sie pro Channel einen HTTP-Endpoint mit folgender Schnittstellenspezifikation:
 
+GET https://metadata.streamabc.net/metapush/<channelkey>/<token>
 
 1.)     Übergabe folgender Daten per GET-Parameter:
     a.  song={URL-Encodierter String zum Titel}
@@ -61,8 +61,8 @@ Für die Übermittlung der aktuellen Metadaten mittels HTTP-Push erhalten Sie pr
 
 8.)     Rückgabe
     a.  Im Erfolgsfall antwortet der Dienst mit dem HTTP-Status 200 und Content-Typ `application/json` mit einem JSON-Dokument der übermittelten Metadaten.    
-    b.  Fehlen Parameter oder ist der Channelkey nicht gültig, antwortet der Dienst mit HTTP-Status 422.
-    c.  Sind sonstige Fehler aufgetreten wird HTTP-Statsu 500 zurückgeliefert.
+    b.  Fehlen Parameter oder ist der Channelkey bzw. der Security-Token nicht gültig, antwortet der Dienst mit HTTP-Status 4xx.
+    c.  Sind sonstige Fehler aufgetreten wird HTTP-Status 500 zurückgeliefert.
 
 
 
