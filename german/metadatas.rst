@@ -11,7 +11,7 @@ Wo kann man die Metadaten-Injektion konfigurieren?
 Bei einem Livestream von eigener Audioquelle ist es meist gewünscht, aktuelle Infos zum Inhalt mit in den Stream zu packen.
 Diese Metadaten müssen dann in den Livestream injiziert werden.
 Die Übermittlung von Metadaten erfolgt über einem HTTP-Push. 
-Für die initiale Einrichtung bitte ein Ticket öffnen: https://streamabc.zammad.com Test
+Für die initiale Einrichtung bitte ein Ticket öffnen: https://streamabc.zammad.com
 
 Ein Upgrade ist bereits in Arbeit. 
 Anschließend wird es in der |Console| ein Menüpunkt "Metadaten" geben. 
