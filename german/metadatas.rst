@@ -4,7 +4,7 @@ Metadaten
 ***********
 
 
-.. index:: Metadaten-Injektion konfigurieren
+.. index:: Metadaten-Injektion konfigurieren.
 
 Wo kann man die Metadaten-Injektion konfigurieren?
 --------------------------------------------------
