@@ -36,7 +36,12 @@ Ein Indiz darüber, woher die kurzen, häufigen Zugriffe stammen, bietet die Bet
 
 Die genaue Analyse und Ursachenfindung, bspw. mit Auswertung zu den IP-Adressen bei denen die Verbindung besonders kurz ausfällt und häufig neu aufgebaut wird, ist ein aufwendiger manueller Prozess und kann gesondert bei uns beauftragt werden. 
 
-Nutzen Sie dafür bitte unseren Support & Helpdesk unter `<a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>`. Dort können Sie eine genaue Analyse beauftragen. Wir bearbeiten Ihr Ticket dann schnellstmöglich. 
+Nutzen Sie dafür bitte unseren Support & Helpdesk unter |helpdesk|. Dort können Sie eine genaue Analyse beauftragen. Wir bearbeiten Ihr Ticket dann schnellstmöglich. 
+
+.. |helpdesk| raw:: html
+
+    <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
+
 
 
 
