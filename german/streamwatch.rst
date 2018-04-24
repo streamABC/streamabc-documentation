@@ -38,11 +38,6 @@ Die genaue Analyse und Ursachenfindung, bspw. mit Auswertung zu den IP-Adressen 
 
 Nutzen Sie dafür bitte unseren Support & Helpdesk unter |helpdesk|. Dort können Sie eine genaue Analyse beauftragen. Wir bearbeiten Ihr Ticket dann schnellstmöglich. 
 
-.. |helpdesk| raw:: html
-
-    <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
-
-
 
 
 .. index:: Einbruch Hörersessions der letzten Stunden
