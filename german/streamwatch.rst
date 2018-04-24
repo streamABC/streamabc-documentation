@@ -20,12 +20,12 @@ Prinzipiell hat jeder die Möglichkeit des Zugriffs auf die Streams eines Channe
 In dieser Grafik sinkt die durchschnittlichen Verweildauer pro Hörer ab einem gewissen Zeitpunkt und die Sessions steigen an. Die Gründe für ein solches Phänomen können sehr unterschiedlich sein. Nachfolgend ein paar Beispiele:
 
 
-    Ein bestimmter Player weist einen programmatischen Fehler auf und verbindet sich na einer gewissen Zeit immer wieder neu mit dem Stream
-    Eine App (auch Drittanbieter-App) trennt die Verbindung zum Stream und baut permanent eine neue Verbindung auf
-    Ein einzelner User nutzt eine App zum Abspielen des Streams, bei der bei vollem Speicher auf dem mobilen Endgerät ein Verbindungsabbruch stattfindet. Auch hier wird möglicherweise permanent eine neue Verbindung hergestellt. Es handelt sich dabei um eine klassische Fehlfunktion der App
-    Eine Firewall trennt immer wieder die Verbindung zu einem Stream und baut anschließend eine neue Verbindung auf
-    bestimmte Player / Clients / Devices können einen Fehler haben, trennt dann die Verbindung plötzlich und baut neue Verbindung auf
-    Es gibt einen Aggregator bei dem bspw. ein Banner geschaltet ist, der die User zum Anklicken animiert, wobei der User dann aber einfach weiter im Netz surft und die Verbindung zum Stream ausläuft
+    - Ein bestimmter Player weist einen programmatischen Fehler auf und verbindet sich na einer gewissen Zeit immer wieder neu mit dem Stream
+    - Eine App (auch Drittanbieter-App) trennt die Verbindung zum Stream und baut permanent eine neue Verbindung auf
+    - Ein einzelner User nutzt eine App zum Abspielen des Streams, bei der bei vollem Speicher auf dem mobilen Endgerät ein Verbindungsabbruch stattfindet. Auch hier wird möglicherweise permanent eine neue Verbindung hergestellt. Es handelt sich dabei um eine klassische Fehlfunktion der App
+    - Eine Firewall trennt immer wieder die Verbindung zu einem Stream und baut anschließend eine neue Verbindung auf
+    - bestimmte Player / Clients / Devices können einen Fehler haben, trennt dann die Verbindung plötzlich und baut neue Verbindung auf
+    - Es gibt einen Aggregator bei dem bspw. ein Banner geschaltet ist, der die User zum Anklicken animiert, wobei der User dann aber einfach weiter im Netz surft und die Verbindung zum Stream ausläuft
 
     
 Prinzipiell kann bei einer kleinen Anzahl Hörer auf dem Stream auch ein einziger User die Statistik immens verfälschen. Dieser Umstand sollte nicht unterschätzt werden.
