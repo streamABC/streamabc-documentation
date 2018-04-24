@@ -38,7 +38,7 @@ Es gibt im Internet ein große Auswahl an ID3-Tag-Editoren. Wir bevorzugen "Musi
 weil er automatisch die Titel erkennt 
 und mittels Internetdatenbanken viel Informationen per Mausklick anreichert.
 Im Internet finden Sie "MusicBrainz Picard" unter:
-`https://picard.musicbrainz.org/ <https://picard.musicbrainz.org/>`_
+`https://picard.musicbrainz.org/ <target="_blank" https://picard.musicbrainz.org/>`_
 
 .. image:: img/schnellste-playlist/01-schnellste-playlist.png
 
