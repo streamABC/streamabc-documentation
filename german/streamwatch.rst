@@ -5,6 +5,39 @@
 Streamwatch
 ***********
 
+.. index:: sprunghafter Anstieg der Sessions
+
+Was sind mögliche Ursachen für einen plötzlichen sprunghaften Anstieg der Sessions?
+--------------------------------------------------------------------------------------------
+
+Gibt es einen plötzlichen sprunghaften Anstieg der Zugriffe auf einen Stream, so stellt sich zunächst die Frage, ob eine technische Fehlfunktion vorliegt oder ob der Anstieg einen regulären Zuwachs der Zugriffe darstellt. 
+
+Dazu ist es wichtig folgendes zu wissen: 
+Prinzipiell hat jeder die Möglichkeit des Zugriffs auf die Streams eines Channels. Dies ist so gewollt und auch notwendig für die digitale Verbreitung. Die Dauer eines Zugriffes wird dabei nicht vorgeschrieben und kann sehr variieren. So kann es bspw. auch vorkommen, dass Verbindungen sehr gehäuft auftreten und die Verweildauer dabei sehr kurz ist. Im Cockpit lässt sich dies über die Anzeige der Hörer bei gleichzeitiger Betrachtung der durchschnittlichen Verweildauer pro Hörer prüfen.
+
+.. image:: img/20180117_screenshot-streamwatch-listener-decrease-last-hours.png
+
+In dieser Grafik sinkt die durchschnittlichen Verweildauer pro Hörer ab einem gewissen Zeitpunkt und die Sessions steigen an. Die Gründe für ein solches Phänomen können sehr unterschiedlich sein. Nachfolgend ein paar Beispiele:
+
+
+    Ein bestimmter Player weist einen programmatischen Fehler auf und verbindet sich na einer gewissen Zeit immer wieder neu mit dem Stream
+    Eine App (auch Drittanbieter-App) trennt die Verbindung zum Stream und baut permanent eine neue Verbindung auf
+    Ein einzelner User nutzt eine App zum Abspielen des Streams, bei der bei vollem Speicher auf dem mobilen Endgerät ein Verbindungsabbruch stattfindet. Auch hier wird möglicherweise permanent eine neue Verbindung hergestellt. Es handelt sich dabei um eine klassische Fehlfunktion der App
+    Eine Firewall trennt immer wieder die Verbindung zu einem Stream und baut anschließend eine neue Verbindung auf
+    bestimmte Player / Clients / Devices können einen Fehler haben, trennt dann die Verbindung plötzlich und baut neue Verbindung auf
+    Es gibt einen Aggregator bei dem bspw. ein Banner geschaltet ist, der die User zum Anklicken animiert, wobei der User dann aber einfach weiter im Netz surft und die Verbindung zum Stream ausläuft
+
+    
+Prinzipiell kann bei einer kleinen Anzahl Hörer auf dem Stream auch ein einziger User die Statistik immens verfälschen. Dieser Umstand sollte nicht unterschätzt werden.
+
+Ein Indiz darüber, woher die kurzen, häufigen Zugriffe stammen, bietet die Betrachtung der Aggregatorenliste im Cockpit. Dort finden sich häufig einer oder mehrere Aggregatoren, bei denen die Verweildauer im Verhältnis zu anderen Aggregatoren signifikant geringer ausfällt. Dort könnte ein Ansatz zur weiteren Analyse liegen.
+
+Die genaue Analyse und Ursachenfindung, bspw. mit Auswertung zu den IP-Adressen bei denen die Verbindung besonders kurz ausfällt und häufig neu aufgebaut wird, ist ein aufwendiger manueller Prozess und kann gesondert bei uns beauftragt werden. 
+
+Nutzen Sie dafür bitte unseren Support & Helpdesk unter <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>. Dort können Sie eine genaue Analyse beauftragen. Wir bearbeiten Ihr Ticket dann schnellstmöglich. 
+
+
+
 .. index:: Einbruch Hörersessions der letzten Stunden
 
 Gibt es ein Problem, wenn die aktuellen Hörersessions der letzten Stunden eingebrochen sind?
