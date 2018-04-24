@@ -13,24 +13,23 @@ Was sind mögliche Ursachen für einen plötzlichen sprunghaften Anstieg der Ses
 Gibt es einen plötzlichen sprunghaften Anstieg der Zugriffe auf einen Stream, so stellt sich zunächst die Frage, ob eine technische Fehlfunktion vorliegt oder ob der Anstieg einen regulären Zuwachs der Zugriffe darstellt. 
 
 Dazu ist es wichtig folgendes zu wissen: 
-Prinzipiell hat jeder die Möglichkeit des Zugriffs auf die Streams eines Channels. Dies ist so gewollt und auch notwendig für die digitale Verbreitung. Die Dauer eines Zugriffes wird dabei nicht vorgeschrieben und kann sehr variieren. So kann es bspw. auch vorkommen, dass Verbindungen sehr gehäuft auftreten und die Verweildauer dabei sehr kurz ist. Im Cockpit lässt sich dies über die Anzeige der Hörer bei gleichzeitiger Betrachtung der durchschnittlichen Verweildauer pro Hörer prüfen.
+Prinzipiell hat jeder die Möglichkeit des Zugriffs auf die Streams eines Channels. Dies ist so gewollt und auch notwendig für die digitale Verbreitung. Die Dauer eines Zugriffes wird dabei nicht vorgeschrieben und kann sehr variieren. So kann es bspw. auch vorkommen, dass Verbindungen sehr gehäuft auftreten und die Verweildauer dabei sehr kurz ist. Im Streamwatch lässt sich dies über die Anzeige der Hörer bei gleichzeitiger Betrachtung der durchschnittlichen Verweildauer pro Hörer prüfen.
 
 .. image:: img/sprunghafter_anstieg_Sessions.png
 
 In dieser Grafik sinkt die durchschnittlichen Verweildauer pro Hörer ab einem gewissen Zeitpunkt und die Sessions steigen an. Die Gründe für ein solches Phänomen können sehr unterschiedlich sein. Nachfolgend ein paar Beispiele:
 
 
-    - Ein bestimmter Player weist einen programmatischen Fehler auf und verbindet sich na einer gewissen Zeit immer wieder neu mit dem Stream
+    - bestimmte Player / Clients / Devices können einen Fehler aufweisen, trennen die Verbindung zum Stream und bauen eine neue Verbindung auf
     - Eine App (auch Drittanbieter-App) trennt die Verbindung zum Stream und baut permanent eine neue Verbindung auf
     - Ein einzelner User nutzt eine App zum Abspielen des Streams, bei der bei vollem Speicher auf dem mobilen Endgerät ein Verbindungsabbruch stattfindet. Auch hier wird möglicherweise permanent eine neue Verbindung hergestellt. Es handelt sich dabei um eine klassische Fehlfunktion der App
     - Eine Firewall trennt immer wieder die Verbindung zu einem Stream und baut anschließend eine neue Verbindung auf
-    - bestimmte Player / Clients / Devices können einen Fehler haben, trennt dann die Verbindung plötzlich und baut neue Verbindung auf
     - Es gibt einen Aggregator bei dem bspw. ein Banner geschaltet ist, der die User zum Anklicken animiert, wobei der User dann aber einfach weiter im Netz surft und die Verbindung zum Stream ausläuft
 
     
 Prinzipiell kann bei einer kleinen Anzahl Hörer auf dem Stream auch ein einziger User die Statistik immens verfälschen. Dieser Umstand sollte nicht unterschätzt werden.
 
-Ein Indiz darüber, woher die kurzen, häufigen Zugriffe stammen, bietet die Betrachtung der Aggregatorenliste im Cockpit. Dort finden sich häufig einer oder mehrere Aggregatoren, bei denen die Verweildauer im Verhältnis zu anderen Aggregatoren signifikant geringer ausfällt. Dort könnte ein Ansatz zur weiteren Analyse liegen.
+Ein Indiz darüber, woher die kurzen, häufigen Zugriffe stammen, bietet die Betrachtung der Aggregatorenliste im Streamwatch. Dort finden sich häufig einer oder mehrere Aggregatoren, bei denen die Verweildauer im Verhältnis zu anderen Aggregatoren signifikant geringer ausfällt. Dort könnte ein Ansatz zur weiteren Analyse liegen.
 
 .. image:: img/sprunghafter_anstieg_Sessions2.png
 
