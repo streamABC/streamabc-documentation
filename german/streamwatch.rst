@@ -15,7 +15,7 @@ Gibt es einen plötzlichen sprunghaften Anstieg der Zugriffe auf einen Stream, s
 Dazu ist es wichtig folgendes zu wissen: 
 Prinzipiell hat jeder die Möglichkeit des Zugriffs auf die Streams eines Channels. Dies ist so gewollt und auch notwendig für die digitale Verbreitung. Die Dauer eines Zugriffes wird dabei nicht vorgeschrieben und kann sehr variieren. So kann es bspw. auch vorkommen, dass Verbindungen sehr gehäuft auftreten und die Verweildauer dabei sehr kurz ist. Im Cockpit lässt sich dies über die Anzeige der Hörer bei gleichzeitiger Betrachtung der durchschnittlichen Verweildauer pro Hörer prüfen.
 
-.. image:: img/20180117_screenshot-streamwatch-listener-decrease-last-hours.png
+.. image:: img/Bildschirmfoto%202018-04-24%20um%2014.59.43.png
 
 In dieser Grafik sinkt die durchschnittlichen Verweildauer pro Hörer ab einem gewissen Zeitpunkt und die Sessions steigen an. Die Gründe für ein solches Phänomen können sehr unterschiedlich sein. Nachfolgend ein paar Beispiele:
 
@@ -31,6 +31,8 @@ In dieser Grafik sinkt die durchschnittlichen Verweildauer pro Hörer ab einem g
 Prinzipiell kann bei einer kleinen Anzahl Hörer auf dem Stream auch ein einziger User die Statistik immens verfälschen. Dieser Umstand sollte nicht unterschätzt werden.
 
 Ein Indiz darüber, woher die kurzen, häufigen Zugriffe stammen, bietet die Betrachtung der Aggregatorenliste im Cockpit. Dort finden sich häufig einer oder mehrere Aggregatoren, bei denen die Verweildauer im Verhältnis zu anderen Aggregatoren signifikant geringer ausfällt. Dort könnte ein Ansatz zur weiteren Analyse liegen.
+
+.. image:: img/Bildschirmfoto%202018-04-24%20um%2015.38.21.png
 
 Die genaue Analyse und Ursachenfindung, bspw. mit Auswertung zu den IP-Adressen bei denen die Verbindung besonders kurz ausfällt und häufig neu aufgebaut wird, ist ein aufwendiger manueller Prozess und kann gesondert bei uns beauftragt werden. 
 
