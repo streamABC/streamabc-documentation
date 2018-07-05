@@ -67,7 +67,7 @@ Der Playlistdesigner erkennt einen hochgeladenen Titel als bereits in der Datenb
 
 Titel, Artist und Album sind im ID3-Tag identisch und der Titel wurde vom selben Nutzer hochgeladen. 
  
-Wenn also lediglich der TName der Datei geändert wird, so wird das System den Titel im Zweifelsfall einfach überschreiben. Dies erkennt man mit Sicherheit anhand des Tabelleneintrags "Hochgeladen". 
+Wenn also lediglich der Name der Datei geändert wird, so wird das System den Titel im Zweifelsfall einfach überschreiben. Dies erkennt man mit Sicherheit anhand des Tabelleneintrags "Hochgeladen". Dort wird beim überschrieben Titel das neuere Hochladedatum eingetragen.
 
 .. image:: img/schnellste-playlist/1_titel_ueberschrieben.png
 
