@@ -85,6 +85,7 @@ Der Audiostream kann anschließend mit einem Klick in der Console aktiviert werd
 ----
 
 II. Weitere Einstellmöglichkeiten
+---------------------------------
 
 .. index:: Werbeblöcke konfigurieren
 .. index:: Werbeblöcke verteilen
@@ -122,7 +123,9 @@ Mit Start des Werbeblocks wird auch das Intervall von 20 Minuten neu gestartet.
 
 
 ----
+
 III. Troubleshooting
+--------------------
 
 .. index:: Duplikate
 
