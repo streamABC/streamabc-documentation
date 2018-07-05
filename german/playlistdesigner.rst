@@ -66,6 +66,8 @@ Umgang mit Duplikaten / Überschreiben von hochgeladenen Titeln
 Der Playlistdesigner erkennt einen hochgeladenen Titel als bereits in der Datenbank vorhanden und überschreibt diesen, wenn folgende Kriterien erfüllt sind:
 
 Titel, Artist und Album sind im ID3-Tag identisch und der Titel wurde vom selben Nutzer hochgeladen. 
+
+.. image:: img/schnellste-playlist/2_titel_ueberschrieben.png
  
 Wenn also lediglich der Name der Datei geändert wird, so wird das System den Titel im Zweifelsfall einfach überschreiben. Dies erkennt man mit Sicherheit anhand des Tabelleneintrags "Hochgeladen". Dort wird beim überschrieben Titel das neuere Hochladedatum eingetragen.
 
