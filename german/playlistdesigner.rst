@@ -61,6 +61,19 @@ Upload der Dateien im PlaylistDesigner
 .. index:: Titel für Smartblock auswählen
 .. index:: Playlist erstellen
 
+Umgang mit Duplikaten / Überschreiben von hochgeladenen Titeln
+--------------------------------------------------------------
+Der Playlistdesigner erkennt einen hochgeladenen Titel als bereits in der Datenbank vorhanden und überschreibt diesen, wenn folgende Kriterien erfüllt sind:
+
+Titel, Artist und Album sind im ID3-Tag identisch und der Titel wurde vom selben Nutzer hochgeladen. 
+ 
+Wenn also lediglich der TName der Datei geändert wird, so wird das System den Titel im Zweifelsfall einfach überschreiben. Dies erkennt man mit Sicherheit anhand des Tabelleneintrags "Hochgeladen". 
+
+.. image:: img/schnellste-playlist/1_titel_ueberschrieben.png
+
+Um einen Titel also in die Datenbank zu schreiben obwohl er eigentlich bereits vorhanden ist, muss mindestens einer der o.g. ID3-Tags geändert werden oder der Titel von einem anderen Nutzer hochgeladen werden. 
+
+
 Neuen Smartblock für Playlist anlegen und markierte Titel der Playlist zuweisen
 -------------------------------------------------------------------------------
 .. image:: img/schnellste-playlist/04-schnellste-playlist.png
