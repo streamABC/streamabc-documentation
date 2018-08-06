@@ -23,6 +23,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
     :caption: FAQs
 
     playlistdesigner
+    audioinhalte
     streamwatch
     audioquelle
     listener-mounts
