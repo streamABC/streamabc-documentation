@@ -5,14 +5,14 @@ Audioinhalte
 
 
 
-Ist es möglich, Beiträge aus einem RSS-Feed mehrfach pro Stunde laufen zu lassen?
+Ist es möglich, Beiträge aus einem RSS-Feed mehrfach pro Stunde im Stream laufen zu lassen?
 ---------------------------------------------------------------------------------
 
 Ja. Dazu einfach eine neue Konfiguration hinzufügen.
 Es ist problemlos möglich pro Podcast/RSS-Feed mehrere Konfiguartionen anzulegen.
 
 
-
+.. image:: img/20180806_audioinhalte-rss-podcast-neue-konfiguration-quantumcast.png
 
 
 ----
