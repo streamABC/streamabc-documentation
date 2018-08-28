@@ -45,6 +45,23 @@ oder an TuneIn diese StreamURL weitergeben:
 
 \http://domain/programm/format/**Tunein/**
 
+----
+
+.. index:: Hörer-ID an StreamURL übergeben
+.. index:: Hörer-ID für Capping übergeben
+
+Kann ich mit der StreamURL eine eindeutige Hörer-ID übergeben?
+--------------------------------------------------------------
+Um Hörer über das gesamte Streamsystem zu verfolgen und das Capping für Werbeausspielung zu optimieren, kann eine vom Player erzeugte Hörer-ID an die StreamURL gehängt werden.
+
+z.B. 
+
+\http://domain/programm/format/Homepage/**Hörer-ID/**
+
+Die Hörer-ID muss als weiterer Teil des URL-Path nach dem Aggregator angegeben werden. Die Hörer-ID kann ein alphanumerischer Wert sein.
+
+\http://domain/programm/format/App/**ak446W4ggg12UU8/**
+
 
 ----
 

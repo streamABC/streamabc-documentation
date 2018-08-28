@@ -1,14 +1,13 @@
 .. index:: Werbung
 
-
 Werbung
 ***********
-
 
 .. index:: Werbeformen
 .. index:: Werbeeinblendung Typen
 .. index:: Pre-Stream Audio Ad
-.. index:: In-Stream Audio Ad 
+.. index:: Preroll Audio Ad
+.. index:: In-Stream Audio Ad
 
 Welche Formen der automatischen Werbeeinblendung gibt es?
 ---------------------------------------------------------
@@ -29,7 +28,6 @@ Wie funktioniert die automatische Werbeeinblendung?
 ---------------------------------------------------
 Mit Start des Streams oder mit Auslösen des Werbeimpulses (Trigger) fragt das Streamingsystem bei Ihrem Vermarkter an, ob für diesen Hörer ein Spot vorliegt. Wenn der Vermarkter eine positive Antwort gibt, dann wird der Stream kurz angehalten und das Streamingsystem blendet automatisch einen Spot in ihrem Stream ein. Gleichzeitig wird automatischen ein Protokoll über die Werbeeinblendung erstellt und an ihren Vermarkter versendet.
 Mit der Spot-Anfrage für jeden Hörer beim Vermarkter muss eine ZonenID mit übergeben werden. Diese ZonenIDs für Pre-Stream und In-Stream erhalten Sie von Ihrem Vermarkter 
-
 
 
 ----
@@ -57,6 +55,7 @@ Klassische Werbeeinblendungen für Audio-Livestreaming, wie. z.B. Prerollspots o
 Weitere Informationen zur DAAST-Schnittstelle finden Sie bei der IAB unter:
 `https://www.iab.com/guidelines/digital-audio-ad-serving-template/ <https://www.iab.com/guidelines/digital-audio-ad-serving-template/>`_
 
+
 ----
 
 .. index:: Werbeeinblendung Voraussetzungen
@@ -73,7 +72,6 @@ Basis für die Zusammenarbeit ist das `Adswizz-Ad-System <http://www.adswizz.com
 
 Für Pre-Stream Audio Ad ist nur die Pre-Stream-ZonenID notwendig. 
 Für In-Stream Audio Ad benötigen Sie auch eine ZonenID. Zusätzlich aber muss ein Werbeimpuls noch erfolgen, damit das Streamingsystem den Spot zum richtigen Zeitpunkt in den Stream einblendet. 
-
 
 ----
 
@@ -92,9 +90,28 @@ Beep
 Metadaten
     In einen Audio-Stream können Metadaten integriert werden. Es ist möglich für das Streamingsystem bei einem bestimmten Muster der Metadaten die automatische Werbeeinblendung zu starten. 
 
+----
 
+.. index:: Capping
+.. index:: Pre-Stream Audio Ad Capping
 
+Wie kann ich das Capping für Pre-Stream Ads beeinflussen?
+---------------------------------------------------------
+Für ein korrektes Capping muss der Ad-Server den Hörer zuverlässig wiedererkennen können. Nur dann kann er das Ausspielen der Spots über die Hörersession beeinflussen.
+Standardmäßig erzeugt unser Streamingsystem einen Hash-Wert über verschiedene Parameter der Verbindung wie IP-Adresse, User-Agent usw. Da viele Clients jedoch auch aus Datenschutzgründen nur wenige Daten senden und die IP-Adresse in größeren Netzen nicht mehrfach verwendet wird,
+ist dieser Hash-Wert für korrektes Capping meist nicht ausreichend.
 
+Die Player als Website oder App haben meist mehr Möglichkeiten, den Hörer individuell zu identifizieren. So kann im Player ein Cookie verwendet werden oder in Apps eine eindeutige Gerätekennung.
+Die Hörer-ID kann ein alphanumerischer Wert sein. Sonderzeichen müssen URL-codiert werden.
+Diese eindeutige Hörer-ID kann über die StreamURL als PATH-Parameter oder GET-Parameter übergeben werden:
+
+Als Path-Parameter:
+`http://domain/programm/format/hoerer-id`
+
+Als GET-Parameter:
+`http://domain/programm/format/?sabcsid=hoerer-id`
+
+Die Hörer-ID wird dann vom Streamingsystem bei Ad-Requests automatisch an den Ad-Server weitergeleitet.
 
 ----
 
