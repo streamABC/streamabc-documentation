@@ -106,10 +106,12 @@ Die Hörer-ID kann ein alphanumerischer Wert sein. Sonderzeichen müssen URL-cod
 Diese eindeutige Hörer-ID kann über die StreamURL als PATH-Parameter oder GET-Parameter übergeben werden:
 
 Als Path-Parameter:
-`http://domain/programm/format/hoerer-id`
+`http://domain/programm/format/aggregator/hoerer-id`
 
 Als GET-Parameter:
 `http://domain/programm/format/?sabcsid=hoerer-id`
+
+.. seealso:: `Schema StreamURLs </de/latest/streamurls.html#nach-welchem-schema-sind-die-streamurls-aufgebaut>`_
 
 Die Hörer-ID wird dann vom Streamingsystem bei Ad-Requests automatisch an den Ad-Server weitergeleitet.
 

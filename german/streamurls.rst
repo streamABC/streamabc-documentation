@@ -21,7 +21,7 @@ Nach welchem Schema sind die StreamURLs aufgebaut?
 --------------------------------------------------
 Es erfolgt eine Systematisierung der StreamURLs nach folgendem Schema:
 
-`http://domain/programm/format/`
+`https://domain/programm/format/aggregator/listenerid/`
 
 
 ----
@@ -35,15 +35,15 @@ Um zu messen, wieviel Hörer den Stream z.B. über die Homepage hören, dafür m
 
 z.B. 
 
-\http://domain/programm/format/**Homepage/**
+\https://domain/programm/format/**Homepage/**
 
 Das Gleiche gilt auch für jeden anderen Aggreagtor. Zum Beispiel in der App diese URL nutzen:
 
-\http://domain/programm/format/**App/**
+\https://domain/programm/format/**App/**
 
 oder an TuneIn diese StreamURL weitergeben:
 
-\http://domain/programm/format/**Tunein/**
+\https://domain/programm/format/**Tunein/**
 
 ----
 
@@ -52,7 +52,7 @@ oder an TuneIn diese StreamURL weitergeben:
 
 Kann ich mit der StreamURL eine eindeutige Hörer-ID übergeben?
 --------------------------------------------------------------
-Um Hörer über das gesamte Streamsystem zu verfolgen und das Capping für Werbeausspielung zu optimieren, kann eine vom Player erzeugte Hörer-ID an die StreamURL gehängt werden.
+Um das Capping für Werbeausspielung zu optimieren, kann eine vom Player erzeugte Hörer-ID an die StreamURL gehängt werden.
 
 z.B. 
 
