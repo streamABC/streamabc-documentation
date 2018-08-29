@@ -34,7 +34,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
     player
     troubleshooting
     glossary
-
+    
 
 Indices and tables
 ==================
