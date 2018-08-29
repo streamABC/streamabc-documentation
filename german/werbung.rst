@@ -98,7 +98,7 @@ Metadaten
 Wie kann ich das Capping für Pre-Stream Ads beeinflussen?
 ---------------------------------------------------------
 Für ein korrektes Capping muss der Ad-Server den Hörer zuverlässig wiedererkennen können. Nur dann kann er das Ausspielen der Spots über die Hörersession beeinflussen.
-Standardmäßig erzeugt unser Streamingsystem einen Hash-Wert über verschiedene Parameter der Verbindung wie IP-Adresse, User-Agent usw. Da viele Clients jedoch auch aus Datenschutzgründen nur wenige Daten senden und die IP-Adresse in größeren Netzen nicht mehrfach verwendet wird,
+Standardmäßig erzeugt unser Streamingsystem einen Hash-Wert über verschiedene Parameter der Verbindung wie IP-Adresse, User-Agent, Referrer usw. Da viele Clients jedoch auch aus Datenschutzgründen nur wenige Daten senden und die IP-Adresse in größeren Netzen nicht mehrfach verwendet wird,
 ist dieser Hash-Wert für korrektes Capping meist nicht ausreichend.
 
 Die Player als Website oder App haben meist mehr Möglichkeiten, den Hörer individuell zu identifizieren. So kann im Player ein Cookie verwendet werden oder in Apps eine eindeutige Gerätekennung.
