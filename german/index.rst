@@ -14,7 +14,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 * `Player-SDK Documentation </en/latest/#sdk-docs>`_
 
 
-Diese Dokumentation wird permanent gepflegt und sukzessive ergänzt.
+Diese Dokumentation wird ständig gepflegt und sukzessive ergänzt.
 
 ..  _faqs:
 
