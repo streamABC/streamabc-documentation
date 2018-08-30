@@ -83,6 +83,26 @@ Der Audiostream kann anschließend mit einem Klick in der Console aktiviert werd
 
 
 
+----
+
+.. index:: Beschränkungen
+.. index:: Zusätze
+.. index:: Wiederholungen verhindern
+
+
+Beschränkungen und Zusätze
+--------------------------
+
+Es ist möglich zusätzliche Regeln zu definieren, um die Playlist eines Streams weiter im Detail zu individualisieren.
+Innerhalb der Konfiguration eines Smartblocks können Sie Beschränkungen und Zusätze definieren.
+
+Mit Hilfe von Beschränkungen regeln Sie, wie oft z.B. der gleiche Interpret oder Songs aus dem gleichen Album im Stream zu hören sein dürfen. 
+Sie können damit sehr einfach Wiederholungen verhindern.
+
+Im Bereich "Zusätze" können Sie sehr genau einstellen, in welcher Regelmäßigkeit z.B. Jingles oder Promos im Stream laufen sollen.
+Aber auch das regelmäßige Spielen eines zufälligen Songs aus einem Album lässt sich mit dieser Funktion umsetzen.
+
+.. image:: img/20180830-playlistdesigner-additionals-restrictions-de.png
 
 
 ----
@@ -111,6 +131,11 @@ Gibt es z.B. mehrere Jingles mit den gleichen Meta-Kriterien, dann wird per Zufa
 Das Zufallssystem ist so konfiguriert, dass erst alle Elemente mit den gleichen Meta-Kriterien einmal ausgewählt sein müssen, bevor es eine Wiederholung gibt.
 
 .. image:: img/20180830-playlistdesigner-additionals-de.png
+
+
+
+
+
 
 
 
