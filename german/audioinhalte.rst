@@ -1,7 +1,8 @@
 .. index:: Audioinhalte
+.. index:: Dynamische Audioinhalte
 
-Audioinhalte
-***********
+Dynamische Audioinhalte
+***********************
 
 
 
