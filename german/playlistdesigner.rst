@@ -3,11 +3,14 @@
 PlaylistDesigner
 ****************
 
+
+----
+
 .. index:: Playlist erstellen
 .. index:: Schnellster Weg zur Playlist
 
-I. Wie erstelle ich am schnellsten einen Stream aus vorhandenen MP3-Dateien?
-----------------------------------------------------------------------------
+Wie erstelle ich am schnellsten einen Stream aus vorhandenen MP3-Dateien?
+-------------------------------------------------------------------------
 
 Voraussetzung:
 Eine Auswahl an MP3-Dateien, einen Zugang zum PlaylistDesigner und ein Internetbrowser.
@@ -26,7 +29,7 @@ Im Folgenden jetzt die detaillierte Beschreibung der drei Schritte:
 .. index:: Titel für die Playlist markieren
 
 Metadaten der MP3-Dateien aktualisieren und die Titel für die Playlist markieren
---------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Um später, beim Abspielen der Playlist, Titel und Artist korrekt anzeigen zu können,
 dafür müssen korrekte Metadaten in den MP3-Dateien vorhanden sein. 
 Realisiert wird das über den ID3-Tag.
@@ -53,7 +56,7 @@ Das ist der schnellste Weg eine Playlist aus vorhandenen MP3-Dateien zu erstelle
 .. index:: MP3-Dateien Upload
 
 Upload der Dateien im PlaylistDesigner
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. image:: img/schnellste-playlist/03-schnellste-playlist.png
 
 
@@ -62,7 +65,7 @@ Upload der Dateien im PlaylistDesigner
 .. index:: Playlist erstellen
 
 Neuen Smartblock für Playlist anlegen und markierte Titel der Playlist zuweisen
--------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. image:: img/schnellste-playlist/04-schnellste-playlist.png
 Auf den Button "Medienordner" klicken
 
@@ -84,15 +87,44 @@ Der Audiostream kann anschließend mit einem Klick in der Console aktiviert werd
 
 ----
 
-II. Weitere Einstellmöglichkeiten
----------------------------------
+.. index:: Promos
+.. index:: Jingles
+.. index:: Teaser
+
+
+Promos, Jingles und Teaser-Elemente
+-----------------------------------
+
+.. index:: Zusatz-Elemente systematisch einem Stream hinzuzufügen
+
+Welche Möglichkeiten gibt es, um Zusatz-Elemente wie z.B. Jingles systematisch einem Stream hinzuzufügen?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Eine automatische Anreicherung ist im Smartblock sehr einfach. 
+Einfach alle Zusatz-Elemente als Audio-Dateien in das System uploaden. 
+Dann die Metadaten der Zusatz-Elemente so anpassen, dass man sie anhand bestimmter Kriterien wiederfinden kann.
+Zum Beispiel alle Jingles zu einem bestimmten Thema mit dem gleichen Label kennzeichnen.
+
+Anschließend können Sie im Bereich "Zusätze" ihrer Smartblöcke die Zusatz-Elemente systematisch hinzufügen.
+Es besteht die Möglichkeit alle X Minuten oder alle X Titel ein Zusatz-Element setzen zu lassen.
+Gibt es z.B. mehrere Jingles mit den gleichen Meta-Kriterien, dann wird per Zufall ein Jingle-Element ausgewählt. 
+Das Zufallssystem ist so konfiguriert, dass erst alle Elemente mit den gleichen Meta-Kriterien einmal ausgewählt sein müssen, bevor es eine Wiederholung gibt.
+
+.. image:: img/20180830-playlistdesigner-additionals-de.png
+
+
+
+----
+
+Weitere Einstellmöglichkeiten
+-----------------------------
 
 .. index:: Werbeblöcke konfigurieren
 .. index:: Werbeblöcke verteilen
 .. index:: Automatische Werbeblöcke
 
 Wenn ich 180 Sekunden über 3 Werbeblöcke verteile, wie ist dann der Algorithmus? 3 Blöcke á 60 Sekunden? Und wann spielt das System diese dann aus? Alle 20 Minuten? Und nach wie viel Minuten kommt der erste Werbeblock?
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Der Algorithmus ist sehr einfach. Wenn 180 Sekunden Werbezeit pro Stunde über 3 Werbeblöcke konfiguriert werden, 
 dann werden in der Playlist automatisch 3 Werbeblöcke mit je 60 Sekunden eingefügt.
@@ -124,13 +156,13 @@ Mit Start des Werbeblocks wird auch das Intervall von 20 Minuten neu gestartet.
 
 ----
 
-III. Troubleshooting
---------------------
+Troubleshooting
+---------------
 
 .. index:: Duplikate
 
 Umgang mit Duplikaten / Überschreiben von hochgeladenen Titeln
---------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Der Playlistdesigner erkennt einen hochgeladenen Titel als bereits in der Datenbank vorhanden und überschreibt diesen, wenn folgende Kriterien erfüllt sind:
 
 Titel, Artist und Album sind im ID3-Tag identisch und der Titel wurde vom selben Nutzer hochgeladen. 

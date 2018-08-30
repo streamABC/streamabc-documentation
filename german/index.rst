@@ -14,12 +14,12 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 * `Player-SDK Documentation </en/latest/#sdk-docs>`_
 
 
-(Weitere Bereiche werden folgen)
+Diese Dokumentation wird permanent gepflegt und sukzessive ergänzt.
 
 ..  _faqs:
 
 ..  toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: FAQs
 
     playlistdesigner
@@ -33,7 +33,6 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
     ma-audio-ip
     player
     troubleshooting
-    glossary
 
 
 Indices and tables
