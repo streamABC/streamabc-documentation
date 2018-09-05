@@ -140,9 +140,9 @@ Um die Anzahl der unterschiedlichen Hörer zählen zu können, müsste es mögli
 Es gibt aber keine Cookies in der Audiostreaming-Welt. Cookies gibt es nur im Browser. Audiostreams aber kann man nicht nur mit Web-Browsern hören, sondern auch mit alten WLAN-Radios, Sonos und anderen Playern.
 Um den Unique User zu ermitteln, benötigt es deswegen außergewöhnlichen Entwickler-Aufwand.
 
-Wenn Sie bereit sind eine außergewöhnliche Entwicklerleistung für die Ermittlung wiederkehrenden Hörer erbringen, dann bitte geben Sie uns Bescheid, indem Sie ein Ticket öffnen: 
-|helpdesk| .  
-Es gibt die Möglichkeit der Übergabe der Unique UserID über die StreamURL.
+Es gibt die Möglichkeit der Übergabe der Unique UserID bzw. Listenerid über die StreamURL.
+
+.. seealso:: `Schema StreamURLs <streamurls.html#nach-welchem-schema-sind-die-streamurls-aufgebaut>`_
 
 
 ----
