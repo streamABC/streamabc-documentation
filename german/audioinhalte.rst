@@ -9,8 +9,7 @@ Dynamische Audioinhalte
 Ist es möglich, Beiträge aus einem RSS-Feed mehrfach pro Stunde im Stream laufen zu lassen?
 ---------------------------------------------------------------------------------
 
-Ja, dazu einfach eine neue Konfiguration hinzufügen.
-
+Ja. Dazu einfach eine neue Konfiguration hinzufügen.
 Es ist problemlos möglich pro Podcast/RSS-Feed mehrere Konfiguartionen anzulegen.
 
 
