@@ -112,7 +112,7 @@ Viele Dateien auf einmal löschen:
 
 .. image:: img/viele-dateien-loeschen.png
 
-.. seealso:: `Video-Tutorial "Elemente im PlaylistDesigner Löschen" <https://youtu.be/z1b2acVCrwc>`_
+.. seealso:: `Video-Tutorial "Elemente im PlaylistDesigner löschen" <https://youtu.be/z1b2acVCrwc>`_
 ----
 
 
