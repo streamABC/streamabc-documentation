@@ -91,9 +91,10 @@ Der Audiostream kann anschließend mit einem Klick in der Console aktiviert werd
 .. index:: Zusätze
 .. index:: Wiederholungen verhindern
 
+.. index:: Dateien löschen
+
 Wie lösche ich Dateien im PlaylisteDesigner?
 --------------------------------------------
-.. index:: Dateien löschen
 
 Eine oder mehrere Dateien löschen:
 
