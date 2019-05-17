@@ -111,6 +111,8 @@ Viele Dateien auf einmal löschen:
 #. Wollen sie nicht alle markierten Datein löschen, ist es möglich einzelne Elemente abzuwählen - dazu einfach das Häkchen entfernen
 
 .. image:: img/viele-dateien-loeschen.png
+
+.. seealso:: `Video-Tutorial "Elemente im PlaylistDesigner Löschen" <https://youtu.be/z1b2acVCrwc>`_
 ----
 
 
