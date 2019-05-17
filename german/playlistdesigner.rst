@@ -57,6 +57,8 @@ Das ist der schnellste Weg eine Playlist aus vorhandenen MP3-Dateien zu erstelle
 
 Upload der Dateien im PlaylistDesigner
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Um Ihrer Bibliothek weitere Audio-Elemente hinzuzufügen, klicken Sie auf „Medien hinzufügen“. Dann können Sie die Dateien hochladen.
+
 .. image:: img/schnellste-playlist/03-schnellste-playlist.png
 
 
