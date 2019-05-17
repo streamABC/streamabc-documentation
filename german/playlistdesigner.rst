@@ -91,8 +91,8 @@ Der Audiostream kann anschließend mit einem Klick in der Console aktiviert werd
 .. index:: Zusätze
 .. index:: Wiederholungen verhindern
 
-Wie lösche ich Dateien im PlaylisteDesigner
--------------------------------------------
+Wie lösche ich Dateien im PlaylisteDesigner?
+--------------------------------------------
 Eine oder mehrere Dateien löschen:
 
 1. Wählen Sie in der Bibliothek ein oder mehrere Elemente aus
@@ -103,11 +103,15 @@ Eine oder mehrere Dateien löschen:
 Viele Dateien auf einmal löschen:
 
 1. Gehen Sie in "Erweiterte Suchoptionen" und grenzen Sie die angezeigten Ergebnisse entsprechend Ihrer Lösch-Wünsche ein
-#. Bei "Auswählen" die ganze Seite anwählen, um möglichst viele Dateien auf einmal anzuwählen
+#. Bei "Auswählen" die ganze Seite anwählen, um möglichst viele Dateien auf einmal zu markieren
 #. Löschen
 #. Wollen sie nicht alle markierten Datein löschen, ist es möglich einzelne Elemente abzuwählen - dazu einfach das Häkchen entfernen
 
 .. image:: img/viele-dateien-loeschen.png
+----
+
+.. index:: Dateien löschen
+
 
 Beschränkungen und Zusätze
 --------------------------
