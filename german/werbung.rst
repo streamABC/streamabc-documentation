@@ -29,7 +29,6 @@ Wie funktioniert die automatische Werbeeinblendung?
 Mit Start des Streams oder mit Auslösen des Werbeimpulses (Trigger) fragt das Streamingsystem bei Ihrem Vermarkter an, ob für diesen Hörer ein Spot vorliegt. Wenn der Vermarkter eine positive Antwort gibt, dann wird der Stream kurz angehalten und das Streamingsystem blendet automatisch einen Spot in ihrem Stream ein. Gleichzeitig wird automatischen ein Protokoll über die Werbeeinblendung erstellt und an ihren Vermarkter versendet.
 Mit der Spot-Anfrage für jeden Hörer beim Vermarkter muss eine ZonenID mit übergeben werden. Diese ZonenIDs für Pre-Stream und In-Stream erhalten Sie von Ihrem Vermarkter 
 
-
 ----
 
 .. index:: DAAST-Schnittstelle 
@@ -89,6 +88,30 @@ Beep
 
 Metadaten
     In einen Audio-Stream können Metadaten integriert werden. Es ist möglich für das Streamingsystem bei einem bestimmten Muster der Metadaten die automatische Werbeeinblendung zu starten. 
+
+----
+
+
+.. index:: Trigger InStreamAd
+.. index:: Werbeimpuls mittels Metadaten
+.. index:: Metadaten-Werbeimpuls / Trigger
+
+Wie muss der Auslöser des Werbeimpulses (Trigger) bei Metadaten aussehen?
+---------------------------------------------------------------------------
+
+In den Metadaten muss der String "InStreamAd" stehen (egal ob als Titel oder Artist).
+
+Zur genauen Steuerung kann danach noch angegeben werden:
+
+- N:X -> maximale Anzahl Spots
+
+- L:X -> maximale Dauer des Werbeblocks in Sekunden
+
+Beispiel:
+    "InStreamAd N:2" -> max. 2 Spots 
+
+    "InStreamAd L:30" -> max. 30 Sekunden für Werbung
+
 
 ----
 
