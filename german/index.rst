@@ -1,47 +1,29 @@
-.. streamABC documentation master file, created by
-   sphinx-quickstart on Mon Jul 31 15:43:58 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Willkommen in streamABC's Dokumentation!
+Willkommen in der Doku von streamABC!
 ========================================
 
 Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 
-* :ref:`faqs`
-* `Distributors </en/latest/#distributor-docs>`_
-* `API Documentation </en/latest/#api-docs>`_
-* `Player-SDK Documentation </en/latest/#sdk-docs>`_
-* `Stream Recorder <streamrecorder>`_
-
-
-Diese Dokumentation wird ständig gepflegt und sukzessive ergänzt.
-
-..  _faqs:
+**Support für Anwender:**
 
 ..  toctree::
-    :maxdepth: 1
-    :caption: FAQs
+    :maxdepth: 3
 
-    playlistdesigner
-    audioinhalte
-    streamwatch
-    audioquelle
-    listener-mounts
-    streamurls
-    werbung
-    metadatas
-    ma-audio-ip
-    player
-    troubleshooting
+    quantumcast/index
+    <!-- streamrecorder/index -->
 
 
-Indices and tables
-==================
+**Support für Entwickler:**
+
+* `API Documentation </en/latest/#api-docs>`_
+* `Distributors </en/latest/#distributor-docs>`_
+* `Player-SDK Documentation </en/latest/#sdk-docs>`_
+
+
+Diese Dokumentationen werden ständig gepflegt und sukzessive ergänzt.
+
 
 * :ref:`genindex`
 * :ref:`glossary`
-
 
 
 ----
