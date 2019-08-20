@@ -12,6 +12,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
 * `Distributors </en/latest/#distributor-docs>`_
 * `API Documentation </en/latest/#api-docs>`_
 * `Player-SDK Documentation </en/latest/#sdk-docs>`_
+* `Stream Recorder <streamrecorder>`_
 
 
 Diese Dokumentation wird ständig gepflegt und sukzessive ergänzt.
@@ -19,7 +20,7 @@ Diese Dokumentation wird ständig gepflegt und sukzessive ergänzt.
 ..  _faqs:
 
 ..  toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: FAQs
 
     playlistdesigner
