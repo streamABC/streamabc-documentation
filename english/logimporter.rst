@@ -11,12 +11,12 @@ You can use *Logimporter* to stream logs to streamABC ("tail-mode") on the fly o
 - Icecast
 - Shoutcast 1
 - Windows Media Server
-- AIS
+- AIS (Ver. 7.x and 8.x)
 
 Installation
 ------------
 
-The *Logimporter* comes as a single static binary that can be
+The *Logimporter* is shipped as a single static binary that can be
 used without further installation. Just download the file, put it somewhere and 
 make it executable.
 
@@ -24,7 +24,7 @@ Get in contact with streamABC support to get your installation files.
 
 *Logimporter* is available in versions for Linux, Windows, macOS and BSD Unix.
 
-The program is controlled with command lines parameters. To get a list of all
+The program is operated with command lines parameters. To get a list of all
 parameters execute this:
 
 .. code-block:: bash
@@ -62,6 +62,17 @@ All parameters work as in tail-mode. You just need to omit the `--tail` flag.
 The program shows the import progress and automatically stops if the end of the file is reached.
 
 .. _streamABC: https://streamabc.com/
+
+AIS Logtype
+----------------
+
+AIS logs access and session logs. Please always use session logs because only these log files contain information 
+on session durations.
+
+AIS uses a configurable log field layout. Logimporter tries to detect the current field definition by using 
+the line prefixed with `#Fields:` that is included in every session log file.
+
+If no field configuration can be found it uses a default. 
 
 
 ----
