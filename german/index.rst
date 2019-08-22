@@ -9,7 +9,7 @@ Die streamABC Dokumentation ist unterteilt in folgende Bereiche:
     :maxdepth: 3
 
     quantumcast/index
-    <!-- streamrecorder/index -->
+    streamrecorder/index
 
 
 **Support für Entwickler:**
