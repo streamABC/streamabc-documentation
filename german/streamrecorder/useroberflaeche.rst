@@ -5,7 +5,7 @@ User-Oberfläche
 
 
 
-Mit dem Streamrecorder lassen sich eigene und fremde Sender im Internet aufzeichnen, um die Inhalte genauer analysieren zu können. Nach dem Einloggen über die Weboberfläche des Streamrecorders gelangt man in den Home-Bereich. Hier erhält man einen Überblick über die zuletzt angesehenen Channels. 
+Nach dem Einloggen über die Weboberfläche des Streamrecorders gelangt man in den Home-Bereich. Hier erhält man einen Überblick über die zuletzt angesehenen Channels. 
 
 Ein Klick auf „Mitschnitte“ und eine Liste aller Sender wird angezeigt. Welche man sieht, ist abhängig davon, für welche Gruppe man freigeschaltet ist. Die Freischaltung kann nur über einen User mit Administratoren-Funktion erfolgen.
 
