@@ -2,19 +2,16 @@ Streamrecorder
 ==============
 
 
-
-
-..  toctree::
-    :maxdepth: 2
-    :caption: Inhalt
-    
-
-    useroberflaeche
-    administrator
-
 Mit dem Streamrecorder lassen sich eigene und fremde Sender im Internet aufzeichnen, um die Inhalte genauer analysieren zu können. Je nach Berechtigung kann man sich als Administrator oder normaler User anmelden. 
 
 .. image:: img/Ueberblick_Mitschnitte.png
+
+..  toctree::
+    :maxdepth: 2
+    :caption: Inhalt 
+
+    useroberflaeche
+    administrator
 
 * :ref:`genindex`
 * :ref:`glossary`
