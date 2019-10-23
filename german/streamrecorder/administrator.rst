@@ -27,6 +27,8 @@ Oder man fügt einen neuen Stream hinzu - dafür benötig man lediglich Titel un
 
 .. image:: img/Team_Mitglied_hinzufuegen.png
 
+
+
 ----
 
 Bei weiteren Fragen bitte ein Ticket öffnen: |helpdesk|

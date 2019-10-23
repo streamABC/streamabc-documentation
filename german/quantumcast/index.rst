@@ -7,6 +7,7 @@ QuantumCast
     :maxdepth: 2
     :caption: Inhalt
 
+    console/index
     faq/index
 
 
