@@ -1,4 +1,3 @@
-.. index:: channelservices
 
 Channelservices
 ****************
@@ -6,7 +5,7 @@ Channelservices
 
 ----
 
-
+.. index:: Channel erstellen 
 
 Einen neuen Channel erstellen mit Hilfe des PlaylistDesigners
 ==============================================================
@@ -62,6 +61,10 @@ Unter „Test & Kontrolle“ bekommt man schließlich die StreamURLs und die Zie
 .. image:: img/PD_Channel_StreamURL-fertig.png
 
 .. seealso:: `Video-Tutorial "Einen Channel erstellen" <https://www.youtube.com/watch?v=YBApG9pms8c>`_ 
+
+
+.. index:: Channel erstellen 
+.. index:: Externe Audioquelle 
 
 Einen Channel erstellen mit einer eigenen Audioquelle
 =======================================================
@@ -127,6 +130,10 @@ Abschließend unter „StreamURLs“ die „Primärdomain“ auswählen und eine
 Nun erhält man die entsprechenden Ziel-Mounts zur Konfiguration.
 
 .. image:: img/EA_ZielMount.png
+
+
+.. index:: Dynamische Audioinhalte
+.. index:: Podcasts
 
 Arbeiten mit Dynamischen Audioinhalten
 =======================================
@@ -228,6 +235,8 @@ Analog zum Einfügen von Podcasts kann man auch bei Playlisten den „Aktivität
 Zum Schluss noch das Mixing anpassen und fertig.
 
 .. image:: img/DA_Playlist_Soundprocessing.png
+
+.. index:: Sendeprotokolle 
 
 Unter „Dynamische Audioinhalte“ findet man, wenn man nach unten scrollt, auch die Sendeprotokolle des Channels. Unterschiedlichen Elementen (z.B. Musik, News, Jingles, Werbung) sind darin unterschiedliche Farben zugewiesen. Die aktuellsten Elemente der Stunde werden immer zuerst angezeigt
 
