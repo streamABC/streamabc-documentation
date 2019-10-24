@@ -129,3 +129,123 @@ Abschließend unter „StreamURLs“ die „Primärdomain“ auswählen und eine
 Nun erhält man die entsprechenden Ziel-Mounts zur Konfiguration.
 
 .. image:: img/EA_ZielMount.png
+
+Arbeiten mit Dynamischen Audioinhalten
+=======================================
+
+Mit Hilfe Dynamischer Audioinhalte lassen sich komplexe Programme einfach und schnell erstellen. Pro Channel können beliebig viele externe Audioquellen wie Podcast-Feeds oder Playlisten (PlaylistDesigner), eingebunden werden. Durch zahlreiche Konfigurationsmöglichkeiten können die Elemente termingenau geplant werden, es lassen sich verschiedene Aktivitätszeiträume definieren und die Auswahl der dynamischen Audioelemente kann beschränkt werden. Diese Art der Programmerstellung eignet sich beispielsweise hervorragend für die Planung von regelmäßig aktualisierten Nachrichten oder für Programme mit hohen Anforderungen an die Abfolge der Elemente.
+
+Achtung! Um mit Dynamischen Audioinhalten arbeiten zu können, muss die Audioquelle des Channels der PlaylistDesigner sein (siehe 2.2.1).
+
+Um nun einen Podcast einzubinden, in den Menüpunkt „Dynamische Audioinhalte“ gehen. Hier muss der Status auf „Aktiviert“ gesetzt und mit einem Klick auf den Haken bestätigt werden.
+
+.. image:: img/DA_aktivieren.png
+
+Nun mit „+ Podcast-Quelle hinzufügen“ eine neue Quelle anlegen.
+
+.. image:: img/DA_Quelle_Podcast_hinzufuegen.png
+
+Dann die URL des Podcasts angeben und mit „speichern und beauftragen“ den Auftrag abschließen.
+
+.. image:: img/DA_URL_hinzufuegen.png
+
+Jetzt muss die Audioquelle konfiguriert werden. Standardmäßig wird die Übersicht in einer Tabelle angezeigt. Es ist jedoch auch möglich, sich einen Überblick in der Listenansicht zu verschaffen. Außerdem können einige Spalten der Tabelle dazu- oder ausgeblendet werden. 
+
+.. image:: img/DA_Ansichten_Tabelle.png
+
+Nun müssen „Programminhalte und Plan“ konfiguriert werden. Der Titel wurde anhand der Metadaten der PodcastURL automatisch erstellt.
+
+.. image:: img/DA_Playlist_Programminhalte.png
+
+Zuerst muss der „Typ“ bestimmt werden. Das ist wichtig, da verschiedene Typen in den Sendeprotokollen unterschiedlich ausgewiesen werden. Außerdem werden die Metadaten bei verschiedenen Typen unterschiedlich ausgelesen.
+
+.. image:: img/DA_Programminhalte_Typ.png
+
+Dann kann man festlegen, wie oft das Element eingeplant werden soll. Anschließend noch den Wert für „X“ festlegen. Hier würde sich für Nachrichten zum Beispiel „0“ eignen - dann laufen die News immer am Anfang einer Stunde.
+
+.. image:: img/DA_Programminhalte_Plan.png
+
+Nun erfolgt die „Auswahl der Audioelemente“. Bei Nachrichten bietet es sich natürlich an, mit dem neuesten Element zu beginnen. Für andere Audio-Beiträge können natürlich auch andere Möglichkeiten sinnvoll sein.
+
+.. image:: img/DA_Audioinhalte_Reihenfolge.png
+
+Unter „Optionen“ hätte man noch die Möglichkeit „bereits gespielte Elemente merken“ anzuklicken. Diese Elemente würde dann erstmal nicht mehr eingeplant werden. Für Nachrichten wird diese Option nicht benötigt, es könnte aber beispielsweise bei einem Hörspiel von Vorteil sein.
+
+.. image: img/DA_Audioinhalte_Optionen.png
+
+Als nächstes muss man den „Aktivitätszeitraum“ des Podcasts definieren.
+
+.. image:: img/DA_Aktivitaetszeitraum.png
+
+Zum Verändern der „Wochentage“ einfach auf den voreingestellten Wert klicken und die eigene Auswahl treffen. Dann mit einem Klick auf den Haken die Eingabe bestätigen. Die Einstellung der „Stunden“ funktioniert genauso.
+
+.. image:: img/DA_Aktivitaetszeitraum_Tage.png
+
+Nun müssen bei „Start“ und „Ende“ noch die Daten und Zeiten eingeben werden, zwischen denen der Podcast aktiv sein soll. Hierbei wird erst das Datum und dann die Uhrzeit eingegeben.
+
+.. image:: img/DA_Aktivitaetszeitraum_Start.png
+
+Damit alte Podcast-Elemente nicht ewig gespielt werden, kann man bei „Einschränkungen“ das „max. Alter eines Audioelements“ bestimmen.
+
+.. image:: img/DA_Einschraenkungen.png
+
+Und schließlich gibt es auch bei Dynamischen Audioinhalten die Möglichkeit das Mixing durch individuelle Einstellungen zu verfeinern. 
+
+.. image:: img/DA_Sound.png
+
+Um die Podcast-Elemente zu aktivieren, bei „Power“ auf „On“ schalte.
+
+.. image:: img/DA_Power.png
+
+Sobald das Zeitfenster erreicht ist, in dem der Podcast eingeplant ist, wird der Status „active“ (grün) - außerhalb des definierten Zeitfensters steht er auf „waiting“ (orange).
+
+.. image:: img/DA_Status_aktiv.png
+
+Wenn man einen Podcasts nicht mehr benötigt, kann man ihn einfach löschen, indem man bei „Operate“ auf das Mülltonnen-Symbol klickt.
+
+.. image:: img/DA_Operate_Loeschen.png
+
+.. seealso:: `Video-Tutorial "Podcasts in Audiostreams" <https://www.youtube.com/watch?v=Ey_5WAHBBOU>`_ 
+
+Es gibt nicht nur die Möglichkeit Podcasts in einen Channel einzubinden, man kann auch Playlisten aus dem PlaylistDesigner hinzufügen. Diese Variante bietet sich an, um sehr komplexe Programme zu erstellen. Hierfür bei Dynamische Audioinhalte auf  „PlaylistDesigner-Quelle hinzufügen“ klicken.
+
+.. image:: img/DA_PlaylistDesigner_Quelle_hinzufuegen.png
+
+Anschließend eine im PlaylistDesigner erstellte Playlist/Smartblock auswählen und mit „speichern & beauftragen“ anlegen.
+
+.. image:: img/DA_Playlist_auswaehlen.png
+
+Nun noch den „Typ“ der Playlist einstellen und definieren, wie oft die Elemente im Programm auftauchen sollen. In diesem Fall wird alle fünf Elemente ein Titel aus dem Smartblock „Party & Schlager“ gespielt - der Rest des Programms wird mit dem unter „Playout“ festgelegtem Inhalt erstellt. 
+
+.. image:: img/DA_Playlist_Programminhalte.png
+
+Nun bestimmt man, wie die Audioelemente ausgewählt werden. Hier wird immer ein Element zufällig ausgewählt. Wichtig! Damit sich die Titel nicht ständig wiederholen, bei Optionen „bereits gespielte Elemente merken“ anwählen.
+
+.. image:: img/DA_Playlist_Audioelemente.png
+
+Analog zum Einfügen von Podcasts kann man auch bei Playlisten den „Aktivitätszeitraum“ und „Einschränkungen“ definieren. Während es bei Podcasts oft wichtig ist, das „max. Alter eines Audioelements“ festzulegen, könnte man bei Musiktiteln beispielsweise auch „Unendlich“ einstellen, um die Auswahl nicht einzuschränken. 
+
+.. image:: img/DA_Playlist_Aktivitaet_Einschraenkungen.png
+
+Zum Schluss noch das Mixing anpassen und fertig.
+
+.. image:: img/DA_Playlist_Soundprocessing.png
+
+Unter „Dynamische Audioinhalte“ findet man, wenn man nach unten scrollt, auch die Sendeprotokolle des Channels. Unterschiedlichen Elementen (z.B. Musik, News, Jingles, Werbung) sind darin unterschiedliche Farben zugewiesen. Die aktuellsten Elemente der Stunde werden immer zuerst angezeigt
+
+.. image:: img/DA_Sendeprotokoll.png
+
+Unter „Protokoll“ kann man gezielt nach bestimmten Daten suchen, um die Sendeprotokolle einzelner Tage zu analysieren.
+
+.. image:: img/DA_Protokoll_Datum.png
+
+Es ist auch möglich, die einzelnen Spalten des Sendeprotokolls ein- und ausblenden.
+
+.. image:: img/DA_Protokoll_Spalten.png
+
+Für die weitere Verarbeitung lassen sich die Sendeprotokolle in verschiedenen Formaten exportieren. Dafür einfach auf den entsprechenden Button klicken und das gewünschte Format auswählen.
+
+.. image:: img/DA_Protokoll_Export.png
+
+.. seealso:: `Video-Tutorial "Arbeiten mit Sendeprotokollen" <hhttps://www.youtube.com/watch?v=_ZqDgnfCU8M>`_ 
+
