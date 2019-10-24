@@ -1,4 +1,4 @@
-.. index:: ueberblick
+
 
 Überblick
 ****************
@@ -6,9 +6,7 @@
 
 ----
 
-.. index:: Die Menüpunkte der Console
-.. index:: Symbole / Icons
-.. index:: Die Hörerzahlen auf einen Blick
+
 
 Die Menüpunkte der Console
 ============================
@@ -49,6 +47,7 @@ Logout:
 ---------
 Hier kann man die QuantumCast-Plattform wieder verlassen.
 
+.. index:: Symbole / Icons
 
 Symbole / Icons
 =================
@@ -94,6 +93,8 @@ Eingabe abbrechen
 .. image :: img/Hineinhoeren.png
 
 Titel abspielen
+
+.. index:: Hörerzahlen
 
 Die Hörerspitzen auf einen Blick
 =====================================

@@ -247,5 +247,5 @@ Für die weitere Verarbeitung lassen sich die Sendeprotokolle in verschiedenen F
 
 .. image:: img/DA_Protokoll_Export.png
 
-.. seealso:: `Video-Tutorial "Arbeiten mit Sendeprotokollen" <hhttps://www.youtube.com/watch?v=_ZqDgnfCU8M>`_ 
+.. seealso:: `Video-Tutorial "Arbeiten mit Sendeprotokollen" <https://www.youtube.com/watch?v=_ZqDgnfCU8M>`_ 
 
