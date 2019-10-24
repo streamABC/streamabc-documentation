@@ -6,9 +6,7 @@ Channelservices
 
 ----
 
-.. index:: Einen neuen Channel erstellen mit Hilfe des PlaylistDesigners
-.. index:: Symbole / Icons
-.. index:: Die Hörerzahlen auf einen Blick
+
 
 Einen neuen Channel erstellen mit Hilfe des PlaylistDesigners
 ==============================================================
