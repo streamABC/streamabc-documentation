@@ -50,7 +50,7 @@ Sobald man sich für „Professional“ entscheidet, wird der erweiterte Funktio
 
 Achtung! In unserem Beispiel ist die Anzahl der Titel „0“. Das bedeutet in diesem Fall nicht, dass keine Elemente in der Liste vorhanden sind, sondern es handelt sich um einen „Dynamischen Smartblock“. Da in diesem Fall die Längen variieren, weil die Abfolge automatisch immer neu erstellt wird, kann die Titelanzeige in diesem Fall kein eindeutiges Ergebnis liefern. Bei „Playlisten“ und „statischen Smartblöcken“ wird aber die korrekte Titelanzahl angezeigt.
 
-.. index:: StreamURL
+.. index:: StreamURLs
 
 Um etwas hören zu können, wird nun noch eine streamURL benötigt. 
 
@@ -67,6 +67,7 @@ Unter „Test & Kontrolle“ bekommt man schließlich die StreamURLs und die Zie
 
 .. index:: Channel erstellen 
 .. index:: Externe Audioquelle 
+.. index:: Audioquelle 
 
 Einen Channel erstellen mit einer eigenen Audioquelle
 =======================================================
@@ -77,7 +78,7 @@ Unter „Channelservices“ auf „Neu anlegen“ klicken und anschließen den N
 
 Die ProgrammmarkenID ist für jeden Nutzer vorgegeben, eine neue kann nur über den Support beantragt werden. Wenn das Audiosignal fertig angeliefert wird „eigene Audioquelle“ auswählen und auf „Erstellen“ klicken.
 
-Nun, wie bereits unter Punkt 2.2.1 beschrieben, das Setup des Channels einstellen und die Eingabe jeweils mit einem Klick auf den Haken bestätigen.
+Nun, wie bereits unter "einen neuen Channel erstellen mit Hilfe des PlaylistDesigners" beschrieben, das Setup des Channels einstellen und die Eingabe jeweils mit einem Klick auf den Haken bestätigen.
 
 .. image:: img/EA_Setup_Channel.png
 
@@ -99,7 +100,7 @@ Schließlich noch „speichern & beauftragen“ anklicken und die Audioquelle is
 
 .. image:: img/EA_Audioquelle_Speichern.png
 
-Am Ende erhält man einen Überblick über die Werte seiner Audioquelle. Diese Angaben benötigen die Audio-Produzenten, um Ihr Signal an die QuantumCast-Platform zu schicken (PUSH).
+Am Ende erhält man einen Überblick über die Werte der Audioquelle. Diese Angaben benötigen die Audio-Produzenten, um Ihr Signal an die QuantumCast-Platform zu schicken (PUSH).
 
 .. image:: img/EA_Audioquelle_fertig.png
 
@@ -125,9 +126,9 @@ Unten bestimmten Umständen kann es sinnvoll sein, ein Transcoding durchzuführe
 
 Es ist jedem Audio-Produzenten selbst überlassen, ob er ein Signal anliefert und das in verschiedene Ausgabe-Formate transcodiert oder ob er mehrere Audioquellen in verschiedenen Qualitätsstufen anliefert, um ein Transcoding zu vermeiden.
 
-.. image:: img/EA_Channel_StreamURL_Einstellung.png
-
 Abschließend unter „StreamURLs“ die „Primärdomain“ auswählen und einen StreamURL-Key festlegen. Dann „Konfiguration jetzt veröffentlichen“ anklicken.
+
+.. image:: img/EA_Channel_StreamURL_Einstellung.png
 
 Nun erhält man die entsprechenden Ziel-Mounts zur Konfiguration.
 
