@@ -50,7 +50,9 @@ Sobald man sich für „Professional“ entscheidet, wird der erweiterte Funktio
 
 Achtung! In unserem Beispiel ist die Anzahl der Titel „0“. Das bedeutet in diesem Fall nicht, dass keine Elemente in der Liste vorhanden sind, sondern es handelt sich um einen „Dynamischen Smartblock“. Da in diesem Fall die Längen variieren, weil die Abfolge automatisch immer neu erstellt wird, kann die Titelanzeige in diesem Fall kein eindeutiges Ergebnis liefern. Bei „Playlisten“ und „statischen Smartblöcken“ wird aber die korrekte Titelanzahl angezeigt.
 
-Um etwas hören zu können, wie nun noch eine streamURL benötigt. 
+.. index:: StreamURL
+
+Um etwas hören zu können, wird nun noch eine streamURL benötigt. 
 
 .. image:: img/PD_Channel_StreamURL_Einstellung.png
 

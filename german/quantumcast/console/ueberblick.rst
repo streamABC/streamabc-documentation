@@ -18,7 +18,7 @@ Hier findet man einen Überblick über die Hörerspitzen der vergangenen Monate.
 
 Übersicht:
 -----------
-Unter „Übersicht“ finden sich die Menüpunkte „Playouts“, „Sources“, „Transcodings“, „Listenermounts“, „ma IP Audio“ und „Top-Hörerspitzen“. Es werden hier vorwiegend technische Daten angezeigt bzw. können bearbeitet werden.
+Unter „Übersicht“ befinden sich die Menüpunkte „Playouts“, „Sources“, „Transcodings“, „Listenermounts“, „ma IP Audio“ und „Top-Hörerspitzen“. Es werden hier vorwiegend technische Daten angezeigt bzw. können bearbeitet werden.
  
 Channelservices:
 -----------------
@@ -26,7 +26,7 @@ Hier können Channel neu angelegt bzw. bestehende Channel bearbeitet werden.
 
 StreamURLs:
 ------------
-In diesem Bereich können SteamURLs generiert und bearbeitet werden. Darüber hinaus gibt es unter dem Menüpunkt „StreamURL-Domain bearbeiten“ erweiterte Einstellungen - hier kann man beispielsweise einen Primärchannel konfigurieren, der im Notfall einspringt, wenn eine fehlerhafte streamURL übermittelt wird. Auch lassen sich hier Prerollspots unterdrücken, sollten die bei bestimmten Aggregatoren nicht erwünscht sein.
+In diesem Bereich können SteamURLs generiert und bearbeitet werden. Darüber hinaus gibt es unter dem Menüpunkt „StreamURL-Domain bearbeiten“ erweiterte Einstellungen - hier kann man beispielsweise einen Primärchannel konfigurieren, der im Notfall einspringt, wenn eine fehlerhafte streamURL übermittelt wurde. Auch lassen sich hier Prerollspots unterdrücken, sollten die bei bestimmten Aggregatoren nicht erwünscht sein.
 
 Aktuelle Hörer:
 -----------------
