@@ -193,7 +193,7 @@ Nun müssen bei „Start“ und „Ende“ noch die Daten und Zeiten eingeben we
 
 .. image:: img/DA_Aktivitaetszeitraum_Start.png
 
-Damit alte Podcast-Elemente nicht ewig gespielt werden, kann man bei „Einschränkungen“ das „max. Alter eines Audioelements“ bestimmen.
+Damit alte Podcast-Elemente nicht ewig gespielt werden, kann man bei „Einschränkungen“ das „max. Alter eines Audioelements“ festlegen.
 
 .. image:: img/DA_Einschraenkungen.png
 
