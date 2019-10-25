@@ -141,9 +141,9 @@ Nun erhält man die entsprechenden Ziel-Mounts zur Konfiguration.
 Arbeiten mit Dynamischen Audioinhalten
 =======================================
 
-Mit Hilfe Dynamischer Audioinhalte lassen sich komplexe Programme einfach und schnell erstellen. Pro Channel können beliebig viele externe Audioquellen wie Podcast-Feeds oder Playlisten (PlaylistDesigner), eingebunden werden. Durch zahlreiche Konfigurationsmöglichkeiten können die Elemente termingenau geplant werden, es lassen sich verschiedene Aktivitätszeiträume definieren und die Auswahl der dynamischen Audioelemente kann beschränkt werden. Diese Art der Programmerstellung eignet sich beispielsweise hervorragend für die Planung von regelmäßig aktualisierten Nachrichten oder für Programme mit hohen Anforderungen an die Abfolge der Elemente.
+Mit Hilfe Dynamischer Audioinhalte lassen sich komplexe Programme einfach und schnell erstellen. Pro Channel können beliebig viele externe Audioquellen, wie Podcast-Feeds oder Playlisten (PlaylistDesigner), eingebunden werden. Durch zahlreiche Konfigurationsmöglichkeiten können die Elemente termingenau geplant werden, es lassen sich verschiedene Aktivitätszeiträume definieren und die Auswahl der dynamischen Audioelemente kann beschränkt werden. Diese Art der Programmerstellung eignet sich beispielsweise hervorragend für die Planung von regelmäßig aktualisierten Nachrichten oder für Programme mit hohen Anforderungen an die Abfolge der Elemente.
 
-Achtung! Um mit Dynamischen Audioinhalten arbeiten zu können, muss die Audioquelle des Channels der PlaylistDesigner sein (siehe 2.2.1).
+Achtung! Um mit Dynamischen Audioinhalten arbeiten zu können, muss die Audioquelle des Channels der PlaylistDesigner sein (siehe Punkt "Einen neuen Channel erstellen mit Hilfe des PlaylistDesigners").
 
 Um nun einen Podcast einzubinden, in den Menüpunkt „Dynamische Audioinhalte“ gehen. Hier muss der Status auf „Aktiviert“ gesetzt und mit einem Klick auf den Haken bestätigt werden.
 
@@ -163,7 +163,7 @@ Jetzt muss die Audioquelle konfiguriert werden. Standardmäßig wird die Übersi
 
 Nun müssen „Programminhalte und Plan“ konfiguriert werden. Der Titel wurde anhand der Metadaten der PodcastURL automatisch erstellt.
 
-.. image:: img/DA_Playlist_Programminhalte.png
+.. image:: img/DA_Programminhalte_Plan.png
 
 Zuerst muss der „Typ“ bestimmt werden. Das ist wichtig, da verschiedene Typen in den Sendeprotokollen unterschiedlich ausgewiesen werden. Außerdem werden die Metadaten bei verschiedenen Typen unterschiedlich ausgelesen.
 
