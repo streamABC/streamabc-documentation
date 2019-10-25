@@ -163,7 +163,7 @@ Jetzt muss die Audioquelle konfiguriert werden. Standardmäßig wird die Übersi
 
 Nun müssen „Programminhalte und Plan“ konfiguriert werden. Der Titel wurde anhand der Metadaten der PodcastURL automatisch erstellt.
 
-.. image:: img/DA_Programminhalte_Plan.png
+.. image:: img/DA_Programminhalte_Ueberblick.png
 
 Zuerst muss der „Typ“ bestimmt werden. Das ist wichtig, da verschiedene Typen in den Sendeprotokollen unterschiedlich ausgewiesen werden. Außerdem werden die Metadaten bei verschiedenen Typen unterschiedlich ausgelesen.
 
@@ -189,7 +189,7 @@ Zum Verändern der „Wochentage“ einfach auf den voreingestellten Wert klicke
 
 .. image:: img/DA_Aktivitaetszeitraum_Tage.png
 
-Nun müssen bei „Start“ und „Ende“ noch die Daten und Zeiten eingeben werden, zwischen denen der Podcast aktiv sein soll. Hierbei wird erst das Datum und dann die Uhrzeit eingegeben.
+Nun müssen bei „Start“ und „Ende“ noch die Daten und Zeiten eingeben werden, zwischen denen der Podcast aktiv sein soll. Hierbei wird erst das Datum und dann die Uhrzeit angegeben.
 
 .. image:: img/DA_Aktivitaetszeitraum_Start.png
 
@@ -201,7 +201,7 @@ Und schließlich gibt es auch bei Dynamischen Audioinhalten die Möglichkeit das
 
 .. image:: img/DA_Sound.png
 
-Um die Podcast-Elemente zu aktivieren, bei „Power“ auf „On“ schalte.
+Um die Podcast-Elemente zu aktivieren, bei „Power“ auf „On“ schalten.
 
 .. image:: img/DA_Power.png
 
@@ -209,7 +209,7 @@ Sobald das Zeitfenster erreicht ist, in dem der Podcast eingeplant ist, wird der
 
 .. image:: img/DA_Status_aktiv.png
 
-Wenn man einen Podcasts nicht mehr benötigt, kann man ihn einfach löschen, indem man bei „Operate“ auf das Mülltonnen-Symbol klickt.
+Wenn man einen Podcasts nicht mehr benötigt, kann man ihn einfach löschen indem man bei „Operate“ auf das Mülltonnen-Symbol klickt.
 
 .. image:: img/DA_Operate_Loeschen.png
 
