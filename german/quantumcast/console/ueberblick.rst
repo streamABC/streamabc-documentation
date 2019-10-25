@@ -46,6 +46,8 @@ Hier kann man die QuantumCast-Plattform wieder verlassen.
 
 .. index:: Symbole / Icons
 
+----
+
 Symbole / Icons
 =================
 
@@ -91,6 +93,8 @@ Eingabe abbrechen
 
 Titel abspielen
 
+----
+
 .. index:: Hörerzahlen
 
 Die Hörerspitzen auf einen Blick
@@ -118,3 +122,25 @@ Hier erhält man einen Überblick über die vergangenen 24 Monate. Es ist auch m
 
 Die Kosten für den Kunden richten sich nach den Hörerspitzen - abgerechnet wird immer der 2. Peak. 
 
+
+----
+
+Bei weiteren Fragen bitte ein Ticket öffnen: |helpdesk|
+
+Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
+
+
+
+.. |helpdesk| raw:: html
+
+    <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
+
+
+.. |www.streamabc.com| raw:: html
+
+   <a href="https://www.streamabc.com/#quantum-cast" target="_blank">www.streamabc.com/#quantum-cast</a>
+
+.. |Console| raw:: html
+
+   <a href="https://www.streamabc.com/de/quantumcast-console" target="_blank">Console</a>
+   

@@ -3,8 +3,6 @@ Channelservices
 ****************
 
 
-----
-
 .. index:: Channel erstellen 
 
 Einen neuen Channel erstellen mit Hilfe des PlaylistDesigners
@@ -64,6 +62,7 @@ Unter „Test & Kontrolle“ bekommt man schließlich die StreamURLs und die Zie
 
 .. seealso:: `Video-Tutorial "Einen Channel erstellen" <https://www.youtube.com/watch?v=YBApG9pms8c>`_ 
 
+----
 
 .. index:: Channel erstellen 
 .. index:: Externe Audioquelle 
@@ -134,6 +133,7 @@ Nun erhält man die entsprechenden Ziel-Mounts zur Konfiguration.
 
 .. image:: img/EA_ZielMount.png
 
+----
 
 .. index:: Dynamische Audioinhalte
 .. index:: Podcasts
@@ -259,3 +259,25 @@ Für die weitere Verarbeitung lassen sich die Sendeprotokolle in verschiedenen F
 
 .. seealso:: `Video-Tutorial "Arbeiten mit Sendeprotokollen" <https://www.youtube.com/watch?v=_ZqDgnfCU8M>`_ 
 
+
+----
+
+Bei weiteren Fragen bitte ein Ticket öffnen: |helpdesk|
+
+Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
+
+
+
+.. |helpdesk| raw:: html
+
+    <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
+
+
+.. |www.streamabc.com| raw:: html
+
+   <a href="https://www.streamabc.com/#quantum-cast" target="_blank">www.streamabc.com/#quantum-cast</a>
+
+.. |Console| raw:: html
+
+   <a href="https://www.streamabc.com/de/quantumcast-console" target="_blank">Console</a>
+   
