@@ -280,12 +280,12 @@ Folgende Eigenschaften des Channels lassen sich jederzeit anpassen:
 ---------------------------------------------------------------------
 
 **Setup:** 
-Ein neuer Claim oder ein anderes Genre? Ein großer Teil der Setup-Eistellungen lässt sich auch im Nachhinein jederzeit verändern. Einfach auf die bereits definierten Werte klicken und die Änderung eingeben. Dann mit einem Klick auf den Haken bestätigen.
+Ein neuer Claim oder ein anderes Genre? Ein großer Teil der Setup-Eistellungen lässt sich auch im Nachhinein verändern. Einfach auf die bereits definierten Werte klicken und die Änderung eingeben. Dann mit einem Klick auf den Haken bestätigen.
 
 .. image:: img/Channel_bearbeiten_Setup_aendern.png
 
 **Playout:** 
-Auch eine Playlist oder Smartblock lässt sich problemlos nachträglich editieren. Die Einstellungen des Mixing und Soundprocessing können ebenfalls angepasst werden. Dafür einfach auf die Werte bei „Playout-Typ“, „Quelle“, „Startnext“ oder „max. Überblendungslänge“ klicken und neu ausfüllen. Achtung! Pro Channel ist nur ein Playout möglich. Wer den Stream löschen, den Channel aber behalten möchte, der klickt auf das Mülltonnen-Symbol.
+Auch eine Playlist oder einen Smartblock kann man problemlos nachträglich editieren. Die Einstellungen des Mixing und Soundprocessing können ebenfalls angepasst werden. Dafür einfach auf die Werte bei „Playout-Typ“, „Quelle“, „Startnext“ oder „max. Überblendungslänge“ klicken und neu ausfüllen. Achtung! Pro Channel ist nur ein Playout möglich. Wer den Stream löschen, den Channel aber behalten möchte, der klickt auf das Mülltonnen-Symbol.
 
 .. image:: img/Channel_bearbeiten_Playout_aendern.png
 
