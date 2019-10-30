@@ -263,6 +263,7 @@ Für die weitere Verarbeitung lassen sich die Sendeprotokolle in verschiedenen F
 ----
 
 .. index:: Channel bearbeiten
+.. index:: Channel löschen
 
 Den Channel bearbeiten oder löschen
 =====================================
