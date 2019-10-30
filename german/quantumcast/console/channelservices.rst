@@ -262,10 +262,49 @@ Für die weitere Verarbeitung lassen sich die Sendeprotokolle in verschiedenen F
 
 ----
 
+.. index:: Channel bearbeiten
+
+Den Channel bearbeiten oder löschen
+=====================================
+
+Bestehende Channels können jederzeit bearbeitet und - sollten man sie nicht mehr benötigen - auch gelöscht werden. Dafür unter „Channelservices“ auf „Bearbeiten“ klicken.
+
+.. image:: img/Channel_bearbeiten.png
+
+Anschließend erhält man einen Überblick über alle eigenen Channels. Nun kann man den entsprechenden Channel aktivieren - entweder über das Auswahlmenü oder durch einen Klick auf „bearbeiten“.
+
+.. image:: img/Channel_bearbeiten_2.png
+
+Folgende Eigenschaften des Channels lassen sich jederzeit anpassen:
+---------------------------------------------------------------------
+
+**Setup:** 
+Ein neuer Claim oder ein anderes Genre? Ein großer Teil der Setup-Eistellungen lässt sich auch im Nachhinein jederzeit verändern. Einfach auf die bereits definierten Werte klicken und die Änderung eingeben. Dann mit einem Klick auf den Haken bestätigen.
+
+.. image:: img/Channel_bearbeiten_Setup_aendern.png
+
+**Playout:** 
+Auch eine Playlist oder Smartblock lässt sich problemlos nachträglich editieren. Die Einstellungen des Mixing und Soundprocessing können ebenfalls angepasst werden. Dafür einfach auf die Werte bei „Playout-Typ“, „Quelle“, „Startnext“ oder „max. Überblendungslänge“ klicken und neu ausfüllen. Achtung! Pro Channel ist nur ein Playout möglich. Wer den Stream löschen, den Channel aber behalten möchte, der klickt auf das Mülltonnen-Symbol.
+
+.. image:: img/Channel_bearbeiten_Playout_aendern.png
+
+**Dynamische Audioinhalte:** 
+Diese können jederzeit aktualisiert oder ergänzt werden.
+
+**Werbespots:** 
+Audiovermarkter, Preroll- oder Instream-Werbung können je nach Bedarf neu konfiguriert werden.
+
+**Audioquelle:** 
+Eine neue Audioquelle hinzufügen mit „+ Neue Audioquelle“ oder löschen mit einem Klick auf das Mülltonnen-Symbol.
+
+**Hörer-Mountpoints:**
+Genauso verhält es sich bei den Hörer-Mountpoints: Hinzufügen mit „+ Neuer Hörer-Mountpoint“ und löschen mit einem Klick auf das Mülltonnen-Symbol.
+
+----
+
 Bei weiteren Fragen bitte ein Ticket öffnen: |helpdesk|
 
 Besuchen Sie unsere Unternehmens-Website |www.streamabc.com|
-
 
 
 .. |helpdesk| raw:: html
