@@ -8,6 +8,7 @@ QuantumCast
     :caption: Inhalt
 
     console/index
+    dashboard/index
     faq/index
 
 
