@@ -80,7 +80,7 @@ Klassiche WLan-Radios haben damit kein Problem. Auch Apps können die Metadaten 
 Aber Webplayer im Browser können das nicht.
 Für Internet-Browser muss eine spezielle Schnittstelle zum Stremingserver implementiert werden, welche für jeden Hörer individuell die Metadaten ermittelt und überträgt.
 
-Innerhalb der streamABC-Infrastruktur kann dafür ein spezieller Playerservice genutzt werden.
+Innerhalb der QuantumCast-Infrastruktur kann dafür ein spezieller Playerservice genutzt werden.
 
 - `Documentation for streamABC player API <https://github.com/streamABC/api-player/blob/master/Docs-Playerservices.md>`_
 
