@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'streamABC'
-copyright = u'2019, streamABC'
-author = u'streamABC'
+project = u'QuantumCast'
+copyright = u'2020, QuantumCast'
+author = u'QuantumCast'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
