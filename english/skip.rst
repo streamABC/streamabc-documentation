@@ -1,9 +1,9 @@
-streamABC Skip API
+QuantumCast Skip API
 ******************
 
-The streamABC Skip API controls skips in streams using dedicated URL GET parameters appended to a streamABC stream URL.
+The QuantumCast Skip API controls skips in streams using dedicated URL GET parameters appended to a QuantumCast stream URL.
 
-*Note:* The channel behind the stream URL has to be skip enabled in the streamABC console backend to make use of this Skip API. 
+*Note:* The channel behind the stream URL has to be skip enabled in the QuantumCast console backend to make use of this Skip API. 
 
 Example streamURL: http://sabc-test.stream.vip/qc/mp3-256/ (or https://sabc-test.stream.vip/qc/mp3-256/)
 
@@ -23,8 +23,8 @@ URL parameters
 
 The ``sabcsid`` paramter is mandantory. It has to be unique and always the same for a specific user. 
 
-If you are working on a web player you can use our streamABC_ Javascript-SDK_ to generate this listener id and decorate an existing stream URL.
-
+If you are working on a web player you can use our QuantumCast_ Javascript-SDK_ to generate this listener id and decorate an existing stream URL.
+Q
 
 Initial start of a skippable stream
 -----------------------------------
@@ -50,7 +50,7 @@ With a subscription to ``/metadata/{listenerid}`` you get all metadata events in
 
 If it's not possible to open a websockets connection in addition to the stream playback you can generate
 your own session id and send this value as `skip` parameter and leave `skip2` blank. Bear in mind
-that this comes with some drawbacks: A stream start without a valid session id from our streamABC backend will
+that this comes with some drawbacks: A stream start without a valid session id from our QuantumCast backend will
 result in slightly longer wait times until audio begins. In addition you can only skip to the next element in the playlist.
 
 A websockets connection on the other hand gives you some more useful data. You get the users metadata (artist, song)
@@ -68,5 +68,5 @@ our backend tries to re-connect you listener to his already running skip stream.
 a live stream start.
 
 
-.. _streamABC: https://streamabc.com/
+.. _QuantumCast: https://www.quantumcast-digital.com
 .. _Javascript-SDK: https://github.com/streamABC/api-player
