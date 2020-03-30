@@ -12,35 +12,35 @@ Mit der Console ist es möglich, selbständig und individuell, Komponenten und P
 
 .. image:: img/Komponenten_Console.png
 
-QuantumCast-Console:
+QuantumCast-Console
 --------------------
 Hier findet man einen Überblick über die Hörerspitzen der vergangenen Monate.
 
-Übersicht:
+Übersicht
 -----------
 Unter „Übersicht“ befinden sich die Menüpunkte „Playouts“, „Sources“, „Transcodings“, „Listenermounts“, „ma IP Audio“ und „Top-Hörerspitzen“. Es werden hier vorwiegend technische Daten angezeigt bzw. können bearbeitet werden.
  
-Channelservices:
+Channelservices
 -----------------
 Hier können Channel neu angelegt bzw. bestehende Channel bearbeitet werden.
 
-StreamURLs:
+StreamURLs
 ------------
 In diesem Bereich können SteamURLs generiert und bearbeitet werden. Darüber hinaus gibt es unter dem Menüpunkt „StreamURL-Domain bearbeiten“ erweiterte Einstellungen - hier kann man beispielsweise einen Primärchannel konfigurieren, der im Notfall einspringt, wenn eine fehlerhafte streamURL übermittelt wurde. Auch lassen sich hier Prerollspots unterdrücken, sollten die bei bestimmten Aggregatoren nicht erwünscht sein.
 
-Aktuelle Hörer:
+Aktuelle Hörer
 -----------------
 Hier wird die Gesamthörerzahl auf allen Channel angezeigt.
 
-Streamwatch:
+Streamwatch
 ---------------
 Öffnet QuantumCast Streamwatch in einem separaten Browser-Fenster. Dort haben Sie die Möglichkeit die Reichweitenauswertung anzusehen.
 
-Support & Helpdesk:
+Support & Helpdesk
 ---------------------
 Ein Ticket im Helpdesk eröffnen oder in der Dokumentation, unserer Website oder bei YouTube selbst nach Lösungen suchen - wann immer Sie mit uns in Kontakt treten wollen, finden Sie hier Hilfe.
 
-Logout:
+Logout
 ---------
 Hier kann man die QuantumCast-Plattform wieder verlassen.
 

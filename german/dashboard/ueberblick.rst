@@ -1,18 +1,23 @@
+
+.. index:: Big Data
+.. index:: Dashboard 
+
+
 Überblick
 ****************
 
 Für das QuantumCast-Dashboard nutzen wir Grafana, eine Open Source-Plattform zur Datenvisualisierung. Nachdem das Werkzeug bereits seit Beginn der Entwicklung von QuantumCast zur Analyse eingesetzt wird, haben nun auch unsere Kunden die Möglichkeit ihre Daten übersichtlich aufbereitet zu bekommen.
 Um den unterschiedlichen Anforderungen an die Datenauswertung gerecht zu werden, bieten wir drei verschiedene Modelle an:
 
-Basis: 
+Basis
 ------
 Beim Basis-Modell bekommt der Kunde fertige Standard-Dashboards und einen Überblick über die Daten der vergangenen drei Tage.
 
-Business:
+Business
 ---------
 Das Business-Modell ermöglicht es dem Kunden die Zeiträume für die benötigten Daten selbst zu definieren – auch auf ältere Informationen kann zurückgegriffen werden. 
 
-Enterprise:
+Enterprise
 -----------
 Im Enterprise-Modell kann zusätzlich zur Bestimmung der Zeiträume auch auf die Rohdaten zugegriffen werden. 
 

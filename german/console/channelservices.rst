@@ -276,7 +276,7 @@ Anschließend erhält man einen Überblick über alle eigenen Channels. Nun kann
 
 .. image:: img/Channel_bearbeiten_2.png
 
-Folgende Eigenschaften des Channels lassen sich jederzeit anpassen:
+Folgende Eigenschaften des Channels lassen sich jederzeit anpassen
 ---------------------------------------------------------------------
 
 **Setup:** 
