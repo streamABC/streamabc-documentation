@@ -1,6 +1,6 @@
-streamABC API
+QuantumCast API
 *************
 
-The streamABC API enables you to interact with several streamABC_ services.
+The QuantumCast API enables you to interact with several QuantumCast_ services.
 
-.. _streamABC: https://streamabc.com/
+.. _QuantumCast: https://www.quantumcast-digital.com

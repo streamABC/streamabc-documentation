@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'QuantumCast'
-copyright = u'2029, QuantumCast'
+copyright = u'2020, QuantumCast'
 author = u'QuantumCast'
 
 # The version info for the project you're documenting, acts as replacement for
