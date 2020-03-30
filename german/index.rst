@@ -8,8 +8,11 @@ Die Dokumentation ist unterteilt in folgende Bereiche:
 ..  toctree::
     :maxdepth: 3
 
-    quantumcast/index
+    console/index
+    dashboard/index
     streamrecorder/index
+    faq/index
+    
 
 
 **Support für Entwickler:**
