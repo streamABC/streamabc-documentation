@@ -59,7 +59,7 @@ Indices and tables
 
 For more information, please open a ticket: |helpdesk|
 
-Visit our company website: |www.quantum-cast.com|
+Visit our company website: |www.quantumcast-digital.com|
 
 
 
@@ -68,9 +68,9 @@ Visit our company website: |www.quantum-cast.com|
     <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
 
 
-.. |www.quantum-cast.com| raw:: html
+.. |www.quantumcast-digital.com| raw:: html
 
-   <a href="https://www.quantum-cast.com/" target="_blank">www.quantum-cast.com</a>
+   <a href="https://www.quantumcast-digital.comm/" target="_blank">www.quantumcast-digital.com</a>
    
 
 .. |Germany| raw:: html
