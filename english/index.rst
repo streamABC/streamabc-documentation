@@ -70,7 +70,7 @@ Visit our company website: |www.quantumcast-digital.com|
 
 .. |www.quantumcast-digital.com| raw:: html
 
-   <a href="https://www.quantumcast-digital.comm/" target="_blank">www.quantumcast-digital.com</a>
+   <a href="https://www.quantumcast-digital.com/" target="_blank">www.quantumcast-digital.com</a>
    
 
 .. |Germany| raw:: html
