@@ -76,8 +76,7 @@ Daneben wird die aktuelle Hörerzahl (2.) und der Spitzenwert des Zeitraums (3.)
 
 Darunter, bei „Count / CCUs / Broadcasttype“ (4.) werden die Hörer noch einmal nach der Art der Verbreitung aufgeschlüsselt. Diese Einstellung kann jeder Kunde in der QuatumCast Console vornehmen.
 
-Dokumentation Channel bearbeiten / Broadcast-Type einstellen:
-https://streamabc-documentation.readthedocs.io/de/latest/console/channelservices.html#den-channel-bearbeiten-oder-loschen
+.. hint:: Dokumentation Channel bearbeiten / Broadcast-Type einstellen: https://streamabc-documentation.readthedocs.io/de/latest/console/channelservices.html#den-channel-bearbeiten-oder-loschen
 
 .. image:: img/Listeners_BroadcastType.png
 
@@ -119,8 +118,7 @@ Im Dashboard „Sessions / Aggregators“ werden ebenfalls die Daten der vergang
 
 Achtung! Die Aggregatoren können nur korrekt angezeigt werden, wenn sie zuvor gemanagt wurden. Ist dies der Fall, kann man in diesem Dashboard sehr gut erkennen, über welche Wege die Hörer kommen.
 
-Hinweise zum Management von Aggregatoren:
-https://streamabc-documentation.readthedocs.io/de/latest/faq/streamurls.html#wie-ist-es-moglich-mit-der-streamurl-die-jeweiligen-reichweiten-von-homepage-apps-und-aggreagtoren-zu-messen
+.. hint:: Hinweise zum Management von Aggregatoren: https://streamabc-documentation.readthedocs.io/de/latest/faq/streamurls.html#wie-ist-es-moglich-mit-der-streamurl-die-jeweiligen-reichweiten-von-homepage-apps-und-aggreagtoren-zu-messen
 
 Das erste Diagramm „Aggregators / Count / Sessions > 60 sec” zeigt die Hörer-Sessions – die unterschiedlichen Farben stehen dabei für die verschiedenen Aggregatoren. Jeder Balken steht für einen Tag. Darunter befindet sich die Legende.
 
