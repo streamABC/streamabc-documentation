@@ -1,4 +1,4 @@
-streamABC Websockets API
+QuantumCast Websockets API
 ************************
 
 This documentation describes the use of the low-level Websockets API as part of our PlayerServices API.
@@ -9,7 +9,7 @@ https://github.com/streamABC/api-player
 You find all detailed docs for transferred messages here:
 https://github.com/streamABC/api-player/blob/master/Docs-Playerservices.md
 
-The streamABC Websockets allows subscribing for meta-data events on streamABC_ audio streams.
+The QuantumCast Websockets allows subscribing for meta-data events on QuantumCast_ audio streams.
 
 Default URL endpoint for websockets services is:
 ``wss://playerservices.streamabc.net``
@@ -32,7 +32,7 @@ Metadata Events for Channel Subscription
 To receive meta-data events for specific channels subscribe to this path:
 ``/metachannel/{channelkey}``
 
-Please use the channel key provided by streamABC.
+Please use the channel key provided by QuantumCast.
 
 Metadata Events for Station Subscription
 ----------------------------------------
@@ -40,17 +40,18 @@ Metadata Events for Station Subscription
 To receive meta-data events for specific channels subscribe to this path:
 ``/metastation/{stationid}``
 
-Please use the station-id provided by streamABC.
+Please use the station-id provided by QuantumCast.
 
 
-.. _streamABC: https://streamabc.com/
+.. _QuantumCast: https://www.quantumcast-digital.com
 .. _nes-Protocol: https://github.com/hapijs/nes/blob/master/PROTOCOL.md
+
 
 ----
 
 For more information, please open a ticket: |helpdesk|
 
-Visit our company website: |www.quantum-cast.com|
+Visit our company website: |www.quantumcast-digital.com|
 
 
 
@@ -59,6 +60,7 @@ Visit our company website: |www.quantum-cast.com|
     <a href="https://streamabc.zammad.com" target="_blank">https://streamabc.zammad.com</a>
 
 
-.. |www.quantum-cast.com| raw:: html
+.. |www.quantumcast-digital.com| raw:: html
 
-   <a href="https://www.quantum-cast.com/" target="_blank">www.quantum-cast.com</a>
+   <a href="https://www.quantumcast-digital.com/" target="_blank">www.quantumcast-digital.com</a>
+   
