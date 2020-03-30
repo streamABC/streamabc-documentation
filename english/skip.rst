@@ -72,7 +72,7 @@ a live stream start.
 .. _Javascript-SDK: https://github.com/streamABC/api-player
 
 
----
+----
 
 For more information, please open a ticket: |helpdesk|
 
