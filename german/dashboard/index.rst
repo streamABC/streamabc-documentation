@@ -1,4 +1,4 @@
-Dashboard
+Dashboard TV
 ================
 
 ..  toctree::
