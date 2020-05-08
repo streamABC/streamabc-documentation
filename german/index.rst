@@ -11,6 +11,7 @@ Die Dokumentation ist unterteilt in folgende Bereiche:
     console/index
     dashboard/index
     streamrecorder/index
+    werbung/index
     faq/index
     
 
