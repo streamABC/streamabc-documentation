@@ -1,5 +1,5 @@
-Werbung
-================
+Werbekonfiguration
+====================
 
 ..  toctree::
     :maxdepth: 1
