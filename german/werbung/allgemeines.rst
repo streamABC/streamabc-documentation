@@ -41,7 +41,7 @@ Bei „Marketer“ den eigenen Vermarkter aus der Liste auswählen und anschlie�
 
 Für Nutzer des QuantumCast Playouts reicht diese Einstellung, um Werbung professionell auszuspielen. Bei Kunden mit externer Audioquelle empfiehlt es sich, für die Midroll-Spots noch zusätzlich die Angaben für „overlay“, „flipbit“ und „drift“ zu ergänzen.
 
-.. seealso:: `Mehr dazu hier <www.quantumcast-digital.de>`_ 
+.. seealso:: `Mehr dazu hier <http://doku.streamabc.com/de/latest/werbung/werbung_externeaudioquelle.html#grundlegende-einstellungen>`_ 
 
 Wenn alle Einstellungen fertig getroffen sind, löst das Streamingsystem bei jedem Trigger eine Anfrage an den Vermarkter aus, ob für den jeweiligen Hörer Spots vorliegen. Gibt der Vermarkter eine positive Antwort, werden die Spots ausgespielt. Gleichzeitig wird automatisch ein Protokoll über die Werbeeinblendung erstellt und an den Vermarkter gesendet. 
 
