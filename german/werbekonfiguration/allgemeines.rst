@@ -77,13 +77,13 @@ Im Bereich „Werbespots“ lassen sich im Hand umdrehen neue Werbeblöcke hinzu
 
 .. seealso:: `Werbekonfiguration mit dem QuantumCast-Playout <http://doku.streamabc.com/de/latest/werbekonfiguration/werbung_qcplayout.html#konfiguration-der-midroll-spots>`_ 
 
-**Metadaten:**
-Im Audiostream werden Metadaten integriert - das Streamingsystem erkennt bestimmte Muster und startet dann die automatische Werbeeinblendung.
+| **Metadaten:**
+| Im Audiostream werden Metadaten integriert - das Streamingsystem erkennt bestimmte Muster und startet dann die automatische Werbeeinblendung.
 
 .. seealso:: `Wie der Auslöser des Werbeimpulses (Trigger) bei Metadaten aussehen muss <http://doku.streamabc.com/de/latest/faq/werbung.html#wie-muss-der-ausloser-des-werbeimpulses-trigger-bei-metadaten-aussehen>`_ 
 
-**Beep-Erkennung:**
-Im angelieferten Audiosignal wird ein spezieller Ton (Beep) versteckt - das Streamingsystem erkennt diesen Ton und startet zu diesem Zeitpunkt die automatische Werbeeinblendung.
+| **Beep-Erkennung:**
+| Im angelieferten Audiosignal wird ein spezieller Ton (Beep) versteckt - das Streamingsystem erkennt diesen Ton und startet zu diesem Zeitpunkt die automatische Werbeeinblendung.
 
 
 .. index:: VAST4
