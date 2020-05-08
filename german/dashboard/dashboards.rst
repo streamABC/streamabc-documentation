@@ -35,6 +35,8 @@ Unter „Spot type / time“ (4.) sieht man die Verteilung von Pre-Roll (gelb) u
 
 .. image:: img/Dashboard_Spots_type.png
 
+.. index:: Fillrate
+
 Die Fill rate gibt Auskunft über das Verhältnis von angefragten und tatsächlich ausgespielten Spots. 
 
 .. image:: img/Dashboard_Spots_Fillrate.png
