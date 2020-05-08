@@ -24,7 +24,7 @@ Im QuantumCast DasboardTV kann man sich die Verteilung beider Spot-Typen über e
 
 Die gelben Punkte zeigen die Anzahl der ausgespielten Preroll-Spots, die blauen Linien die Midroll-Spots. Rechts neben dem Diagramm wird angezeigt, in welchem Verhältnis beider Werbeformen zueinanderstehen.
 
-
+ 
 .. index:: Vermarkter
 .. index:: Fillrate
 
@@ -75,7 +75,7 @@ Kunden, die das QuantumCast Playout nutzen, können alle Einstellungen dafür in
 
 Im Bereich „Werbespots“ lassen sich im Hand umdrehen neue Werbeblöcke hinzufügen und alle notwendigen Einstellungen treffen. Dabei wird festgelegt, alle wieviel Elemente oder Minuten die Spots laufen sollen (siehe 1.) und in welchem Zeitraume diese Einstellung aktiv ist (siehe 2.).
 
-.. seealso:: `Werbekonfiguration mit dem QuantumCast-Playout <http://doku.streamabc.com/de/latest/werbekonfiguration/werbung_qcplayout.html>`_ 
+.. seealso:: `Werbekonfiguration mit dem QuantumCast-Playout <http://doku.streamabc.com/de/latest/werbekonfiguration/werbung_qcplayout.html#konfiguration-der-midroll-spots>`_ 
 
 **Metadaten:**
 Im Audiostream werden Metadaten integriert - das Streamingsystem erkennt bestimmte Muster und startet dann die automatische Werbeeinblendung.
