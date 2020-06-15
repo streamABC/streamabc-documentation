@@ -60,7 +60,7 @@ Sollte der Spot dann zu früh oder zu spät im Programm zu hören sein, kann auc
 | Beginnt der Spot zu früh: negativer Wert (- negatives Vorzeichen)
 | Beginnt der Spot zu spät: positiver Wert 
 
-Bei „duration“ empfielt es sich, immer einen höheren Wert anzugeben, als tatsächlich benötigt. wird Das erhöht die Wahrscheinlichkeit, dass der Ad-Server genug passende Spots zur Verfügung stellt. Ein Beispiel:  soll der gewollte Werbeblock eine Dauer von ca. 60 Sekunden haben, dann ist es sinnvoll eine „duration“ von 61 Sekunden zu konfigurieren.
+Bei **„duration“** empfielt es sich, immer einen höheren Wert anzugeben, als tatsächlich benötigt wird. Das erhöht die Wahrscheinlichkeit, dass der Ad-Server genug passende Spots zur Verfügung stellt. Ein Beispiel:  soll der gewollte Werbeblock eine Dauer von ca. 60 Sekunden haben, dann ist es sinnvoll eine „duration“ von 61 Sekunden zu konfigurieren.
 
 Wenn alle Einstellungen fertig getroffen wurden, noch „Power“ auf „On“ setzen und jeweils „Speichern“ anklicken.
 
