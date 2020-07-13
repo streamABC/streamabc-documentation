@@ -14,7 +14,7 @@ Drift
 
 
 Flipbit
-----------
+---------
     "Flipbit" zeigt an, ob der Trigger zum Auslösen der Werbung über Beep-Erkennung oder Metadaten geliefert wird (off = Metadaten, copyright = beep).
 
 
