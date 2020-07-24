@@ -145,6 +145,8 @@ Es gibt die Möglichkeit der Übergabe der Unique UserID bzw. Listenerid über d
 .. seealso:: `Schema StreamURLs <streamurls.html#nach-welchem-schema-sind-die-streamurls-aufgebaut>`_
 
 
+----
+
 .. index:: Bruttokontakte
 
 Was bedeutet es, wenn der Anteil der Bruttokontakte stark steigt, aber die Anzahl der Hörersessions >60 Sekunden gleichbleibend ist?
