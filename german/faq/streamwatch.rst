@@ -151,7 +151,7 @@ Es gibt die Möglichkeit der Übergabe der Unique UserID bzw. Listenerid über d
 
 Was bedeutet es, wenn der Anteil der Bruttokontakte stark steigt, aber die Anzahl der Hörersessions >60 Sekunden gleichbleibend ist?
 ---------------------------------------------
-Aus Sicht eines Programmanbieters kann man dieses Szenario getrost ignorieren. Denn die Anzahl der Bruttokontakte ist nicht aktiv steuerbar. Ein technisches Problem liegt NICHT vor, wenn die Anzahl der Hörersessions >60 Sekunden gleichbleibend ist.
+Aus Sicht eines Programmanbieters kann man dieses Szenario getrost ignorieren. Denn die Anzahl der Bruttokontakte ist nicht aktiv steuerbar. Ein Problem liegt NICHT vor, wenn die Daten der Hörersessions >60 Sekunden gleichbleibend sind.
 
 Hintergrundwissen zu Bruttokontakte:
 
