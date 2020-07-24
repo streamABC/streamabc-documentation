@@ -154,8 +154,8 @@ Was bedeutet es, wenn der Anteil der Bruttokontakte stark steigt, aber die Anzah
 Aus Sicht eines Programmanbieters kann man dieses Szenario getrost ignorieren. Denn die Anzahl der Bruttokontakte ist nicht aktiv steuerbar. Ein technisches Problem liegt NICHT vor, wenn die Anzahl der Hörersessions >60 Sekunden gleichbleibend ist.
 
 Hintergrundwissen zu Bruttokontakte:
-Zum Einen bildet dieser Wert diese Hörer ab, welche nur kurz das Programm hören. (Verbindungen unter 60 Sekunden) 
-Zum Andern aber spielt die natürliche technische Architektur des Internets hier eine nicht unerhebliche Rolle.
+Zum einen bildet dieser Wert diese Hörer ab, welche nur kurz das Programm hören. (Verbindungen unter 60 Sekunden) 
+Zum andern aber spielt die natürliche technische Architektur des Internets hier eine nicht unerhebliche Rolle.
 Eine unkontrollierbare Vielzahl an Robots & Spider sind im Internet unterwegs, z.B.  Suchmaschinen wie Google, Bing, Yahoo, etc., welche nur kurze Verbindungen/HTTP-Requests mit dem Stream aufbauen.
 Auch moderne HTML5-Browser und diverse Player erzeugen automatisch schon beim Aufruf, im Hintergrund ohne das etwas zu hören ist, eine oder mehrere kurze erfolgreiche Verbindungen mit dem Stream.
 Grund dafür ist meist eine nicht beeinflussbare technische Routine, welche überprüft, ob der Stream überhaupt verfügbar ist.
