@@ -34,8 +34,11 @@ https://domain/programm/format/aggregator/listenerId/?awparams
      - Description
      - Example
    * - awparams
-     - awparams are passed to certain players / aggregators
+     - share awparams about certain players/aggregators are passed to Adswizz ad servers 
      - amsparams=playerid:tunein;skey:1605116562
+   * - notracking
+     - All parameters will be drop, this is a simple GDPR no tracking option. Possible values are true and false. Default value assumed is false.
+     - notracking=true
 
 
 
