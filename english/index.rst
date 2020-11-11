@@ -15,6 +15,14 @@ The QuantumCast documentation is organized into several sections:
 
 (more coming soon)
 
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Digital Audio Services
+
+   streamroute
+
 .. _distributor-docs:
 
 .. toctree::
