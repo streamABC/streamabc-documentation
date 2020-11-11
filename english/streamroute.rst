@@ -19,6 +19,24 @@ Features:
 -	Special handling for special aggregators
 
 
+All communications with QuantumCast user audio streams comprises of a set of parameters that can be passed in the stream request. 
+These parameters will capture sufficient details about the available opportunity and help serve a targeted audio stream to the user.
+
+StreamRoute request will look similar to the one below:
+
+https://domain/programm/format/aggregator/listenerId/?awparams
+
+.. list-table:: Request Parameters
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Heading Name
+     - Heading Description
+     - Heading Example
+   * - awparams
+     - awparams are passed to certain players / aggregators
+     - &amsparams=playerid:tunein;skey:1605116562
+
 
 
 .. _QuantumCast: https://www.quantumcast-digital.com
