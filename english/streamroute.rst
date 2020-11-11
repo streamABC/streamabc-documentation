@@ -26,16 +26,16 @@ StreamRoute request will look similar to the one below:
 
 https://domain/programm/format/aggregator/listenerId/?awparams
 
-.. list-table:: Request Parameters
+.. list-table:: StreamRoute Request Parameters
    :widths: 25 25 50
    :header-rows: 1
 
-   * - Heading Name
-     - Heading Description
-     - Heading Example
+   * - Name
+     - Description
+     - Example
    * - awparams
      - awparams are passed to certain players / aggregators
-     - &amsparams=playerid:tunein;skey:1605116562
+     - amsparams=playerid:tunein;skey:1605116562
 
 
 
