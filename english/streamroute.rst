@@ -34,10 +34,10 @@ https://domain/programm/format/aggregator/listenerId/?awparams
      - Description
      - Example
    * - awparams
-     - share awparams about certain players/aggregators are passed to Adswizz ad servers 
+     - share awparams about certain players/aggregators |br| are passed to Adswizz ad servers 
      - amsparams=playerid:tunein;skey:1605116562
    * - notracking
-     - All parameters will be drop. This is a simple GDPR no tracking option. Possible values are true and false. Default value assumed is false.
+     - All parameters will be drop. This is a simple GDPR |br|no tracking option. |br|Possible values are true and false. Default value assumed is false.
      - notracking=true
 
 
@@ -52,7 +52,9 @@ For more information, please open a ticket: |helpdesk|
 
 Visit our company website: |www.quantumcast-digital.com|
 
+.. |br| raw:: html
 
+    <br />
 
 .. |helpdesk| raw:: html
 
