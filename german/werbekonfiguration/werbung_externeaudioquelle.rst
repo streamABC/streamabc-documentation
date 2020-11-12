@@ -43,7 +43,10 @@ Die weiteren Einstellungen richten sich danach, ob der Trigger über Metadaten o
 | Hier kann man einstellen, ob der Trigger zum Auslösen der Werbung über Beep-Erkennung oder Metadaten geliefert wird (off = Metadaten, copyright = beep).
 
 | **drift:** 
-| Da der Trigger-Punkt nie hundertprozentig genau ist, kann man den Versatz angeben. Den entsprechenden Wert findet man heraus, indem der Stream genau analysiert wird. Hierfür kann beispielsweise der Streamrecorder genutzt werden.
+| Da der Trigger-Punkt nie hundertprozentig genau ist, kann man den Versatz angeben. Den entsprechenden Wert (in Millisekunden) findet man heraus, indem der Stream genau analysiert wird. Hierfür kann beispielsweise der Streamrecorder genutzt werden.
+
+| Beginnt der Spot zu früh: negativer Wert (- negatives Vorzeichen)
+| Beginnt der Spot zu spät: positiver Wert 
 
 Weiterhin ist es sinnvoll die maximale Anzahl an Werbespots (**maxAd**) und die Länge der Werbung (**duration**) einzustellen. 
 
@@ -56,9 +59,6 @@ Wird die Beep-Erkennung als Auslöser genutzt, muss neben „overlay“ auch „
 .. image:: img/EA_Werbung_Beep.png
 
 Sollte der Spot dann zu früh oder zu spät im Programm zu hören sein, kann auch hier mit Hilfe der Einstellung „drift“ eine Korrektur vorgenommen werden. Die Angabe der „drift“-Zeit erfolgt in Millisekunden. 
-
-| Beginnt der Spot zu früh: negativer Wert (- negatives Vorzeichen)
-| Beginnt der Spot zu spät: positiver Wert 
 
 Bei **„duration“** empfielt es sich, immer einen höheren Wert anzugeben, als tatsächlich benötigt wird. Das erhöht die Wahrscheinlichkeit, dass der Ad-Server genug passende Spots zur Verfügung stellt. Ein Beispiel:  soll der gewollte Werbeblock eine Dauer von ca. 60 Sekunden haben, dann ist es sinnvoll eine „duration“ von 61 Sekunden zu konfigurieren. Die Angabe der "duration" erfolgt immer in Sekunden.
 
