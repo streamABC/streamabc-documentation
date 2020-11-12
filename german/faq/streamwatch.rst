@@ -147,6 +147,24 @@ Es gibt die Möglichkeit der Übergabe der Unique UserID bzw. Listenerid über d
 
 ----
 
+.. index:: Bruttokontakte
+
+Was bedeutet es, wenn der Anteil der Bruttokontakte stark steigt, aber die Anzahl der Hörersessions >60 Sekunden gleichbleibend ist?
+---------------------------------------------
+Aus Sicht eines Programmanbieters kann man dieses Szenario getrost ignorieren. Denn die Anzahl der Bruttokontakte ist nicht aktiv steuerbar. Ein Problem liegt NICHT vor, wenn die Daten der Hörersessions >60 Sekunden gleichbleibend sind.
+
+Hintergrundwissen zu Bruttokontakte:
+
+Zum einen bildet dieser Wert diese Hörer ab, welche nur kurz das Programm hören (Verbindungen unter 60 Sekunden).
+Zum andern aber spielt die natürliche technische Architektur des Internets hier eine nicht unerhebliche Rolle.
+Eine unkontrollierbare Vielzahl an Robots & Spider sind im Internet unterwegs, z.B.  Suchmaschinen wie Google, Bing, etc., welche nur kurze Verbindungen/HTTP-Requests mit dem Stream aufbauen.
+Auch moderne HTML5-Browser und diverse Player erzeugen automatisch schon beim Aufruf, im Hintergrund ohne das etwas zu hören ist, eine oder mehrere kurze erfolgreiche Verbindungen mit dem Stream.
+Grund dafür ist meist eine nicht beeinflussbare technische Routine, welche überprüft, ob der Stream überhaupt verfügbar ist.
+
+Grundsätzlich lässt sich sagen: die Anzahl der Bruttokontakte (Verbindungen unter 60 Sekunden) ist kaum beeinflussbar und lässt KEINEN Rückschluss auf die Qualität des Programmes oder der Technik zu. Ein Problem liegt NICHT vor, wenn die Daten der Hörersessions >60 Sekunden gleichbleibend sind.
+
+----
+
 
 Bei weiteren Fragen bitte ein Ticket öffnen: |helpdesk|
 
