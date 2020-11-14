@@ -1,5 +1,3 @@
-## setup -> pip3 install -r requirements.txt
-
 # -*- coding: utf-8 -*-
 #
 # streamABC documentation build configuration file, created by
@@ -21,9 +19,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sys
-from datetime import datetime
-from os import path
+
 
 # -- General configuration ------------------------------------------------
 
@@ -35,16 +31,7 @@ from os import path
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # extensions = ['sphinx.ext.githubpages']
-extensions = [
-    'hoverxref.extension',
-    'notfound.extension',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.coverage',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.autosectionlabel'
-]
-autosectionlabel_prefix_document = True
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -60,11 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'QuantumCast'
-#copyright = f'2019–{datetime.now().year}, QuantumCast, '
-#copyright = u'2019–'{datetime.now().year}', QuantumCast, '
+copyright = u'2020, QuantumCast'
 author = u'QuantumCast'
-copyright = str(datetime.now().year) + ', ' + author
-
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -80,13 +64,13 @@ release = u'1.0.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-exclude_trees = ['.build']
+
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
@@ -101,9 +85,7 @@ todo_include_todos = False
 #
 #html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
-#html_theme_path = ["themes"]
-import sphinx_rtd_theme
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = ["themes"]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -115,7 +97,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_last_updated_fmt = '%b %d, %Y'
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -189,32 +171,4 @@ texinfo_documents = [
 ]
 
 
-# Options for the InterSphinx extension
-# -------------------------------------
-
-intersphinx_mapping = {
-    'attrs': ('https://www.attrs.org/en/stable/', None),
-    'coverage': ('https://coverage.readthedocs.io/en/stable', None),
-    'cssselect': ('https://cssselect.readthedocs.io/en/latest', None),
-    'itemloaders': ('https://itemloaders.readthedocs.io/en/latest/', None),
-    'pytest': ('https://docs.pytest.org/en/latest', None),
-    'python': ('https://docs.python.org/3', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master', None),
-    'tox': ('https://tox.readthedocs.io/en/latest', None),
-    'twisted': ('https://twistedmatrix.com/documents/current', None),
-    'twistedapi': ('https://twistedmatrix.com/documents/current/api', None),
-}
-
-# Options for sphinx-hoverxref options
-# ------------------------------------
-
-hoverxref_auto_ref = True
-hoverxref_role_types = {
-    "class": "tooltip",
-    "confval": "tooltip",
-    "hoverxref": "tooltip",
-    "mod": "tooltip",
-    "ref": "tooltip",
-}
-hoverxref_roles = ['command', 'reqmeta', 'setting', 'signal']
 
