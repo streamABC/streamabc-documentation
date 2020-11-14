@@ -60,8 +60,11 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'QuantumCast'
-copyright = f'2019–{datetime.now().year}, QuantumCast, '
+#copyright = f'2019–{datetime.now().year}, QuantumCast, '
+#copyright = u'2019–'{datetime.now().year}', QuantumCast, '
 author = u'QuantumCast'
+copyright = str(datetime.now().year) + ', ' + author
+
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
