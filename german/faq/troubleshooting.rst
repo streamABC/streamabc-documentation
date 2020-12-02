@@ -20,7 +20,7 @@ Zu 1.)
     Wenn alle Hörer das gleiche Problem haben, dann wird die Instream-Werbung falsch getriggert.
     Um das Problem zu beheben, müssen die Werbeauslöser überprüft und angepasst werden. 
     Weitere Information dazu unter:
-    `Wie wird In-Stream Audio Ad ausgelöst? <http://streamabc-documentation.readthedocs.io/de/latest/werbung.html#wie-wird-in-stream-audio-ad-ausgelost>`_
+    `Wie wird In-Stream Audio Ad ausgelöst? <http://streamabc-documentation.readthedocs.io/de/latest/faq/werbung.html#wie-wird-in-stream-audio-ad-ausgelost>`_
 
 Zu 2.)
     Sollte es vereinzelte Hinweise von Hörern geben, oder das Problem scheinbar immer mal wiederauftauchen, aber nicht reproduzierbar sein, dann ist die Ursache ziemlich sicher ein Verbindungsproblem beim Hörer.
