@@ -5,6 +5,8 @@ Channelservices
 
 .. index:: Channel erstellen 
 
+.. _ChannelmitPlaylistDesignererstellen:
+
 Einen neuen Channel erstellen mit Hilfe des PlaylistDesigners
 ==============================================================
 
@@ -69,7 +71,7 @@ Unter „Test & Kontrolle“ bekommt man schließlich die StreamURLs und die Zie
 .. index:: Audioquelle 
 
 Einen Channel erstellen mit einer eigenen Audioquelle
-=======================================================
+======================================================
 
 Unter „Channelservices“ auf „Neu anlegen“ klicken und anschließen den Namen des Channels, die ProgrammmarkenID und die Audioquelle definieren. 
 
@@ -137,21 +139,24 @@ Nun erhält man die entsprechenden Ziel-Mounts zur Konfiguration.
 
 .. index:: Dynamische Audioinhalte
 .. index:: Podcasts
+.. index:: Sequenzen
 
-Arbeiten mit Dynamischen Audioinhalten
-=======================================
+Arbeiten mit dem Dynamischen Programmplan
+===========================================
 
-Mit Hilfe Dynamischer Audioinhalte lassen sich komplexe Programme einfach und schnell erstellen. Pro Channel können beliebig viele externe Audioquellen, wie Podcast-Feeds oder Playlisten (PlaylistDesigner), eingebunden werden. Durch zahlreiche Konfigurationsmöglichkeiten können die Elemente termingenau geplant werden, es lassen sich verschiedene Aktivitätszeiträume definieren und die Auswahl der dynamischen Audioelemente kann beschränkt werden. Diese Art der Programmerstellung eignet sich beispielsweise hervorragend für die Planung von regelmäßig aktualisierten Nachrichten oder für Programme mit hohen Anforderungen an die Abfolge der Elemente.
+Mit Hilfe des Dynamischen Programmplans lassen sich komplexe Programme einfach und schnell erstellen. Pro Channel können mehrere externe Audioquellen, wie Podcast-Feeds, Playlisten (PlaylistDesigner) oder Sequenzen, eingebunden werden. Durch zahlreiche Konfigurationsmöglichkeiten können die Elemente termingenau geplant werden, es lassen sich verschiedene Aktivitätszeiträume definieren und die Auswahl der dynamischen Audioelemente kann beschränkt werden. Diese Art der Programmerstellung eignet sich beispielsweise hervorragend für die Planung von regelmäßig aktualisierten Nachrichten oder für Programme mit hohen Anforderungen an die Abfolge der Elemente.
 
-Achtung! Um mit Dynamischen Audioinhalten arbeiten zu können, muss die Audioquelle des Channels der PlaylistDesigner sein (siehe Punkt "Einen neuen Channel erstellen mit Hilfe des PlaylistDesigners").
+.. hint:: **Achtung!** Um mit dem Dynamischen Programmplan arbeiten zu können, muss die Audioquelle des Channels der PlaylistDesigner sein: :ref:`Channel erstellen mit QuantumCast-Playout <ChannelmitPlaylistDesignererstellen>`
 
+Podcasts einbinden
+--------------------
 Um nun einen Podcast einzubinden, in den Menüpunkt „Dynamische Audioinhalte“ gehen. Hier muss der Status auf „Aktiviert“ gesetzt und mit einem Klick auf den Haken bestätigt werden.
 
 .. image:: img/DA_aktivieren.png
 
 Nun mit „+ Podcast-Quelle hinzufügen“ eine neue Quelle anlegen.
 
-.. image:: img/DA_Quelle_Podcast_hinzufuegen.png
+.. image:: img/DA_QuellePodcast_hinzufuegen.png
 
 Dann die URL des Podcasts angeben und mit „speichern und beauftragen“ den Auftrag abschließen.
 
@@ -179,7 +184,7 @@ Nun erfolgt die „Auswahl der Audioelemente“. Bei Nachrichten bietet es sich 
 
 Unter „Optionen“ hätte man noch die Möglichkeit „bereits gespielte Elemente merken“ anzuklicken. Diese Elemente würde dann erstmal nicht mehr eingeplant werden. Für Nachrichten wird diese Option nicht benötigt, es könnte aber beispielsweise bei einem Hörspiel von Vorteil sein.
 
-.. image: img/DA_Audioinhalte_Optionen.png
+.. image:: img/DA_Audioinhalte_Optionen.png
 
 Als nächstes muss man den „Aktivitätszeitraum“ des Podcasts definieren.
 
@@ -215,6 +220,10 @@ Wenn man einen Podcasts nicht mehr benötigt, kann man ihn einfach löschen inde
 
 .. seealso:: `Video-Tutorial "Podcasts in Audiostreams" <https://www.youtube.com/watch?v=Ey_5WAHBBOU>`_ 
 
+----
+
+Playlisten einbinden
+-----------------------
 Es gibt nicht nur die Möglichkeit Podcasts in einen Channel einzubinden, man kann auch Playlisten aus dem PlaylistDesigner hinzufügen. Diese Variante bietet sich an, um sehr komplexe Programme zu erstellen. Hierfür bei Dynamische Audioinhalte auf  „PlaylistDesigner-Quelle hinzufügen“ klicken.
 
 .. image:: img/DA_PlaylistDesigner_Quelle_hinzufuegen.png
@@ -259,6 +268,67 @@ Für die weitere Verarbeitung lassen sich die Sendeprotokolle in verschiedenen F
 
 .. seealso:: `Video-Tutorial "Arbeiten mit Sendeprotokollen" <https://www.youtube.com/watch?v=_ZqDgnfCU8M>`_ 
 
+----
+
+Arbeiten mit Sequenzen
+--------------------------
+Die Arbeit mit Sequenzen ermöglicht es den Nutzern von QuantumCast eine professionelle Programmplanung umzusetzen. Ähnlich wie bei den Systemen der Radiosender kann mit Stundenuhren gearbeitet werden. Die benötigten Elemente können aus unterschiedlichen Fächern zusammengestellt und nach einer bestimmten Reihenfolge eingeplant werden.
+
+Um Sequenzen nutzen zu können, muss vorher der Channel mit einem QuantumCast-Playout angelegt werden.
+
+Die dort eingestellte Playlist dient als Fallback und wird nur abgespielt, wenn es Probleme mit der Sequenz geben sollte.
+
+Um eine Sequenz anzulegen in „Dynamische Audioinhalte“ gehen und auf „+ Sequenz hinzufügen“ klicken.
+
+.. image:: img/DA_SQ_Sequenz_hinzufuegen.png
+
+Anschließend in der Sequenz das Bearbeiten-Symbol anwählen. 
+
+.. image:: img/DA_SQ_Sequenz_bearbeiten.png
+
+Es öffnet sich ein neues Fenster, der „Sequenz-Editor“. Links wird die „Sequenz“ zusammengestellt, rechts befinden sich die „Audioquellen“. Die Quellen sind alle Playlisten und Smartblöcke, die vorher im PlaylistDesigner erstellt wurden.
+
+.. image:: img/DA_SQ_sequenceeditor.png
+
+Nun kann man beginnen sich eine Sequenz zu bauen. Dafür auf das Kreuz vor der gewünschten „Audioquelle“ klicken und das Element per Drag and Drop in „Sequenzen“ ziehen. Das Element bekommt dort automatisch eine Komponentennummer entsprechend der Reihenfolge in der Sequenz zugewiesen.
+
+.. image:: img/DA_SQ_rueberziehen.png
+
+Unter „Audio-Elemente“ kann man festlegen wie viele Elemente jeweils aus der Playlist gespielt werden sollen. Indem man auf die Nummer klickt, öffnet sich ein Auswahlmenü. Bei „Typ“ wählt man beispielsweise Musik, Jingle, News etc. aus. 
+
+.. image:: img/DA_SQ_Elemente_Typ.png
+
+Rechts wird die Länge des Elements angezeigt – bei Smartblöcken kann hier nur ein Durchschnittswert angezeigt werden.
+
+Die verschiedenen „Typen“ können genutzt werden, um sie später im Protokoll besser erkennen zu können.  „Music1“ bis „Music 8“ ermöglicht es zusätzlich, auf den ersten Blick zu sehen, dass die Musik aus unterschiedlichen Fächern stammt. 
+
+.. imgage:: img/DA_SQ_Typ_waehlen.png
+
+Wie eben beschrieben kann man alle weiteren Smartblöcke und Playlisten in die Sequenz ziehen. 
+
+Hier im Beispiel wurden 17 „Komponenten“ (also Smarblöcke / Playlisten) in die Sequenz gezogen. Da aus einigen Komponenten mehrere Audio-Elemente gespielt werden sollen, ergibt sich eine Sequenz, die aus 21 Elementen besteht und ungefähr 1 Stunde 3 Minuten lang ist.
+
+.. image:: img/DA_SQ_Sequenz_fertig.png
+
+Die Reihenfolge der „Komponenten“ lässt sich jederzeit noch verändern – dafür auf das Kreuz zwischen Komponente und dem Titel des jeweiligen Objekts klicken und an die gewünschte Stelle ziehen. Die Komponentennummern passen sich automatisch an die neue Reihenfolge an. Über das Kreuz rechts, kann man die einzelnen Komponenten auch wieder aus der Sequenz löschen.
+
+Am Ende der Sequenz noch einen „Namen“ geben und festlegen, wann die Sequenz neu durchstartet. Hier kann man wählen zwischen „Am Ende der Sequenz“ oder „Zur vollen Stunde“. Bei einer Stundenuhr z.B. sollte man „Zur vollen Stunde“ wählen, damit das erste Element immer zur vollen Stunde läuft. Die Eingabe mit einem Klick auf den blauen Haken bestätigen, abspeichern und fertig.
+
+.. image:: img/DA_SQ_Name.png
+
+Zurück in der Console können noch weitere Einstellungen getroffen werden. Einen „Typ“ muss man hier nicht vergeben, unter „Titel“ steht automatisch der Name, den man der Sequenz im „Sequenz-Editor“ gegeben hat. Wenn bei „Plan“ „Alle X Elemente“ eingestellt wird und X = 0 ist, bedeutet das, dass die Sequenz direkt startet. Der Punkt „Gewichtung“ wird wichtig, wenn man mehrere Dynamische Audioinhalte nutzt. Will man zum Beispiel News als Podcast einplanen und diesen eine höhere Gewichtung geben als der Sequenz, dann kann man auf diese Weise festlegen, dass die News nach 55 Minuten einer Stunde starten – auch wenn die Sequenz eigentlich noch läuft.
+
+.. image:: img/DA_SQ_Programminhalte.png
+
+Alle weiteren Einstellungen können analog zu den Einstellungen bei Podcasts und Playlists getroffen werden.
+
+.. image:: img/DA_SQ_weitere_Einstellungen.png
+
+Zum Schluss noch „Power“ auf „On“ setzen und die Sequenz ist aktiv und wird im Stream abgespielt.
+
+.. image:: img/DA_SQ_Power.png
+
+.. image:: img/DA_SQ_active.png
 
 ----
 
