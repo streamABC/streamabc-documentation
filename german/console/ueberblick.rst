@@ -5,43 +5,43 @@
 
 
 
-Die Menüpunkte der Console
-============================
+Menüpunkte 
+=============
 
 Mit der Console ist es möglich, selbständig und individuell, Komponenten und Prozesse in der QuantumCast-Plattform anzufordern und zu konfigurieren. Alle Aktivitäten werden unmittelbar und vollautomatisch umgesetzt. 
 
 .. image:: img/Komponenten_Console.png
 
-QuantumCast-Console
---------------------
+**QuantumCast-Console**
+
 Hier findet man einen Überblick über die Hörerspitzen der vergangenen Monate.
 
-Übersicht
------------
+**Übersicht**
+
 Unter „Übersicht“ befinden sich die Menüpunkte „Playouts“, „Sources“, „Transcodings“, „Listenermounts“, „ma IP Audio“ und „Top-Hörerspitzen“. Es werden hier vorwiegend technische Daten angezeigt bzw. können bearbeitet werden.
  
-Channelservices
------------------
+**Channelservices**
+
 Hier können Channel neu angelegt bzw. bestehende Channel bearbeitet werden.
 
-StreamURLs
-------------
+**StreamURLs**
+
 In diesem Bereich können SteamURLs generiert und bearbeitet werden. Darüber hinaus gibt es unter dem Menüpunkt „StreamURL-Domain bearbeiten“ erweiterte Einstellungen - hier kann man beispielsweise einen Primärchannel konfigurieren, der im Notfall einspringt, wenn eine fehlerhafte streamURL übermittelt wurde. Auch lassen sich hier Prerollspots unterdrücken, sollten die bei bestimmten Aggregatoren nicht erwünscht sein.
 
-Aktuelle Hörer
------------------
+**Aktuelle Hörer**
+
 Hier wird die Gesamthörerzahl auf allen Channel angezeigt.
 
-Streamwatch
----------------
+**Streamwatch**
+
 Öffnet QuantumCast Streamwatch in einem separaten Browser-Fenster. Dort haben Sie die Möglichkeit die Reichweitenauswertung anzusehen.
 
-Support & Helpdesk
----------------------
+**Support & Helpdesk**
+
 Ein Ticket im Helpdesk eröffnen oder in der Dokumentation, unserer Website oder bei YouTube selbst nach Lösungen suchen - wann immer Sie mit uns in Kontakt treten wollen, finden Sie hier Hilfe.
 
-Logout
----------
+**Logout**
+
 Hier kann man die QuantumCast-Plattform wieder verlassen.
 
 .. index:: Symbole / Icons
@@ -95,10 +95,80 @@ Titel abspielen
 
 ----
 
+User Management 
+==================
+
+In der QuantumCast Console können verschiedenen Usern verschiedene Rechte zugewiesen werden. Wer befugt ist das „User Management“ zu übernehmen, kann weitere Nutzer-Accounts anlegen.
+
+Dafür in der Console unter „Setup“ auf „User Management“ klicken. Für Nutzer, die dieses Recht nicht haben, ist diese Funktion nicht sichtbar.  
+
+.. image:: img/User_Management.png
+
+Im Bereich „User Management“ findet man eine Liste mit allen Nutzern, die für diese Console freigeschaltet sind. Weiterhin wird in der Tabelle angezeigt, wann sich der User das letzte Mal eingeloggt hat, auf welche Werkzeuge er Zugriff hat und wie sein Status ist.
+
+.. image:: img/User_Management_Ueberblick.png
+
+Um einen neuen Account zu erstellen, klickt man einfach auf „+ Neuer User“. 
+
+Nun vergibt man in der Eingabemaske einen Usernamen (Login) und ein Passwort. Das Passwort muss aus acht oder mehr Zeichen bestehen und mindestens eine Zahl und einen Großbuchstaben enthalten. Anschließend auf „User erstellen“ klicken.
+
+.. image:: img/User_Management_Neuen_User_anlegen.png
+
+Dann können noch weitere Rechte („Permissions“) an den User vergeben werden. Dafür alle benötigten Funktionen anwählen und am Ende mit einem Klick auf den blauen Haken bestätigen.
+
+.. image:: img/User_Management_Rechte_vergeben.png
+
+**Zugriff:** 
+Hier kann man auswählen, ob der Nutzer Zugriff auf „Console + Streamwatch“ oder auf „Streamwatch only“ erhält. Bei „Streamwatch only“ ist der Zugriff auf die Console nicht möglich!
+
+**BrandID:** 
+Sind in einer Console mehrere „BrandIDs“ (ProgrammmarkenIDs) vorhanden und soll nicht jeder Nutzer alle bearbeiten können, kann hier die entsprechende Auswahl getroffen werden.
+
+**Channels:** 
+Innerhalb einer BrandID kann man den Nutzern noch einzelne Channels zuweisen. Dafür in das Feld gehen und den Channel-Namen anfangen zu schreiben – wenn der korrekte Name angezeigt wird, einfach anklicken. Hier können auch mehrere Channels ausgewählt werden.
+
+**Features:** 
+Unter „Features“ können dem User weitere Rechte frei gegeben werde:
+
+* Advanced Settings: Ein Administrator-Bereich, in dem speziell geschulte Operator zusätzliche Einstellungen vornehmen können (z.B. spezielle Opener/Closer für den Werbeblock einbinden)
+* Connect your app: QuantumCast bietet eine Schnittstelle, die die Streams mit den Apps der Sender verbinden kann. Soll ein Nutzer entsprechende Einstellungen vornehmen, muss er hier dafür freigeschaltet werden.
+* MetaSpreader: Hier können weitere Einstellungen zu den Metadaten gemacht werden (z.B. Metadaten an Aggregatoren senden)
+* StreamControl Advanced Setting: Ebenfalls ein Administrator-Bereich für speziell geschulte Operator – hier allerdings zu den erweiterten Funktionen von StreamControl.
+* User Management: Hier kann ein neuer Administrator angelegt werden, der dann selbst das „User Management“ übernimmt.
+
+Hat man alle Einstellungen getroffen, erscheint der neue User in der Liste.
+
+.. image:: img/User_Management_angelegt.png
+
+Klickt man auf das Bearbeiten-Symbol kann man das Profil des Nutzers jederzeit anpassen – oder auch mit einem Klick den User löschen oder das Profil deaktivieren.
+
+.. image:: img/User_Management_Loeschen_Deaktivieren.png
+
+Während ein gelöschter User aus der Liste verschwindet, wird ein Deaktivierter zwar weiter aufgeführt, kann sich aber nicht mehr mit seinen Zugangsdaten einloggen.
+
+.. image:: img/User_Management_deaktiviert.png
+
+----
+
+Passwort ändern 
+==================
+
+Jeder User hat in der QuantumCast Console die Möglichkeit sein eigenes Passwort zu ändern. Dafür einfach auf das Symbol klicken.
+
+.. image:: img/Profil_bearbeiten.png
+
+Im Profil ist der Username fix, dass Password kann allerdings verändert werden. Dafür auf das Passwort klicken, das neue Eingeben und mit einem Klick auf den blauen Haken bestätigen.
+
+.. image:: img/Profil_bearbeiten_2.png
+
+Unter „Last Sessionlogs“ kann man zusätzlich noch sehen, wann man sich die letzten Male angemeldet hatte.
+
+----
+
 .. index:: Hörerzahlen
 
-Die Hörerspitzen auf einen Blick
-=====================================
+Hörerspitzen 
+===============
 
 Die Top-Hörerzahlen der vergangenen Monate immer im Blick - mit der QuantumCast Console kann man jederzeit nachschauen, wie sich die Nutzung der eigenen Channels im Laufe der Zeit entwickelt.
 
@@ -121,6 +191,7 @@ Hier erhält man einen Überblick über die vergangenen 24 Monate. Es ist auch m
 5. Nächste Seiten anzeigen
 
 Die Kosten für den Kunden richten sich nach den Hörerspitzen - abgerechnet wird immer der 2. Peak. 
+
 
 
 ----
