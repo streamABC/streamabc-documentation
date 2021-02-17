@@ -122,10 +122,10 @@ Dann können noch weitere Rechte („Permissions“) an den User vergeben werden
 Hier kann man auswählen, ob der Nutzer Zugriff auf „Console + Streamwatch“ oder auf „Streamwatch only“ erhält. Bei „Streamwatch only“ ist der Zugriff auf die Console nicht möglich!
 
 **BrandID:** 
-Sind in einer Console mehrere „BrandIDs“ (ProgrammmarkenIDs) vorhanden und soll nicht jeder Nutzer alle bearbeiten können, kann hier die entsprechende Auswahl getroffen werden.
+Sind in einer Console mehrere „BrandIDs“ (ProgrammmarkenIDs) vorhanden und soll nicht jeder Nutzer alle bearbeiten können, kann hier die entsprechende Auswahl getroffen werden. Bleibt das Feld leer, kann der User alle BrandIDs sehen.
 
 **Channels:** 
-Innerhalb einer BrandID kann man den Nutzern noch einzelne Channels zuweisen. Dafür in das Feld gehen und den Channel-Namen anfangen zu schreiben – wenn der korrekte Name angezeigt wird, einfach anklicken. Hier können auch mehrere Channels ausgewählt werden.
+Innerhalb einer BrandID kann man den Nutzern noch einzelne Channels zuweisen. Dafür in das Feld gehen und den Channel-Namen anfangen zu schreiben – wenn der korrekte Name angezeigt wird, einfach anklicken. Hier können auch mehrere Channels ausgewählt werden. Wird keine Auswahl getroffen, kann der User alle Channels sehen.
 
 **Features:** 
 Unter „Features“ können dem User weitere Rechte frei gegeben werde:
@@ -161,7 +161,7 @@ Im Profil ist der Username fix, dass Password kann allerdings verändert werden.
 
 .. image:: img/Profil_bearbeiten_2.png
 
-Unter „Last Sessionlogs“ kann man zusätzlich noch sehen, wann man sich die letzten Male angemeldet hatte.
+Unter „Last Sessionlogs“ kann man zusätzlich den Zeitpunkt der letzten Aktivitäten sehen.
 
 ----
 
