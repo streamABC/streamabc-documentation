@@ -39,7 +39,7 @@ Im Bereich „Werbespots“ der QuantumCast Console müssen diese Angaben unter 
 
 Bei „Marketer“ den eigenen Vermarkter aus der Liste auswählen und anschließend die „Zone_Alias“ angeben – selbstverständlich jeweils für die Preroll- und Midroll-Spots.
 
-Für Nutzer des QuantumCast Playouts reicht diese Einstellung, um Werbung professionell auszuspielen. Bei Kunden mit externer Audioquelle empfiehlt es sich, für die Midroll-Spots noch zusätzlich die Angaben für „overlay“, „flipbit“ und „drift“ zu ergänzen.
+Für Nutzer des QuantumCast Playouts reicht diese Einstellung, um Werbung professionell auszuspielen. Bei Kunden mit externer Audioquelle empfiehlt es sich, für die Midroll-Spots noch zusätzlich die Angaben für „overlay“, „flipbit“ und „delay“ zu ergänzen.
 
 .. seealso:: `Mehr dazu hier <http://doku.streamabc.com/de/latest/werbekonfiguration/werbung_externeaudioquelle.html#grundlegende-einstellungen>`_ 
 

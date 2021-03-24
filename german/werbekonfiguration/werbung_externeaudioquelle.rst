@@ -42,15 +42,19 @@ Die weiteren Einstellungen richten sich danach, ob der Trigger über Metadaten o
 | **flipbit:** 
 | Hier kann man einstellen, ob der Trigger zum Auslösen der Werbung über Beep-Erkennung oder Metadaten geliefert wird (off = Metadaten, copyright = beep).
 
-| **drift:** 
+| **delay:** 
 | Da der Trigger-Punkt nie hundertprozentig genau ist, kann man den Versatz angeben. Den entsprechenden Wert (in Millisekunden) findet man heraus, indem der Stream genau analysiert wird. Hierfür kann beispielsweise der Streamrecorder genutzt werden.
 
-| Beginnt der Spot zu früh: negativer Wert (- negatives Vorzeichen)
-| Beginnt der Spot zu spät: positiver Wert 
+| Beginnt der Spot zu früh: positiver Wert 
+| Beginnt der Spot zu spät: negativer Wert (- negatives Vorzeichen)
 
-Weiterhin ist es sinnvoll die maximale Anzahl an Werbespots (**maxAd**) und die Länge der Werbung (**duration**) einzustellen. 
+.. hint:: 
 
-Wenn der Trigger über die Metadaten mitgeliefert wird, muss bei „overlay“ angegeben werden, wie die Werbung in den Stream eingebunden wird. Im Beispiel bedeutet „On“, dass der Stream im Hintergrund weiterläuft und die Spots darübergelegt werden. Da der Impuls über die Metadaten kommt, kann die Einstellung bei „flipbit“ auf „Off“ gelassen werden. Ist das Ergebnis bereits gut, reichen diese Einstellungen. Gegebenenfalls kann es nötig sein, noch den „drift“-Wert (in Millisekunden) zu bestimmen.
+   Achtung! Die Einstellung "delay" löst ab März 2021 die frühere Bezeichnung "drift" ab.
+ 
+Weiterhin ist es sinnvoll die maximale Anzahl an Werbespots (""axAd") und die Länge der Werbung ("duration") einzustellen. 
+
+Wenn der Trigger über die Metadaten mitgeliefert wird, muss bei „overlay“ angegeben werden, wie die Werbung in den Stream eingebunden wird. Im Beispiel bedeutet „On“, dass der Stream im Hintergrund weiterläuft und die Spots darübergelegt werden. Da der Impuls über die Metadaten kommt, kann die Einstellung bei „flipbit“ auf „Off“ gelassen werden. Ist das Ergebnis bereits gut, reichen diese Einstellungen. Gegebenenfalls kann es nötig sein, noch den „delay“-Wert (in Millisekunden) zu bestimmen.
 
 .. image:: img/EA_Werbung_Metadaten.png
 
@@ -58,17 +62,17 @@ Wird die Beep-Erkennung als Auslöser genutzt, muss neben „overlay“ auch „
 
 .. image:: img/EA_Werbung_Beep.png
 
-Sollte der Spot dann zu früh oder zu spät im Programm zu hören sein, kann auch hier mit Hilfe der Einstellung „drift“ eine Korrektur vorgenommen werden. Die Angabe der „drift“-Zeit erfolgt in Millisekunden. 
+Sollte der Spot dann zu früh oder zu spät im Programm zu hören sein, kann auch hier mit Hilfe der Einstellung „delay“ eine Korrektur vorgenommen werden. Die Angabe der „delay“-Zeit erfolgt in Millisekunden. 
 
-Bei **„duration“** empfielt es sich, immer einen höheren Wert anzugeben, als tatsächlich benötigt wird. Das erhöht die Wahrscheinlichkeit, dass der Ad-Server genug passende Spots zur Verfügung stellt. Ein Beispiel:  soll der gewollte Werbeblock eine Dauer von ca. 60 Sekunden haben, dann ist es sinnvoll eine „duration“ von 61 Sekunden zu konfigurieren. Die Angabe der "duration" erfolgt immer in Sekunden.
+Nun noch - wenn gewünscht - die Angaben für "maxAd" und "duration" eintragen. Bei "duration" empfielt es sich, immer einen höheren Wert anzugeben, als tatsächlich benötigt wird. Das erhöht die Wahrscheinlichkeit, dass der Ad-Server genug passende Spots zur Verfügung stellt. Ein Beispiel:  soll der gewollte Werbeblock eine Dauer von ca. 60 Sekunden haben, dann ist es sinnvoll eine „duration“ von 61 Sekunden zu konfigurieren. Die Angabe der "duration" erfolgt immer in Sekunden.
+
+.. note:: 
+
+   Alle eingetragenen Werte werden an den AdServer übermittelt - QuantumCast hat keinen Einfluss darauf, wieviel und welche Werbespots geliefert werden.
 
 Wenn alle Einstellungen fertig getroffen wurden, noch „Power“ auf „On“ setzen und jeweils „Speichern“ anklicken.
 
 .. image:: img/EA_Werbung_on.png
-
-Hier als Beispiel die finale Einstellung einen Streams mit Beep-Erkennung als Trigger:
-
-.. image:: img/EA_Werbung_Beep_fuerAlle.png
 
 Sollte es Probleme mit den Spots geben, kann man sich die Spalte „Test“ anzeigen lassen. 
 
@@ -77,7 +81,6 @@ Sollte es Probleme mit den Spots geben, kann man sich die Spalte „Test“ anze
 Durch einen Klick auf das Symbol wird ein Spotanfrage beim Vermarkter angefordert. Es öffnet sich ein neues Browser-Fenster, in dem die Rückgabe-Daten der Spotanfrage angezeigt werden. 
 
 Eröffnen Sie ein Ticket im Helpdesk und lassen Sie uns diese Rückgabe-Daten der Spotanfrage und den Channel-Key (zu finden im Setup) zukommen.
-
 
 
 
