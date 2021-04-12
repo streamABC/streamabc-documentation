@@ -330,6 +330,8 @@ Zum Schluss noch „Power“ auf „On“ setzen und die Sequenz ist aktiv und w
 
 .. image:: img/DA_SQ_active.png
 
+.. seealso:: `Hier einige Anwendungsbeispiele zur Arbeit mit Sequenzen <https://www.quantumcast-digital.de/blog/programmplanung-in-der-cloud>`_
+
 ----
 
 .. index:: Channel bearbeiten
