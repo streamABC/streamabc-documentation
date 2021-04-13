@@ -114,6 +114,8 @@ So werden beispielsweise folgende Parameter übermittelt:
 Weitere Informationen zur Schnittstelle finden Sie auch im *AdsWizz VAST 4.0 Integration Guide*.
 
 
+.. _Priorisierung: 
+
 Priorisierung der Werbeeinstellung
 =====================================
 

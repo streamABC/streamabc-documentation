@@ -52,7 +52,18 @@ Die weiteren Einstellungen richten sich danach, ob der Trigger über Metadaten o
 
    Achtung! Die Einstellung "delay" löst ab März 2021 die frühere Bezeichnung "drift" ab.
  
-Weiterhin ist es sinnvoll die maximale Anzahl an Werbespots ("maxAd") und die Länge der Werbung ("duration") einzustellen. 
+| **"maxAd" und "duration":**
+| Es ist sinnvoll die maximale Anzahl an Werbespots ("maxAd") und die Länge der Werbung ("duration") einzustellen. 
+
+.. hint::
+
+   Werden die Felder für "maxAds" und "duration" nicht ausgefüllt, werden folgende Systemstandards verwendet:
+
+   - Preroll: maxAd = 1 Spot, duration = 43 Sekunden
+   - Midroll: maxAd = 10 Spots, duration = 33 Sekunden 
+   
+   Siehe dazu auch: :ref:`Priorisierung der Werbeeinstellung <Priorisierung>`
+
 
 Wenn der Trigger über die Metadaten mitgeliefert wird, muss bei „overlay“ angegeben werden, wie die Werbung in den Stream eingebunden wird. Im Beispiel bedeutet „On“, dass der Stream im Hintergrund weiterläuft und die Spots darübergelegt werden. Da der Impuls über die Metadaten kommt, kann die Einstellung bei „flipbit“ auf „Off“ gelassen werden. Ist das Ergebnis bereits gut, reichen diese Einstellungen. Gegebenenfalls kann es nötig sein, noch den „delay“-Wert (in Millisekunden) zu bestimmen.
 
