@@ -27,8 +27,8 @@ Sollte es Probleme mit den Spots geben, kann man sich die Spalte „Test“ anze
 
    Die Einstellungen für "overlay" und "flipbit" spielen beim QuantumCast-Playout keine Rolle, sondern müssen nur bei einer externen Audioquelle angegeben werden. Werden die Felder für "maxAds" und "duration" nicht ausgefüllt, werden folgende Systemstandards verwendet:
 
-   - Preroll: maxAd = 1 Spot, duration = 43 Sekunden
-   - Midroll: maxAd = 10 Spots, duration = 33 Sekunden
+   - Preroll: maxAd = 1 Spot, duration = 48 Sekunden
+   - Midroll: maxAd = 3 Spots, duration = 63 Sekunden 
    Diese Einstellungen werden allerdings überschrieben, wenn Sie für das QuantumCast-Playout einen Werbetrigger konfigurieren: :ref:`Konfiguration der Midroll-Spots <KonfigurationMidroll>` 
    
    Siehe dazu auch: :ref:`Priorisierung der Werbeeinstellung <Priorisierung>`

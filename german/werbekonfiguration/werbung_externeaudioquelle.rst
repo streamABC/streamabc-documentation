@@ -60,8 +60,8 @@ Die weiteren Einstellungen richten sich danach, ob der Trigger über Metadaten o
 
    Werden die Felder für "maxAds" und "duration" nicht ausgefüllt, werden folgende Systemstandards verwendet:
 
-   - Preroll: maxAd = 1 Spot, duration = 43 Sekunden
-   - Midroll: maxAd = 10 Spots, duration = 33 Sekunden 
+   - Preroll: maxAd = 1 Spot, duration = 48 Sekunden
+   - Midroll: maxAd = 3 Spots, duration = 63 Sekunden 
    
    Siehe dazu auch: :ref:`Priorisierung der Werbeeinstellung <Priorisierung>`
 
