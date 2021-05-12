@@ -53,7 +53,8 @@ Die weiteren Einstellungen richten sich danach, ob der Trigger über Metadaten o
    Achtung! Die Einstellung "delay" löst ab März 2021 die frühere Bezeichnung "drift" ab.
  
 | **"maxAd" und "duration":**
-| Es ist sinnvoll die maximale Anzahl an Werbespots ("maxAd") und die maximale Länge der Werbung ("duration") einzustellen. 
+| Es ist sinnvoll die maximale Anzahl an Werbespots ("maxAd") und die maximale Länge der Werbung ("duration") anzugeben. Die Vermarkter empfehlen, beide Werte aufeinander abzustimmen - z.B. "duration=93sec" und "maxAd=3".
+
 
 .. hint::
 
